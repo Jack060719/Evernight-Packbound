@@ -1,0 +1,383 @@
+{
+  "generator": "Built-in image_gen",
+  "style": "Bright forest fantasy, warm sun, grass green and wood, crisp pixel art, roughly 3-head hero",
+  "processing": "node scripts/process-art.mjs; chroma key, alpha crop, nearest-neighbor resizing and palette reduction; no procedural artwork",
+  "provenance": [
+    {
+      "source": "assets-source/sunlit/background.raw.png",
+      "prompt": "assets-source/sunlit/background.prompt.txt"
+    },
+    {
+      "source": "assets-source/sunlit/actors.raw.png",
+      "prompt": "assets-source/sunlit/actors.prompt.txt"
+    },
+    {
+      "source": "assets-source/sunlit/icons.raw.png",
+      "prompt": "assets-source/sunlit/icons.prompt.txt"
+    },
+    {
+      "source": "assets-source/sunlit/staff-straight.raw.png",
+      "prompt": "assets-source/sunlit/staff-straight.prompt.txt"
+    },
+    {
+      "source": "assets-source/sunlit/shield-rectangle.raw.png",
+      "prompt": "assets-source/sunlit/shield-rectangle.prompt.txt"
+    }
+  ],
+  "historical": {
+    "retiredSources": [
+      "staff.raw.png",
+      "shield.raw.png"
+    ],
+    "note": "Earlier L-shaped variants are preserved only as history; rebuild uses the natural straight staff and complete rectangular shield."
+  },
+  "background": {
+    "path": "public/assets/background.png",
+    "width": 240,
+    "height": 160,
+    "logicalGroundY": 109,
+    "anchor": [
+      0,
+      0
+    ],
+    "renderOrder": 0,
+    "scrollFactor": 1,
+    "runtimeScale": 2
+  },
+  "loopingBackground": {
+    "path": "public/assets/background-loop.png",
+    "width": 480,
+    "height": 160,
+    "processing": "Original followed by horizontal reflection",
+    "axis": "x",
+    "runtimeScale": 2
+  },
+  "sprites": [
+    {
+      "name": "hero",
+      "path": "public/assets/hero.png",
+      "source": "assets-source/sunlit/actors.raw.png",
+      "sourceCell": {
+        "left": 0,
+        "top": 0,
+        "width": 512,
+        "height": 512
+      },
+      "sourceBounds": {
+        "left": 85,
+        "top": 60,
+        "width": 377,
+        "height": 399
+      },
+      "width": 49,
+      "height": 52,
+      "outputEdgePixels": 0,
+      "fit": "inside",
+      "actorHeight": 48,
+      "scale": 2,
+      "facing": "right"
+    },
+    {
+      "name": "skeleton",
+      "path": "public/assets/skeleton.png",
+      "source": "assets-source/sunlit/actors.raw.png",
+      "sourceCell": {
+        "left": 512,
+        "top": 0,
+        "width": 512,
+        "height": 512
+      },
+      "sourceBounds": {
+        "left": 98,
+        "top": 53,
+        "width": 334,
+        "height": 412
+      },
+      "width": 36,
+      "height": 44,
+      "outputEdgePixels": 0,
+      "fit": "inside",
+      "actorHeight": 40,
+      "scale": 2,
+      "facing": "left"
+    },
+    {
+      "name": "slime",
+      "path": "public/assets/slime.png",
+      "source": "assets-source/sunlit/actors.raw.png",
+      "sourceCell": {
+        "left": 1024,
+        "top": 0,
+        "width": 512,
+        "height": 512
+      },
+      "sourceBounds": {
+        "left": 102,
+        "top": 186,
+        "width": 300,
+        "height": 261
+      },
+      "width": 32,
+      "height": 28,
+      "outputEdgePixels": 0,
+      "fit": "inside",
+      "actorHeight": 24,
+      "scale": 2,
+      "facing": "left"
+    },
+    {
+      "name": "boss",
+      "path": "public/assets/boss.png",
+      "source": "assets-source/sunlit/actors.raw.png",
+      "sourceCell": {
+        "left": 0,
+        "top": 512,
+        "width": 560,
+        "height": 512
+      },
+      "sourceBounds": {
+        "left": 61,
+        "top": 16,
+        "width": 464,
+        "height": 443
+      },
+      "width": 62,
+      "height": 60,
+      "outputEdgePixels": 0,
+      "fit": "inside",
+      "actorHeight": 56,
+      "scale": 2,
+      "facing": "left"
+    },
+    {
+      "name": "wolf",
+      "path": "public/assets/wolf.png",
+      "source": "assets-source/sunlit/actors.raw.png",
+      "sourceCell": {
+        "left": 560,
+        "top": 512,
+        "width": 464,
+        "height": 512
+      },
+      "sourceBounds": {
+        "left": 29,
+        "top": 85,
+        "width": 370,
+        "height": 358
+      },
+      "width": 33,
+      "height": 32,
+      "outputEdgePixels": 0,
+      "fit": "inside",
+      "actorHeight": 28,
+      "scale": 2,
+      "facing": "right"
+    },
+    {
+      "name": "fairy",
+      "path": "public/assets/fairy.png",
+      "source": "assets-source/sunlit/actors.raw.png",
+      "sourceCell": {
+        "left": 1024,
+        "top": 512,
+        "width": 512,
+        "height": 512
+      },
+      "sourceBounds": {
+        "left": 95,
+        "top": 85,
+        "width": 317,
+        "height": 364
+      },
+      "width": 25,
+      "height": 28,
+      "outputEdgePixels": 0,
+      "fit": "inside",
+      "actorHeight": 24,
+      "scale": 2,
+      "facing": "right"
+    },
+    {
+      "name": "icon-sword",
+      "path": "public/assets/icon-sword.png",
+      "source": "assets-source/sunlit/icons.raw.png",
+      "sourceCell": {
+        "left": 0,
+        "top": 0,
+        "width": 512,
+        "height": 512
+      },
+      "sourceBounds": {
+        "left": 190,
+        "top": 78,
+        "width": 135,
+        "height": 378
+      },
+      "width": 64,
+      "height": 128,
+      "outputEdgePixels": 0,
+      "fit": "inside",
+      "actorHeight": null,
+      "scale": null,
+      "facing": null
+    },
+    {
+      "name": "icon-dagger",
+      "path": "public/assets/icon-dagger.png",
+      "source": "assets-source/sunlit/icons.raw.png",
+      "sourceCell": {
+        "left": 512,
+        "top": 0,
+        "width": 512,
+        "height": 512
+      },
+      "sourceBounds": {
+        "left": 180,
+        "top": 138,
+        "width": 144,
+        "height": 317
+      },
+      "width": 64,
+      "height": 64,
+      "outputEdgePixels": 0,
+      "fit": "inside",
+      "actorHeight": null,
+      "scale": null,
+      "facing": null
+    },
+    {
+      "name": "icon-bow",
+      "path": "public/assets/icon-bow.png",
+      "source": "assets-source/sunlit/icons.raw.png",
+      "sourceCell": {
+        "left": 1024,
+        "top": 0,
+        "width": 512,
+        "height": 512
+      },
+      "sourceBounds": {
+        "left": 197,
+        "top": 28,
+        "width": 109,
+        "height": 468
+      },
+      "width": 64,
+      "height": 192,
+      "outputEdgePixels": 0,
+      "fit": "inside",
+      "actorHeight": null,
+      "scale": null,
+      "facing": null
+    },
+    {
+      "name": "icon-armor",
+      "path": "public/assets/icon-armor.png",
+      "source": "assets-source/sunlit/icons.raw.png",
+      "sourceCell": {
+        "left": 0,
+        "top": 512,
+        "width": 512,
+        "height": 512
+      },
+      "sourceBounds": {
+        "left": 60,
+        "top": 65,
+        "width": 392,
+        "height": 345
+      },
+      "width": 128,
+      "height": 128,
+      "outputEdgePixels": 0,
+      "fit": "inside",
+      "actorHeight": null,
+      "scale": null,
+      "facing": null
+    },
+    {
+      "name": "icon-ring",
+      "path": "public/assets/icon-ring.png",
+      "source": "assets-source/sunlit/icons.raw.png",
+      "sourceCell": {
+        "left": 512,
+        "top": 512,
+        "width": 512,
+        "height": 512
+      },
+      "sourceBounds": {
+        "left": 122,
+        "top": 110,
+        "width": 259,
+        "height": 248
+      },
+      "width": 64,
+      "height": 64,
+      "outputEdgePixels": 0,
+      "fit": "inside",
+      "actorHeight": null,
+      "scale": null,
+      "facing": null
+    },
+    {
+      "name": "icon-amulet",
+      "path": "public/assets/icon-amulet.png",
+      "source": "assets-source/sunlit/icons.raw.png",
+      "sourceCell": {
+        "left": 1024,
+        "top": 512,
+        "width": 512,
+        "height": 512
+      },
+      "sourceBounds": {
+        "left": 16,
+        "top": 156,
+        "width": 466,
+        "height": 193
+      },
+      "width": 128,
+      "height": 64,
+      "outputEdgePixels": 0,
+      "fit": "inside",
+      "actorHeight": null,
+      "scale": null,
+      "facing": null
+    },
+    {
+      "name": "icon-staff",
+      "path": "public/assets/icon-staff.png",
+      "source": "assets-source/sunlit/staff-straight.raw.png",
+      "sourceCell": null,
+      "sourceBounds": {
+        "left": 443,
+        "top": 52,
+        "width": 138,
+        "height": 1433
+      },
+      "width": 64,
+      "height": 256,
+      "outputEdgePixels": 0,
+      "fit": "inside",
+      "actorHeight": null,
+      "scale": null,
+      "facing": null
+    },
+    {
+      "name": "icon-shield",
+      "path": "public/assets/icon-shield.png",
+      "source": "assets-source/sunlit/shield-rectangle.raw.png",
+      "sourceCell": null,
+      "sourceBounds": {
+        "left": 332,
+        "top": 212,
+        "width": 590,
+        "height": 781
+      },
+      "width": 128,
+      "height": 128,
+      "outputEdgePixels": 0,
+      "fit": "inside",
+      "actorHeight": null,
+      "scale": null,
+      "facing": null
+    }
+  ]
+}
