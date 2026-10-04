@@ -21,7 +21,7 @@ export const ITEMS: Record<ItemKind, ItemDefinition> = {
 };
 
 export const PETS: Record<PetKind, PetDefinition> = {
-  wolf: { name: '星焰狐', symbol: '♞', description: '每回合攻擊最前方敵人一次', power: 8, everyRounds: 1 },
+  wolf: { name: '灰鬃狼', symbol: '♞', description: '每回合攻擊最前方敵人一次', power: 8, everyRounds: 1 },
   fairy: { name: '芽葉靈', symbol: '✥', description: '每波第 3、6、9 回合回復生命', power: 16, everyRounds: 3 },
 };
 

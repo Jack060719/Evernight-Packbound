@@ -1,0 +1,403 @@
+{
+  "generator": "Built-in image_gen",
+  "reference": "output/art-exploration/round-02/C-cartoon-ornament.png",
+  "style": "04 bold outlined cartoon actors and scenery + C golden botanical UI ornaments",
+  "processing": "node scripts/process-art.mjs; chroma key, alpha crop, Lanczos resizing; no procedural artwork",
+  "provenance": [
+    {
+      "source": "assets-source/cartoon-c/background.raw.png",
+      "prompt": "assets-source/cartoon-c/background.prompt.txt"
+    },
+    {
+      "source": "assets-source/cartoon-c/actors.raw.png",
+      "prompt": "assets-source/cartoon-c/actors.prompt.txt"
+    },
+    {
+      "source": "assets-source/cartoon-c/icons.raw.png",
+      "prompt": "assets-source/cartoon-c/icons.prompt.txt"
+    },
+    {
+      "source": "assets-source/cartoon-c/ornament.raw.png",
+      "prompt": "assets-source/cartoon-c/ornament.prompt.txt"
+    }
+  ],
+  "background": {
+    "path": "public/assets/background.png",
+    "width": 960,
+    "height": 528,
+    "logicalGroundY": 222,
+    "anchor": [
+      0,
+      0
+    ],
+    "renderOrder": 0,
+    "scrollFactor": 1,
+    "runtimeScale": 0.5,
+    "role": "Non-interactive flat battle scenery; existing encounter layout preserved"
+  },
+  "loopingBackground": {
+    "path": "public/assets/background-loop.png",
+    "width": 1920,
+    "height": 528,
+    "processing": "Original followed by horizontal reflection",
+    "axis": "x",
+    "runtimeScale": 0.5
+  },
+  "sprites": [
+    {
+      "name": "hero",
+      "path": "public/assets/hero.png",
+      "source": "assets-source/cartoon-c/actors.raw.png",
+      "sourceCell": {
+        "left": 0,
+        "top": 0,
+        "width": 512,
+        "height": 490
+      },
+      "sourceBounds": {
+        "left": 50,
+        "top": 42,
+        "width": 425,
+        "height": 420
+      },
+      "width": 393,
+      "height": 388,
+      "outputEdgePixels": 0,
+      "fit": "inside",
+      "actorHeight": 384,
+      "displayHeight": 108,
+      "facing": "right"
+    },
+    {
+      "name": "skeleton",
+      "path": "public/assets/skeleton.png",
+      "source": "assets-source/cartoon-c/actors.raw.png",
+      "sourceCell": {
+        "left": 512,
+        "top": 0,
+        "width": 512,
+        "height": 490
+      },
+      "sourceBounds": {
+        "left": 48,
+        "top": 53,
+        "width": 420,
+        "height": 416
+      },
+      "width": 327,
+      "height": 324,
+      "outputEdgePixels": 0,
+      "fit": "inside",
+      "actorHeight": 320,
+      "displayHeight": 90,
+      "facing": "left"
+    },
+    {
+      "name": "slime",
+      "path": "public/assets/slime.png",
+      "source": "assets-source/cartoon-c/actors.raw.png",
+      "sourceCell": {
+        "left": 1024,
+        "top": 0,
+        "width": 512,
+        "height": 490
+      },
+      "sourceBounds": {
+        "left": 76,
+        "top": 166,
+        "width": 392,
+        "height": 298
+      },
+      "width": 257,
+      "height": 196,
+      "outputEdgePixels": 0,
+      "fit": "inside",
+      "actorHeight": 192,
+      "displayHeight": 54,
+      "facing": "left"
+    },
+    {
+      "name": "boss",
+      "path": "public/assets/boss.png",
+      "source": "assets-source/cartoon-c/actors.raw.png",
+      "sourceCell": {
+        "left": 0,
+        "top": 490,
+        "width": 550,
+        "height": 534
+      },
+      "sourceBounds": {
+        "left": 29,
+        "top": 14,
+        "width": 513,
+        "height": 477
+      },
+      "width": 486,
+      "height": 452,
+      "outputEdgePixels": 0,
+      "fit": "inside",
+      "actorHeight": 448,
+      "displayHeight": 124,
+      "facing": "left"
+    },
+    {
+      "name": "wolf",
+      "path": "public/assets/wolf.png",
+      "source": "assets-source/cartoon-c/actors.raw.png",
+      "sourceCell": {
+        "left": 550,
+        "top": 490,
+        "width": 474,
+        "height": 534
+      },
+      "sourceBounds": {
+        "left": 7,
+        "top": 128,
+        "width": 462,
+        "height": 316
+      },
+      "width": 331,
+      "height": 228,
+      "outputEdgePixels": 0,
+      "fit": "inside",
+      "actorHeight": 224,
+      "displayHeight": 64,
+      "facing": "right"
+    },
+    {
+      "name": "fairy",
+      "path": "public/assets/fairy.png",
+      "source": "assets-source/cartoon-c/actors.raw.png",
+      "sourceCell": {
+        "left": 1024,
+        "top": 490,
+        "width": 512,
+        "height": 534
+      },
+      "sourceBounds": {
+        "left": 94,
+        "top": 44,
+        "width": 339,
+        "height": 427
+      },
+      "width": 156,
+      "height": 196,
+      "outputEdgePixels": 0,
+      "fit": "inside",
+      "actorHeight": 192,
+      "displayHeight": 54,
+      "facing": "right"
+    },
+    {
+      "name": "icon-sword",
+      "path": "public/assets/icon-sword.png",
+      "source": "assets-source/cartoon-c/icons.raw.png",
+      "sourceCell": {
+        "left": 0,
+        "top": 0,
+        "width": 384,
+        "height": 540
+      },
+      "sourceBounds": {
+        "left": 100,
+        "top": 41,
+        "width": 183,
+        "height": 439
+      },
+      "width": 128,
+      "height": 256,
+      "outputEdgePixels": 0,
+      "fit": "inside",
+      "actorHeight": null,
+      "displayHeight": null,
+      "facing": null
+    },
+    {
+      "name": "icon-dagger",
+      "path": "public/assets/icon-dagger.png",
+      "source": "assets-source/cartoon-c/icons.raw.png",
+      "sourceCell": {
+        "left": 384,
+        "top": 0,
+        "width": 384,
+        "height": 540
+      },
+      "sourceBounds": {
+        "left": 133,
+        "top": 88,
+        "width": 119,
+        "height": 384
+      },
+      "width": 128,
+      "height": 128,
+      "outputEdgePixels": 0,
+      "fit": "inside",
+      "actorHeight": null,
+      "displayHeight": null,
+      "facing": null
+    },
+    {
+      "name": "icon-bow",
+      "path": "public/assets/icon-bow.png",
+      "source": "assets-source/cartoon-c/icons.raw.png",
+      "sourceCell": {
+        "left": 768,
+        "top": 0,
+        "width": 384,
+        "height": 540
+      },
+      "sourceBounds": {
+        "left": 118,
+        "top": 24,
+        "width": 129,
+        "height": 477
+      },
+      "width": 128,
+      "height": 384,
+      "outputEdgePixels": 0,
+      "fit": "inside",
+      "actorHeight": null,
+      "displayHeight": null,
+      "facing": null
+    },
+    {
+      "name": "icon-staff",
+      "path": "public/assets/icon-staff.png",
+      "source": "assets-source/cartoon-c/icons.raw.png",
+      "sourceCell": {
+        "left": 1152,
+        "top": 0,
+        "width": 384,
+        "height": 540
+      },
+      "sourceBounds": {
+        "left": 131,
+        "top": 33,
+        "width": 127,
+        "height": 481
+      },
+      "width": 128,
+      "height": 512,
+      "outputEdgePixels": 0,
+      "fit": "inside",
+      "actorHeight": null,
+      "displayHeight": null,
+      "facing": null
+    },
+    {
+      "name": "icon-armor",
+      "path": "public/assets/icon-armor.png",
+      "source": "assets-source/cartoon-c/icons.raw.png",
+      "sourceCell": {
+        "left": 0,
+        "top": 540,
+        "width": 384,
+        "height": 484
+      },
+      "sourceBounds": {
+        "left": 10,
+        "top": 27,
+        "width": 366,
+        "height": 357
+      },
+      "width": 256,
+      "height": 256,
+      "outputEdgePixels": 0,
+      "fit": "inside",
+      "actorHeight": null,
+      "displayHeight": null,
+      "facing": null
+    },
+    {
+      "name": "icon-shield",
+      "path": "public/assets/icon-shield.png",
+      "source": "assets-source/cartoon-c/icons.raw.png",
+      "sourceCell": {
+        "left": 384,
+        "top": 540,
+        "width": 384,
+        "height": 484
+      },
+      "sourceBounds": {
+        "left": 20,
+        "top": 28,
+        "width": 354,
+        "height": 362
+      },
+      "width": 256,
+      "height": 256,
+      "outputEdgePixels": 0,
+      "fit": "inside",
+      "actorHeight": null,
+      "displayHeight": null,
+      "facing": null
+    },
+    {
+      "name": "icon-ring",
+      "path": "public/assets/icon-ring.png",
+      "source": "assets-source/cartoon-c/icons.raw.png",
+      "sourceCell": {
+        "left": 768,
+        "top": 540,
+        "width": 384,
+        "height": 484
+      },
+      "sourceBounds": {
+        "left": 78,
+        "top": 88,
+        "width": 229,
+        "height": 232
+      },
+      "width": 128,
+      "height": 128,
+      "outputEdgePixels": 0,
+      "fit": "inside",
+      "actorHeight": null,
+      "displayHeight": null,
+      "facing": null
+    },
+    {
+      "name": "icon-amulet",
+      "path": "public/assets/icon-amulet.png",
+      "source": "assets-source/cartoon-c/icons.raw.png",
+      "sourceCell": {
+        "left": 1152,
+        "top": 540,
+        "width": 384,
+        "height": 484
+      },
+      "sourceBounds": {
+        "left": 12,
+        "top": 121,
+        "width": 355,
+        "height": 194
+      },
+      "width": 256,
+      "height": 128,
+      "outputEdgePixels": 0,
+      "fit": "inside",
+      "actorHeight": null,
+      "displayHeight": null,
+      "facing": null
+    },
+    {
+      "name": "ornament-corner",
+      "path": "public/assets/ornament-corner.png",
+      "source": "assets-source/cartoon-c/ornament.raw.png",
+      "sourceCell": null,
+      "sourceBounds": {
+        "left": 95,
+        "top": 63,
+        "width": 1063,
+        "height": 1009
+      },
+      "width": 256,
+      "height": 256,
+      "outputEdgePixels": 0,
+      "fit": "inside",
+      "actorHeight": null,
+      "displayHeight": null,
+      "facing": null
+    }
+  ]
+}

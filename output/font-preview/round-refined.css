@@ -1,0 +1,4 @@
+/* Huninn has one native weight. Disable simulated bold to reopen dense character counters. */
+:root{font-family:PreviewRound,sans-serif!important;font-synthesis:none}
+.title-brand h1{-webkit-text-stroke:.2px currentColor;text-shadow:1px 0 #5d6431,-1px 0 #5d6431,0 1px #5d6431,0 -1px #5d6431,2px 3px #394e3170}
+.game-header h1,.sheet-header h2,.game-dialog h2,.start-button{-webkit-text-stroke:.15px currentColor}

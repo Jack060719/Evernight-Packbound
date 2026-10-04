@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>永夜行囊 — 場景與怪物驗證 · Round 03</title>
+<style>
+:root{color-scheme:light;--paper:#f4f1e9;--ink:#24312d;--muted:#67716a;--line:#d8dcd0;--accent:#355b47}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.65 "Microsoft JhengHei","PingFang TC",system-ui,sans-serif}
+a{color:inherit;text-underline-offset:4px}
+button,a,summary{-webkit-tap-highlight-color:transparent}
+button{font:inherit;cursor:pointer}
+:focus-visible{outline:3px solid #a36830;outline-offset:4px}
+.wrap{max-width:1540px;margin:auto;padding:48px 32px}
+header{display:flex;justify-content:space-between;gap:32px;align-items:flex-end;border-bottom:1px solid var(--line);padding-bottom:28px;margin-bottom:28px}
+.eyebrow{margin:0 0 10px;color:var(--accent);font-size:12px;font-weight:700;letter-spacing:.16em}
+h1{font-size:clamp(26px,3.8vw,44px);letter-spacing:.04em;line-height:1.25;margin:0 0 16px}
+.intro{max-width:670px;margin:0;color:var(--muted)}
+.round{white-space:nowrap;text-align:right;font-size:13px;color:var(--muted)}
+.round strong{display:block;color:var(--ink);font-size:40px;font-weight:400;line-height:1.2}
+.how{display:flex;gap:24px;justify-content:space-between;align-items:center;margin:0 0 28px;padding:16px 20px;background:#e8ece2;border-radius:8px}
+.how p{margin:0}.how small{color:var(--muted)}
+.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));gap:34px 24px}
+.card{min-width:0}
+.card-heading{display:flex;gap:12px;align-items:center;margin-bottom:12px;min-height:55px}
+.number{font-size:25px;font-weight:300;color:#69806c;font-variant-numeric:tabular-nums}
+h2{font-size:17px;line-height:1.4;margin:0;font-weight:700}
+.tag{margin:3px 0 0;font-size:11px;letter-spacing:.07em;color:var(--muted)}
+.art-link{position:relative;display:block;overflow:hidden;border-radius:8px;background:#24312d;box-shadow:0 4px 14px #24312d14;text-decoration:none}
+.art-link img{display:block;width:100%;height:auto}
+.image-action{position:absolute;bottom:0;left:0;right:0;text-align:center;background:#14261ee8;color:white;font-size:12px;padding:9px;opacity:0;transition:opacity .15s}
+.art-link:hover .image-action,.art-link:focus-visible .image-action{opacity:1}
+.description{font-size:13px;margin:12px 0 8px}
+details{font-size:12px;color:var(--muted)}summary{cursor:pointer}details p{margin:7px 0}
+footer{border-top:1px solid var(--line);margin-top:42px;padding-top:22px;display:flex;justify-content:space-between;gap:18px;font-size:12px;color:var(--muted)}
+footer p{margin:0}
+dialog{border:1px solid var(--line);border-radius:12px;padding:0;background:var(--paper);color:var(--ink);width:min(520px,calc(100vw - 24px));max-width:none;max-height:94dvh;box-shadow:0 16px 80px #0005}
+dialog::backdrop{background:#142018de}
+dialog.zoom{width:min(1040px,calc(100vw - 24px))}
+.viewer-top{padding:14px 18px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:center;gap:10px}
+.viewer-top h2{font-size:17px}
+.close{border:0;background:transparent;font-size:23px;line-height:1;padding:8px;min-width:40px;min-height:40px}
+.viewer-tools{display:flex;align-items:center;justify-content:center;gap:8px;flex-wrap:wrap;padding:10px}
+.viewer-tools button,.viewer-tools a{font:inherit;font-size:12px;background:transparent;border:1px solid var(--line);border-radius:5px;padding:7px 10px;min-height:36px;text-decoration:none}
+.viewer-tools button[aria-pressed="true"]{background:var(--accent);color:#fff;border-color:var(--accent)}
+.viewer-body{max-height:calc(94dvh - 160px);overflow:auto;padding:0 10px 16px}
+.viewer-art{display:block;width:390px;max-width:100%;height:auto;margin:0 auto;border-radius:3px}
+.zoom .viewer-art{width:941px}
+.viewer-note{text-align:center;margin:0;padding:0 10px 10px;font-size:11px;color:var(--muted)}
+@media(max-width:600px){.wrap{padding:28px 18px}header{gap:15px}.round strong{font-size:30px}.how{display:block;padding:13px 15px}.how small{display:block;margin-top:4px}footer{display:block}footer p+p{margin-top:10px}.image-action{opacity:1;font-size:11px;padding:6px}.gallery{gap:28px}.viewer-top{padding:10px 12px}.viewer-top h2{font-size:15px}}
+@media(prefers-reduced-motion:reduce){*{transition:none!important}}
+.gallery-mode{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin:0 0 24px}
+.gallery-mode button{padding:9px 16px;border:1px solid var(--line);border-radius:6px;background:transparent;color:var(--ink)}
+.gallery-mode button[aria-pressed="true"]{background:var(--accent);color:white;border-color:var(--accent)}
+.gallery-mode span{font-size:12px;color:var(--muted);margin-left:8px}
+.focus-battle .art-link{aspect-ratio:941/585}
+.focus-battle .art-link img{position:absolute;top:0;left:0}
+</style>
+</head>
+<body>
+<main class="wrap">
+  <header>
+    <div><p class="eyebrow">EVERNIGHT: PACKBOUND / ART EXPLORATION</p><h1>換個世界，還是同一場冒險。</h1>
+    <p class="intro">沿用 04 的粗線卡通與 C 的花葉介面，走進礦坑、雪地與古堡。這次看整套風格換了場景和怪物後，是否仍然合你的喜好。</p></div>
+    <div class="round"><strong>3 + 1</strong>新場景與森林基準 / ROUND 03</div>
+  </header>
+  <aside class="how"><p>先比較戰場；點圖片可看<strong>完整畫面與 390 px 預覽</strong>。</p><small>看完告訴我：整套是否合胃口？哪個場景或怪物需要調整？</small></aside>
+  <div class="gallery-mode" aria-label="比較方式"><button id="battle-view" type="button" aria-pressed="true">只看戰場</button><button id="full-view" type="button" aria-pressed="false">完整畫面</button><span>固定同一組主角、狼與背包配置</span></div>
+  <section class="gallery focus-battle" aria-label="森林基準與三個新場景">
+      <article class="card" id="style-0">
+        <div class="card-heading"><span class="number">基準</span><div><h2>森林 × 骷髏</h2><p class="tag">04 卡通主體 · C 花葉介面</p></div></div>
+        <a class="art-link" href="00-forest-c.png" data-index="0" aria-label="查看 基準 森林 × 骷髏">
+          <img src="00-forest-c.png" alt="森林 × 骷髏：相同的粗線卡通主角、狼及花葉背包介面。" width="941" height="1672" loading="eager">
+          <span class="image-action">查看完整畫面 / 390 px 預覽 ↗</span>
+        </a>
+        <p class="description">第二輪 C 版，作為角色、道具、介面和花葉裝飾的一致性基準。</p>
+        <details><summary>比較重點</summary><p>比較新場景時，注意主角、狼及介面是否仍有相同的辨識度。</p></details>
+      </article>
+      <article class="card" id="style-1">
+        <div class="card-heading"><span class="number">01</span><div><h2>礦坑 × 哥布林</h2><p class="tag">暖色礦燈 · 岩壁 · 小型敵人</p></div></div>
+        <a class="art-link" href="01-mine-goblin.png" data-index="1" aria-label="查看 01 礦坑 × 哥布林">
+          <img src="01-mine-goblin.png" alt="礦坑 × 哥布林：相同的粗線卡通主角、狼及花葉背包介面。" width="941" height="1672" loading="eager">
+          <span class="image-action">查看完整畫面 / 390 px 預覽 ↗</span>
+        </a>
+        <p class="description">以礦坑、木支架與礦車取代森林；小型哥布林測試不同輪廓是否仍然醒目。</p>
+        <details><summary>比較重點</summary><p>觀察暗處的主角與狼是否清楚，以及暖色岩壁會不會搶過敵人。</p></details>
+      </article>
+      <article class="card" id="style-2">
+        <div class="card-heading"><span class="number">02</span><div><h2>雪地遺跡 × 冰霜巨魔</h2><p class="tag">冷色雪光 · 大色塊 · 大型敵人</p></div></div>
+        <a class="art-link" href="02-snow-troll.png" data-index="2" aria-label="查看 02 雪地遺跡 × 冰霜巨魔">
+          <img src="02-snow-troll.png" alt="雪地遺跡 × 冰霜巨魔：相同的粗線卡通主角、狼及花葉背包介面。" width="941" height="1672" loading="eager">
+          <span class="image-action">查看完整畫面 / 390 px 預覽 ↗</span>
+        </a>
+        <p class="description">明亮雪地與藍色巨魔拉開冷暖對比，確認大型怪物和灰狼在淺色背景上的辨識度。</p>
+        <details><summary>比較重點</summary><p>觀察巨魔是否擠壓戰場，以及灰狼能否從白雪中清楚分離。</p></details>
+      </article>
+      <article class="card" id="style-3">
+        <div class="card-heading"><span class="number">03</span><div><h2>古堡 × 盔甲亡靈</h2><p class="tag">月光火把 · 紅色旗幟 · 盔甲輪廓</p></div></div>
+        <a class="art-link" href="03-castle-undead.png" data-index="3" aria-label="查看 03 古堡 × 盔甲亡靈">
+          <img src="03-castle-undead.png" alt="古堡 × 盔甲亡靈：相同的粗線卡通主角、狼及花葉背包介面。" width="941" height="1672" loading="eager">
+          <span class="image-action">查看完整畫面 / 390 px 預覽 ↗</span>
+        </a>
+        <p class="description">古堡走廊用月光與火把營造氣氛，盔甲亡靈測試金屬造型與花葉介面的搭配。</p>
+        <details><summary>比較重點</summary><p>觀察偏暗場景的清楚程度，以及角色和場景是否仍屬於同一套卡通風格。</p></details>
+      </article>
+  </section>
+  <footer><p>這是美術方向概念圖，尚未接入遊戲。跨格裝備會遮住部分內部格線，正式介面仍需精確實作。<br>場景與怪物僅為風格驗證，不代表新增關卡或玩法。</p>
+  <p><a href="prompts.json" download>生成提示詞</a> · 內建 imagegen 製作<br><a href="../round-02/index.html">回看第二輪 A / B / C</a><br>3 張新場景與森林基準 PNG 可離線查看，請保留與本頁相同的資料夾。</p></footer>
+</main>
+<dialog id="viewer" aria-labelledby="viewer-title" aria-describedby="viewer-note">
+  <div class="viewer-top"><h2 id="viewer-title"></h2><button class="close" type="button" aria-label="關閉預覽" autofocus>×</button></div>
+  <div class="viewer-tools">
+    <button id="prev" type="button" aria-label="上一款風格">← 上一款</button>
+    <button id="phone" type="button" aria-pressed="true">390 px</button>
+    <button id="large" type="button" aria-pressed="false">放大</button>
+    <a id="original" href="00-forest-c.png" target="_blank" rel="noopener">開啟 PNG ↗</a>
+    <button id="next" type="button" aria-label="下一款風格">下一款 →</button>
+  </div>
+  <p class="viewer-note" id="viewer-note">390 px 寬度預覽；視窗不足時等比縮小。可用左右方向鍵切換，Esc 關閉。</p>
+  <div class="viewer-body"><img class="viewer-art" width="941" height="1672" alt="" id="viewer-image"></div>
+</dialog>
+<script>
+const styles=[{"id":"基準","name":"森林 × 骷髏","file":"00-forest-c.png"},{"id":"01","name":"礦坑 × 哥布林","file":"01-mine-goblin.png"},{"id":"02","name":"雪地遺跡 × 冰霜巨魔","file":"02-snow-troll.png"},{"id":"03","name":"古堡 × 盔甲亡靈","file":"03-castle-undead.png"}];
+const viewer=document.getElementById('viewer');
+const preview=document.getElementById('viewer-image');
+const phone=document.getElementById('phone');
+const large=document.getElementById('large');
+let current=0;
+function show(index){
+  current=(index+styles.length)%styles.length;
+  const style=styles[current];
+  document.getElementById('viewer-title').textContent=style.id+' / '+style.name;
+  preview.src=style.file;
+  preview.alt=style.name+'完整遊戲概念圖';
+  document.getElementById('original').href=style.file;
+  document.querySelector('.viewer-body').scrollTop=0;
+}
+function setZoom(enabled){
+  viewer.classList.toggle('zoom',enabled);
+  phone.setAttribute('aria-pressed',String(!enabled));
+  large.setAttribute('aria-pressed',String(enabled));
+  document.getElementById('viewer-note').textContent=enabled?'放大細節；可用左右方向鍵切換，Esc 關閉。':'390 px 寬度預覽；視窗不足時等比縮小。可用左右方向鍵切換，Esc 關閉。';
+}
+document.querySelectorAll('.art-link').forEach(link=>link.addEventListener('click',event=>{
+  if(event.ctrlKey||event.metaKey||event.shiftKey||event.altKey)return;
+  event.preventDefault();
+  setZoom(false);
+  show(Number(link.dataset.index));
+  viewer.showModal();
+}));
+document.querySelector('.close').addEventListener('click',()=>viewer.close());
+document.getElementById('prev').addEventListener('click',()=>show(current-1));
+document.getElementById('next').addEventListener('click',()=>show(current+1));
+phone.addEventListener('click',()=>setZoom(false));
+large.addEventListener('click',()=>setZoom(true));
+viewer.addEventListener('keydown',event=>{
+  if(event.key==='ArrowLeft'){event.preventDefault();show(current-1)}
+  if(event.key==='ArrowRight'){event.preventDefault();show(current+1)}
+});
+viewer.addEventListener('click',event=>{if(event.target===viewer){const box=viewer.getBoundingClientRect();if(event.clientX<box.left||event.clientX>box.right||event.clientY<box.top||event.clientY>box.bottom)viewer.close()}});
+const battleView=document.getElementById('battle-view');
+const fullView=document.getElementById('full-view');
+function setBattleView(enabled){
+ document.querySelector('.gallery').classList.toggle('focus-battle',enabled);
+ battleView.setAttribute('aria-pressed',String(enabled));
+ fullView.setAttribute('aria-pressed',String(!enabled));
+}
+battleView.addEventListener('click',()=>setBattleView(true));
+fullView.addEventListener('click',()=>setBattleView(false));
+</script>
+</body>
+</html>

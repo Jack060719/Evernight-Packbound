@@ -1,0 +1,15 @@
+{
+  "widths": [
+    360,
+    390,
+    430,
+    1280
+  ],
+  "fontOptions": 2,
+  "scenes": 3,
+  "combinationsChecked": 24,
+  "imageDecoding": "passed",
+  "zoomAndEscape": "passed",
+  "horizontalOverflow": false,
+  "errors": []
+}

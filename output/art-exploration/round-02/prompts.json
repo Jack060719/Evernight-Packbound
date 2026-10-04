@@ -1,0 +1,61 @@
+{
+  "title": "永夜行囊｜04 風格收斂 Round 02",
+  "tool": "built-in image_gen",
+  "userPreference": "最喜歡 04，06 與 10 也不錯；尚未定案",
+  "baseline": {
+    "id": "原版",
+    "file": "00-original-04.png",
+    "source": "../round-01/04-bold-cartoon.png"
+  },
+  "variants": [
+    {
+      "id": "A",
+      "file": "A-cartoon-refined.png",
+      "name": "04 精修版",
+      "tag": "粗線 · 平塗 · 清楚",
+      "description": "保留最喜歡的卡通造型，統一輪廓與色塊，讓角色和道具更乾淨醒目。",
+      "tradeoff": "最接近原本的 04；偏重輪廓、表情和清楚的色塊，材質刻畫較少。",
+      "refs": [
+        "04-bold-cartoon.png"
+      ],
+      "prompt": "Use case: style-transfer / precise-object-edit.\nCreate ONE refined full-screen portrait 9:16 mobile game concept by EDITING image 1, the user's favorite bold-outlined cartoon version. Image 1 is the sole EDIT TARGET and source of composition, identities, proportions, colors, poses, item arrangement, and typography. Preserve its exact screen composition and aspect ratio. Output just the game screen, no phone frame, caption, collage, variant letter or watermark.\nNON-NEGOTIABLE INVARIANTS:\nKeep the SAME compact cartoon green-hooded brown-haired adventurer, same backpack and face, same chunky grey wolf, same expressive sword-carrying skeleton. Keep their SAME sizes, poses, positions, side-on view and silhouettes. Keep large heads, thick clean nearly-black outlines and bright emerald-green, amber and purple color accents. DO NOT turn characters into realistic adults, anime, pixel art or 3D models. Keep the exact original forest-ruin setting with broken arch, path and layout.\nKeep every panel in the SAME place and the inventory at the SAME size. Maintain exactly 4 rows x 5 columns: sword col1 rows1-2; bow col2 rows1-3; purple-crystal staff col3 rows1-3; leather armor cols4-5 rows1-2; round shield cols4-5 rows3-4; green-gem gold ring col1 row4; three empty cells col1 row3 and cols2-3 row4. Six items total, no new objects. Keep the illustrated item silhouettes and their footprint boundaries. Preserve visible square cell divisions where not obscured by an item, and keep all strokes legible.\nPreserve text exactly: top \"LV 5\", \"1-3\", \"84/100\"; middle title \"背包\"; bottom buttons \"整理\", \"寵物\", \"合成\". No other text. Keep every Chinese character sharp and correct.\nKeep readable bright objects and unobtrusive scenery at 390px screen width. This is a controlled art-direction comparison, so changes must be limited to the requested treatment below.\nVARIANT TREATMENT:\nPURE CARTOON REFINEMENT. Use image 1 only. Preserve its lively bold cartoon identity and colors. Refine contour quality and consistent line weight. Clean up noisy incidental surface marks and make broad flat color shapes and ONE clean graphic shadow per surface. Use tiny controlled highlights on gems and blades, no soft painterly gradients or realistic texture. Simplify high-frequency foliage detail slightly, retaining every major tree and arch shape, to make characters pop. Render leather as clean warm graphic shapes, metal as simple two-tone cartoon planes. Refine the existing bag border and buttons into tidy bold bevels, without adding ornaments or replacing the original design. Make this recognizably the same image with professional 2D cartoon finish, emphatically flat graphic rather than realistic. Do not add new decorative flourishes.",
+      "referenced_image_paths": [
+        "../round-01/04-bold-cartoon.png"
+      ]
+    },
+    {
+      "id": "B",
+      "file": "B-cartoon-materials.png",
+      "name": "04＋06 材質版",
+      "tag": "卡通主體 · 皮革 · 金屬光",
+      "description": "保留粗線與角色比例，讓皮革、金屬和寶石多一層材質與柔和光影。",
+      "tradeoff": "細節較豐富；後續動畫需要維持相同的材質層次與光源。",
+      "refs": [
+        "04-bold-cartoon.png",
+        "06-painterly.png"
+      ],
+      "prompt": "Use case: style-transfer / precise-object-edit.\nCreate ONE refined full-screen portrait 9:16 mobile game concept by EDITING image 1, the user's favorite bold-outlined cartoon version. Image 1 is the sole EDIT TARGET and source of composition, identities, proportions, colors, poses, item arrangement, and typography. Preserve its exact screen composition and aspect ratio. Output just the game screen, no phone frame, caption, collage, variant letter or watermark.\nNON-NEGOTIABLE INVARIANTS:\nKeep the SAME compact cartoon green-hooded brown-haired adventurer, same backpack and face, same chunky grey wolf, same expressive sword-carrying skeleton. Keep their SAME sizes, poses, positions, side-on view and silhouettes. Keep large heads, thick clean nearly-black outlines and bright emerald-green, amber and purple color accents. DO NOT turn characters into realistic adults, anime, pixel art or 3D models. Keep the exact original forest-ruin setting with broken arch, path and layout.\nKeep every panel in the SAME place and the inventory at the SAME size. Maintain exactly 4 rows x 5 columns: sword col1 rows1-2; bow col2 rows1-3; purple-crystal staff col3 rows1-3; leather armor cols4-5 rows1-2; round shield cols4-5 rows3-4; green-gem gold ring col1 row4; three empty cells col1 row3 and cols2-3 row4. Six items total, no new objects. Keep the illustrated item silhouettes and their footprint boundaries. Preserve visible square cell divisions where not obscured by an item, and keep all strokes legible.\nPreserve text exactly: top \"LV 5\", \"1-3\", \"84/100\"; middle title \"背包\"; bottom buttons \"整理\", \"寵物\", \"合成\". No other text. Keep every Chinese character sharp and correct.\nKeep readable bright objects and unobtrusive scenery at 390px screen width. This is a controlled art-direction comparison, so changes must be limited to the requested treatment below.\nVARIANT TREATMENT:\nBOLD CARTOON WITH SELECTIVE PAINTERLY MATERIAL RICHNESS. Image 2 is a SECONDARY MATERIAL AND LIGHTING REFERENCE ONLY, never a source for character shape, character proportions, environment composition, object designs or UI positions. Keep the first image's cartoon geometry and thick outline dominant. Add clearly noticeable but controlled rich painted material treatment within those outlines: warm supple leather with a few broad brush marks and subtle stitching on existing seams, gold and steel with soft specular bevels, wood with broad gentle grain, jewel crystals with luminous facets. Introduce modest golden edge light from upper left and cool soft form shading without darkening the scene. Use two or three rich painted tones per material, not photographic microtexture. Give wolf fur a few controlled volume strokes while retaining its exact chunky silhouette and expression. Keep forest largely the original flat cartoon, with gently enhanced depth. Keep original plain bold bag border, no botanical ornament. The final result must read as high-quality stylized cartoon with tactile material finish, not the realistic image 2. Keep original bright greens, purple staff and cheerful game UI colors.",
+      "referenced_image_paths": [
+        "../round-01/04-bold-cartoon.png",
+        "../round-01/06-painterly.png"
+      ]
+    },
+    {
+      "id": "C",
+      "file": "C-cartoon-ornament.png",
+      "name": "04＋10 裝飾版",
+      "tag": "卡通主體 · 花葉 · 精緻邊框",
+      "description": "保持卡通角色與平塗道具，僅在介面外框加入少量植物曲線和金色裝飾。",
+      "tradeoff": "介面更有收藏感；花紋必須避開資訊、物品與格線。",
+      "refs": [
+        "04-bold-cartoon.png",
+        "10-art-nouveau.png"
+      ],
+      "prompt": "Use case: style-transfer / precise-object-edit.\nCreate ONE refined full-screen portrait 9:16 mobile game concept by EDITING image 1, the user's favorite bold-outlined cartoon version. Image 1 is the sole EDIT TARGET and source of composition, identities, proportions, colors, poses, item arrangement, and typography. Preserve its exact screen composition and aspect ratio. Output just the game screen, no phone frame, caption, collage, variant letter or watermark.\nNON-NEGOTIABLE INVARIANTS:\nKeep the SAME compact cartoon green-hooded brown-haired adventurer, same backpack and face, same chunky grey wolf, same expressive sword-carrying skeleton. Keep their SAME sizes, poses, positions, side-on view and silhouettes. Keep large heads, thick clean nearly-black outlines and bright emerald-green, amber and purple color accents. DO NOT turn characters into realistic adults, anime, pixel art or 3D models. Keep the exact original forest-ruin setting with broken arch, path and layout.\nKeep every panel in the SAME place and the inventory at the SAME size. Maintain exactly 4 rows x 5 columns: sword col1 rows1-2; bow col2 rows1-3; purple-crystal staff col3 rows1-3; leather armor cols4-5 rows1-2; round shield cols4-5 rows3-4; green-gem gold ring col1 row4; three empty cells col1 row3 and cols2-3 row4. Six items total, no new objects. Keep the illustrated item silhouettes and their footprint boundaries. Preserve visible square cell divisions where not obscured by an item, and keep all strokes legible.\nPreserve text exactly: top \"LV 5\", \"1-3\", \"84/100\"; middle title \"背包\"; bottom buttons \"整理\", \"寵物\", \"合成\". No other text. Keep every Chinese character sharp and correct.\nKeep readable bright objects and unobtrusive scenery at 390px screen width. This is a controlled art-direction comparison, so changes must be limited to the requested treatment below.\nVARIANT TREATMENT:\nBOLD CARTOON WITH RESTRAINED ART NOUVEAU INTERFACE EDGES. Image 2 is a SECONDARY ORNAMENTAL BORDER REFERENCE ONLY. Do not take its thin character linework, mature proportions, muted colors, scene design, item design or elaborate all-over pattern. Keep characters, wolf, skeleton, forest and six inventory item drawings from image 1 visually unchanged in their lively bold cartoon style and clean flat colors. Refine only the interface frames: add a few elegant golden flowing vine lines and small leaf flourishes confined to the outer corners of the bag frame, around the inventory title plaque, along the outer ends of the HUD and the corners of the three buttons. Keep the original sturdy warm leather bag frame, bright green/purple/blue/orange item backgrounds, button colors, panel positions and border thickness. Ornament should be visibly present and tasteful, about 15 percent of UI frame area, never crowding controls. Keep inventory cell interiors entirely plain with no floral pattern. Do not put vines over text, grid lines, character faces or item silhouettes. The game remains primarily the favorite bold cartoon with a more crafted decorative interface, not the full decorative illustration of image 2.",
+      "referenced_image_paths": [
+        "../round-01/04-bold-cartoon.png",
+        "../round-01/10-art-nouveau.png"
+      ]
+    }
+  ]
+}

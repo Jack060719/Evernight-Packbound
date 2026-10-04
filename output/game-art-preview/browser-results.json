@@ -1,0 +1,46 @@
+{
+  "results": [
+    {
+      "width": 360,
+      "titleAndCompactGame": "passed",
+      "touchPlacement": "passed",
+      "sheets": "passed",
+      "maximumBagOverflow": false
+    },
+    {
+      "width": 390,
+      "titleAndCompactGame": "passed",
+      "touchPlacement": "passed",
+      "sheets": "passed",
+      "maximumBagOverflow": false,
+      "deepFlows": "passed",
+      "actualTouchDrag": "passed",
+      "audio": "passed",
+      "saveAndVisibility": "passed",
+      "titleAndResume": "passed"
+    },
+    {
+      "width": 430,
+      "titleAndCompactGame": "passed",
+      "touchPlacement": "passed",
+      "sheets": "passed",
+      "maximumBagOverflow": false
+    },
+    {
+      "dragSynthesisAcrossAllLocations": "passed",
+      "mergeCancellationAndTargetRetention": "passed",
+      "oneTapRotation": "passed"
+    },
+    {
+      "assetReadiness": "passed",
+      "entryFloorAndDeathTransitions": "passed"
+    },
+    {
+      "reducedMotion": "passed"
+    },
+    {
+      "corruptSavePreservedUntilExplicitStart": true
+    }
+  ],
+  "failures": []
+}

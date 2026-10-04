@@ -1,0 +1,17 @@
+{
+  "tool": "built-in image_gen",
+  "images": [
+    {
+      "id": "A",
+      "source": "C:\\Users\\User\\AppData\\Roaming\\orca\\codex-runtime-home\\home\\generated_images\\01a10656-e26a-72f0-ad87-3ba32f845860\\exec-d4ee6c83-30e9-43d6-bea4-8ff045595c93.png"
+    },
+    {
+      "id": "B",
+      "source": "C:\\Users\\User\\AppData\\Roaming\\orca\\codex-runtime-home\\home\\generated_images\\01a10656-e26a-72f0-ad87-3ba32f845860\\exec-a44c07c7-dfa5-4008-9e9a-ce0bfc886c9a.png"
+    },
+    {
+      "id": "C",
+      "source": "C:\\Users\\User\\AppData\\Roaming\\orca\\codex-runtime-home\\home\\generated_images\\01a10656-e26a-72f0-ad87-3ba32f845860\\exec-08fddcbf-6b6d-40c0-9fa1-ae7947ab974d.png"
+    }
+  ]
+}

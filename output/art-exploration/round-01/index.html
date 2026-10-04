@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>永夜行囊 — 10 款美術風格探索</title>
+<style>
+:root{color-scheme:light;--paper:#f4f1e9;--ink:#24312d;--muted:#67716a;--line:#d8dcd0;--accent:#355b47}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.65 "Microsoft JhengHei","PingFang TC",system-ui,sans-serif}
+a{color:inherit;text-underline-offset:4px}
+button,a,summary{-webkit-tap-highlight-color:transparent}
+button{font:inherit;cursor:pointer}
+:focus-visible{outline:3px solid #a36830;outline-offset:4px}
+.wrap{max-width:1540px;margin:auto;padding:48px 32px}
+header{display:flex;justify-content:space-between;gap:32px;align-items:flex-end;border-bottom:1px solid var(--line);padding-bottom:28px;margin-bottom:28px}
+.eyebrow{margin:0 0 10px;color:var(--accent);font-size:12px;font-weight:700;letter-spacing:.16em}
+h1{font-size:clamp(26px,3.8vw,44px);letter-spacing:.04em;line-height:1.25;margin:0 0 16px}
+.intro{max-width:670px;margin:0;color:var(--muted)}
+.round{white-space:nowrap;text-align:right;font-size:13px;color:var(--muted)}
+.round strong{display:block;color:var(--ink);font-size:40px;font-weight:400;line-height:1.2}
+.how{display:flex;gap:24px;justify-content:space-between;align-items:center;margin:0 0 28px;padding:16px 20px;background:#e8ece2;border-radius:8px}
+.how p{margin:0}.how small{color:var(--muted)}
+.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));gap:34px 24px}
+.card{min-width:0}
+.card-heading{display:flex;gap:12px;align-items:center;margin-bottom:12px;min-height:55px}
+.number{font-size:27px;font-weight:300;color:#69806c;font-variant-numeric:tabular-nums}
+h2{font-size:17px;line-height:1.4;margin:0;font-weight:700}
+.tag{margin:3px 0 0;font-size:11px;letter-spacing:.07em;color:var(--muted)}
+.art-link{position:relative;display:block;overflow:hidden;border-radius:8px;background:#24312d;box-shadow:0 4px 14px #24312d14;text-decoration:none}
+.art-link img{display:block;width:100%;height:auto}
+.image-action{position:absolute;bottom:0;left:0;right:0;text-align:center;background:#14261ee8;color:white;font-size:12px;padding:9px;opacity:0;transition:opacity .15s}
+.art-link:hover .image-action,.art-link:focus-visible .image-action{opacity:1}
+.description{font-size:13px;margin:12px 0 8px}
+details{font-size:12px;color:var(--muted)}summary{cursor:pointer}details p{margin:7px 0}
+footer{border-top:1px solid var(--line);margin-top:42px;padding-top:22px;display:flex;justify-content:space-between;gap:18px;font-size:12px;color:var(--muted)}
+footer p{margin:0}
+dialog{border:1px solid var(--line);border-radius:12px;padding:0;background:var(--paper);color:var(--ink);width:min(520px,calc(100vw - 24px));max-width:none;max-height:94dvh;box-shadow:0 16px 80px #0005}
+dialog::backdrop{background:#142018de}
+dialog.zoom{width:min(1040px,calc(100vw - 24px))}
+.viewer-top{padding:14px 18px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:center;gap:10px}
+.viewer-top h2{font-size:17px}
+.close{border:0;background:transparent;font-size:23px;line-height:1;padding:8px;min-width:40px;min-height:40px}
+.viewer-tools{display:flex;align-items:center;justify-content:center;gap:8px;flex-wrap:wrap;padding:10px}
+.viewer-tools button,.viewer-tools a{font:inherit;font-size:12px;background:transparent;border:1px solid var(--line);border-radius:5px;padding:7px 10px;min-height:36px;text-decoration:none}
+.viewer-tools button[aria-pressed="true"]{background:var(--accent);color:#fff;border-color:var(--accent)}
+.viewer-body{max-height:calc(94dvh - 160px);overflow:auto;padding:0 10px 16px}
+.viewer-art{display:block;width:390px;max-width:100%;height:auto;margin:0 auto;border-radius:3px}
+.zoom .viewer-art{width:941px}
+.viewer-note{text-align:center;margin:0;padding:0 10px 10px;font-size:11px;color:var(--muted)}
+@media(max-width:600px){.wrap{padding:28px 18px}header{gap:15px}.round strong{font-size:30px}.how{display:block;padding:13px 15px}.how small{display:block;margin-top:4px}footer{display:block}footer p+p{margin-top:10px}.image-action{opacity:1;font-size:11px;padding:6px}.gallery{gap:28px}.viewer-top{padding:10px 12px}.viewer-top h2{font-size:15px}}
+@media(prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<main class="wrap">
+  <header>
+    <div><p class="eyebrow">EVERNIGHT: PACKBOUND / ART EXPLORATION</p><h1>為這場冒險，選一種模樣。</h1>
+    <p class="intro">同一位冒險者、同一隻狼、同一組背包裝備。從像素到黏土，先感受每一款的世界，再決定想走向哪裡。</p></div>
+    <div class="round"><strong>10</strong>款風格 / ROUND 01</div>
+  </header>
+  <aside class="how"><p>點圖片，以 <strong>390 px 手機寬度</strong>查看，也能放大比較細節。</p><small>看完回覆：喜歡 ＿、普通 ＿、不喜歡 ＿；最想深入的最多 3 款。</small></aside>
+  <section class="gallery" aria-label="十款美術風格">
+      <article class="card" id="style-01">
+        <div class="card-heading"><span class="number">01</span><div><h2>精緻像素冒險</h2><p class="tag">像素 · 寶石色 · 懷舊</p></div></div>
+        <a class="art-link" href="01-pixel.png" data-index="0" aria-label="查看 01 精緻像素冒險">
+          <img src="01-pixel.png" alt="精緻像素冒險：冒險者與狼對戰骷髏，下方是相同配置的六種裝備背包。" width="941" height="1672" loading="eager">
+          <span class="image-action">手機尺寸 / 放大查看 ↗</span>
+        </a>
+        <p class="description">細膩像素、青綠森林與琥珀色光點，裝備像值得收藏的小寶物。</p>
+        <details><summary>後續製作考量</summary><p>後續需人工校正像素網格，動畫必須維持一致的像素尺寸。</p></details>
+      </article>
+      <article class="card" id="style-02">
+        <div class="card-heading"><span class="number">02</span><div><h2>水彩童話繪本</h2><p class="tag">水彩 · 紙紋 · 溫暖</p></div></div>
+        <a class="art-link" href="02-watercolor.png" data-index="1" aria-label="查看 02 水彩童話繪本">
+          <img src="02-watercolor.png" alt="水彩童話繪本：冒險者與狼對戰骷髏，下方是相同配置的六種裝備背包。" width="941" height="1672" loading="eager">
+          <span class="image-action">手機尺寸 / 放大查看 ↗</span>
+        </a>
+        <p class="description">透明水彩、柔和紙紋和溫暖陽光，像翻開一本森林冒險繪本。</p>
+        <details><summary>後續製作考量</summary><p>淡色輪廓需維持對比；動畫與去背要避免紙紋邊緣閃爍。</p></details>
+      </article>
+      <article class="card" id="style-03">
+        <div class="card-heading"><span class="number">03</span><div><h2>日系動畫賽璐璐</h2><p class="tag">賽璐璐 · 俐落 · 鮮明</p></div></div>
+        <a class="art-link" href="03-cel-anime.png" data-index="2" aria-label="查看 03 日系動畫賽璐璐">
+          <img src="03-cel-anime.png" alt="日系動畫賽璐璐：冒險者與狼對戰骷髏，下方是相同配置的六種裝備背包。" width="941" height="1672" loading="eager">
+          <span class="image-action">手機尺寸 / 放大查看 ↗</span>
+        </a>
+        <p class="description">乾淨線稿、分明陰影與鮮亮色彩，呈現日系冒險動畫的感覺。</p>
+        <details><summary>後續製作考量</summary><p>角色角度及臉部一致性要求較高；技能光效需控制遮擋。</p></details>
+      </article>
+      <article class="card" id="style-04">
+        <div class="card-heading"><span class="number">04</span><div><h2>歐美粗線卡通</h2><p class="tag">粗線 · 誇張 · 討喜</p></div></div>
+        <a class="art-link" href="04-bold-cartoon.png" data-index="3" aria-label="查看 04 歐美粗線卡通">
+          <img src="04-bold-cartoon.png" alt="歐美粗線卡通：冒險者與狼對戰骷髏，下方是相同配置的六種裝備背包。" width="941" height="1672" loading="eager">
+          <span class="image-action">手機尺寸 / 放大查看 ↗</span>
+        </a>
+        <p class="description">粗輪廓、飽滿色塊和誇張造型，角色及道具在小畫面也很醒目。</p>
+        <details><summary>後續製作考量</summary><p>需要統一輪廓粗細；角色表情與動作比材質細節更重要。</p></details>
+      </article>
+      <article class="card" id="style-05">
+        <div class="card-heading"><span class="number">05</span><div><h2>暗黑線描版畫</h2><p class="tag">版畫 · 排線 · 神祕</p></div></div>
+        <a class="art-link" href="05-engraving.png" data-index="4" aria-label="查看 05 暗黑線描版畫">
+          <img src="05-engraving.png" alt="暗黑線描版畫：冒險者與狼對戰骷髏，下方是相同配置的六種裝備背包。" width="941" height="1672" loading="eager">
+          <span class="image-action">手機尺寸 / 放大查看 ↗</span>
+        </a>
+        <p class="description">象牙白與墨黑構成強烈明暗，少量朱紅點綴帶出神祕寓言氣氛。</p>
+        <details><summary>後續製作考量</summary><p>密集排線縮小後容易混濁，實作時需替小尺寸素材簡化紋理。</p></details>
+      </article>
+      <article class="card" id="style-06">
+        <div class="card-heading"><span class="number">06</span><div><h2>厚塗奇幻插畫</h2><p class="tag">厚塗 · 金屬 · 戲劇光影</p></div></div>
+        <a class="art-link" href="06-painterly.png" data-index="5" aria-label="查看 06 厚塗奇幻插畫">
+          <img src="06-painterly.png" alt="厚塗奇幻插畫：冒險者與狼對戰骷髏，下方是相同配置的六種裝備背包。" width="941" height="1672" loading="lazy">
+          <span class="image-action">手機尺寸 / 放大查看 ↗</span>
+        </a>
+        <p class="description">厚實筆觸、皮革和金屬質感，以冷暖光影呈現成熟奇幻冒險。</p>
+        <details><summary>後續製作考量</summary><p>小尺寸道具需要另做簡化；逐幀動畫維持筆觸和光源較費工。</p></details>
+      </article>
+      <article class="card" id="style-07">
+        <div class="card-heading"><span class="number">07</span><div><h2>分層紙雕劇場</h2><p class="tag">紙雕 · 層次 · 手工</p></div></div>
+        <a class="art-link" href="07-papercut.png" data-index="6" aria-label="查看 07 分層紙雕劇場">
+          <img src="07-papercut.png" alt="分層紙雕劇場：冒險者與狼對戰骷髏，下方是相同配置的六種裝備背包。" width="941" height="1672" loading="lazy">
+          <span class="image-action">手機尺寸 / 放大查看 ↗</span>
+        </a>
+        <p class="description">角色、森林與背包像由彩紙剪貼而成，紙張厚度和投影構成景深。</p>
+        <details><summary>後續製作考量</summary><p>需拆分前後紙層；角色關節和投影要配合剪紙動畫方式製作。</p></details>
+      </article>
+      <article class="card" id="style-08">
+        <div class="card-heading"><span class="number">08</span><div><h2>黏土定格模型</h2><p class="tag">黏土 · 柔光 · 圓潤</p></div></div>
+        <a class="art-link" href="08-clay.png" data-index="7" aria-label="查看 08 黏土定格模型">
+          <img src="08-clay.png" alt="黏土定格模型：冒險者與狼對戰骷髏，下方是相同配置的六種裝備背包。" width="941" height="1672" loading="lazy">
+          <span class="image-action">手機尺寸 / 放大查看 ↗</span>
+        </a>
+        <p class="description">手捏黏土的圓潤造型與細微指紋，像桌上正在上演的冒險。</p>
+        <details><summary>後續製作考量</summary><p>一致的燈光、材質及角色體積很重要；先以預渲染 2D 素材驗證。</p></details>
+      </article>
+      <article class="card" id="style-09">
+        <div class="card-heading"><span class="number">09</span><div><h2>低多邊形微縮世界</h2><p class="tag">幾何 · 切面 · 立體</p></div></div>
+        <a class="art-link" href="09-lowpoly.png" data-index="8" aria-label="查看 09 低多邊形微縮世界">
+          <img src="09-lowpoly.png" alt="低多邊形微縮世界：冒險者與狼對戰骷髏，下方是相同配置的六種裝備背包。" width="941" height="1672" loading="lazy">
+          <span class="image-action">手機尺寸 / 放大查看 ↗</span>
+        </a>
+        <p class="description">簡潔的多邊形切面與清楚光影，呈現乾淨、俐落的微縮冒險世界。</p>
+        <details><summary>後續製作考量</summary><p>需固定鏡頭與打光；本輪的立體感不代表遊戲要改用 3D 引擎。</p></details>
+      </article>
+      <article class="card" id="style-10">
+        <div class="card-heading"><span class="number">10</span><div><h2>新藝術裝飾插畫</h2><p class="tag">曲線 · 花葉 · 收藏感</p></div></div>
+        <a class="art-link" href="10-art-nouveau.png" data-index="9" aria-label="查看 10 新藝術裝飾插畫">
+          <img src="10-art-nouveau.png" alt="新藝術裝飾插畫：冒險者與狼對戰骷髏，下方是相同配置的六種裝備背包。" width="941" height="1672" loading="lazy">
+          <span class="image-action">手機尺寸 / 放大查看 ↗</span>
+        </a>
+        <p class="description">流動曲線、植物紋樣與金色線條，讓冒險畫面像精緻收藏圖鑑。</p>
+        <details><summary>後續製作考量</summary><p>裝飾必須避開資訊與格線；動畫需保留線條連續性與造型節奏。</p></details>
+      </article>
+  </section>
+  <footer><p>這是美術方向概念圖，尚未接入遊戲。跨格裝備會遮住部分內部格線，正式介面仍需精確實作。<br>立體質感不代表改用 3D 引擎；目前沒有預先選定的風格。</p>
+  <p><a href="prompts.json" download>生成提示詞</a> · 內建 imagegen 製作<br>10 張 PNG 可離線查看，請保留與本頁相同的資料夾。</p></footer>
+</main>
+<dialog id="viewer" aria-labelledby="viewer-title" aria-describedby="viewer-note">
+  <div class="viewer-top"><h2 id="viewer-title"></h2><button class="close" type="button" aria-label="關閉預覽" autofocus>×</button></div>
+  <div class="viewer-tools">
+    <button id="prev" type="button" aria-label="上一款風格">← 上一款</button>
+    <button id="phone" type="button" aria-pressed="true">390 px</button>
+    <button id="large" type="button" aria-pressed="false">放大</button>
+    <a id="original" href="01-pixel.png" target="_blank" rel="noopener">開啟 PNG ↗</a>
+    <button id="next" type="button" aria-label="下一款風格">下一款 →</button>
+  </div>
+  <p class="viewer-note" id="viewer-note">390 px 寬度預覽；視窗不足時等比縮小。可用左右方向鍵切換，Esc 關閉。</p>
+  <div class="viewer-body"><img class="viewer-art" width="941" height="1672" alt="" id="viewer-image"></div>
+</dialog>
+<script>
+const styles=[{"id":"01","name":"精緻像素冒險","file":"01-pixel.png"},{"id":"02","name":"水彩童話繪本","file":"02-watercolor.png"},{"id":"03","name":"日系動畫賽璐璐","file":"03-cel-anime.png"},{"id":"04","name":"歐美粗線卡通","file":"04-bold-cartoon.png"},{"id":"05","name":"暗黑線描版畫","file":"05-engraving.png"},{"id":"06","name":"厚塗奇幻插畫","file":"06-painterly.png"},{"id":"07","name":"分層紙雕劇場","file":"07-papercut.png"},{"id":"08","name":"黏土定格模型","file":"08-clay.png"},{"id":"09","name":"低多邊形微縮世界","file":"09-lowpoly.png"},{"id":"10","name":"新藝術裝飾插畫","file":"10-art-nouveau.png"}];
+const viewer=document.getElementById('viewer');
+const preview=document.getElementById('viewer-image');
+const phone=document.getElementById('phone');
+const large=document.getElementById('large');
+let current=0;
+function show(index){
+  current=(index+styles.length)%styles.length;
+  const style=styles[current];
+  document.getElementById('viewer-title').textContent=style.id+' / '+style.name;
+  preview.src=style.file;
+  preview.alt=style.name+'完整遊戲概念圖';
+  document.getElementById('original').href=style.file;
+  document.querySelector('.viewer-body').scrollTop=0;
+}
+function setZoom(enabled){
+  viewer.classList.toggle('zoom',enabled);
+  phone.setAttribute('aria-pressed',String(!enabled));
+  large.setAttribute('aria-pressed',String(enabled));
+  document.getElementById('viewer-note').textContent=enabled?'放大細節；可用左右方向鍵切換，Esc 關閉。':'390 px 寬度預覽；視窗不足時等比縮小。可用左右方向鍵切換，Esc 關閉。';
+}
+document.querySelectorAll('.art-link').forEach(link=>link.addEventListener('click',event=>{
+  if(event.ctrlKey||event.metaKey||event.shiftKey||event.altKey)return;
+  event.preventDefault();
+  setZoom(false);
+  show(Number(link.dataset.index));
+  viewer.showModal();
+}));
+document.querySelector('.close').addEventListener('click',()=>viewer.close());
+document.getElementById('prev').addEventListener('click',()=>show(current-1));
+document.getElementById('next').addEventListener('click',()=>show(current+1));
+phone.addEventListener('click',()=>setZoom(false));
+large.addEventListener('click',()=>setZoom(true));
+viewer.addEventListener('keydown',event=>{
+  if(event.key==='ArrowLeft'){event.preventDefault();show(current-1)}
+  if(event.key==='ArrowRight'){event.preventDefault();show(current+1)}
+});
+viewer.addEventListener('click',event=>{if(event.target===viewer){const box=viewer.getBoundingClientRect();if(event.clientX<box.left||event.clientX>box.right||event.clientY<box.top||event.clientY>box.bottom)viewer.close()}});
+</script>
+</body>
+</html>

@@ -1,0 +1,89 @@
+{
+  "checkedAt": "2026-10-04T11:52:33.984Z",
+  "method": "Desktop headless Chrome; viewport simulation, not physical phone",
+  "images": [
+    {
+      "file": "00-original-04.png",
+      "width": 941,
+      "height": 1672
+    },
+    {
+      "file": "A-cartoon-refined.png",
+      "width": 941,
+      "height": 1672
+    },
+    {
+      "file": "B-cartoon-materials.png",
+      "width": 941,
+      "height": 1672
+    },
+    {
+      "file": "C-cartoon-ornament.png",
+      "width": 941,
+      "height": 1672
+    }
+  ],
+  "textCheck": {
+    "title": "永夜行囊 — 04 風格收斂 · A / B / C",
+    "heading": "讓 04，更合你的胃口。",
+    "hasReplacement": false,
+    "hasQuestionMarks": false,
+    "round2": true
+  },
+  "phoneChecks": [
+    {
+      "title": "原版 / 第一輪 04",
+      "width": 390,
+      "open": true
+    },
+    {
+      "title": "A / 04 精修版",
+      "width": 390,
+      "open": true
+    },
+    {
+      "title": "B / 04＋06 材質版",
+      "width": 390,
+      "open": true
+    },
+    {
+      "title": "C / 04＋10 裝飾版",
+      "width": 390,
+      "open": true
+    }
+  ],
+  "zoomWidth": 941,
+  "responsive": [
+    {
+      "viewport": 360,
+      "pageWidth": 345,
+      "left": 15.5,
+      "right": 329.5
+    },
+    {
+      "viewport": 390,
+      "pageWidth": 375,
+      "left": 15.5,
+      "right": 359.5
+    },
+    {
+      "viewport": 430,
+      "pageWidth": 415,
+      "left": 15.5,
+      "right": 384.5
+    }
+  ],
+  "interactionChecks": [
+    "open",
+    "close",
+    "next",
+    "ArrowRight",
+    "Escape",
+    "zoom"
+  ],
+  "runtimeErrors": [],
+  "visualNotes": [
+    "All three generated variants preserve the original character proportions, scene, six item arrangement and Traditional Chinese labels.",
+    "Some internal grid lines remain obscured by multi-cell items; concept artwork is not a production UI."
+  ]
+}

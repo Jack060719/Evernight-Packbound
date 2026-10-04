@@ -1,0 +1,334 @@
+[
+  {
+    "path": ".gitignore",
+    "sha256": "5CABBA7755A2947615A338479475EC04475918CE690AAE04EB1776D9CBB2A28E"
+  },
+  {
+    "path": "index.html",
+    "sha256": "F90FE0728C9A0EEE7308D90E395F343D5C3E48131B26B718CBAA26A9F5A17A6F"
+  },
+  {
+    "path": "package-lock.json",
+    "sha256": "555D5CA2D850E3CCE7D82A3C0A010C61F32E91FA83FC89B18F3D1C90C6957DF8"
+  },
+  {
+    "path": "package.json",
+    "sha256": "3694AD03E6AC23756E3816D8B428692B31A3FD33AFE7ED32A2A8AD787F5A835B"
+  },
+  {
+    "path": "tsconfig.json",
+    "sha256": "51E79EBA3B4897F62F0C64D1810E0D1FE858E33D8B322B4012F15F6102A956ED"
+  },
+  {
+    "path": "vite.config.ts",
+    "sha256": "9DB2606F1C61E9A311469B53E6183E899C65C07F820BD6AF6C78111742EA561C"
+  },
+  {
+    "path": "assets-source/background.prompt.txt",
+    "sha256": "446ACAC116EF0F13FFE36FA7DE6AB01A3D02419FC80A4707421302FE79C958BA"
+  },
+  {
+    "path": "assets-source/background.raw.png",
+    "sha256": "7C4DCD645358D99B0D57CCC5C7FECC8E3029BAD9089A1DA4366AC8E62E2B926B"
+  },
+  {
+    "path": "assets-source/boss.prompt.txt",
+    "sha256": "96DC8ED3D6CA3986452B6F3111AC02C4A0C6EA0BB3129006CFCDC1BD7D1D3A53"
+  },
+  {
+    "path": "assets-source/boss.raw.png",
+    "sha256": "49BD52C3A53D01218BFDA55E8E4B97CA330B4E56447976B69DC1E841D1BCED83"
+  },
+  {
+    "path": "assets-source/fairy.prompt.txt",
+    "sha256": "A9D808855C89BB0CCB05E21720BB2FA9D8FC5BAE0882F33BBD1884214A602DF8"
+  },
+  {
+    "path": "assets-source/fairy.raw.png",
+    "sha256": "BFECC334C55A7CEF9FA4D45239F5B49DEA0241846FDF3ED8DCB5D75245160D76"
+  },
+  {
+    "path": "assets-source/graphics-manifest.json",
+    "sha256": "21354F0A6F2F18796C828057E628CE2D7313E4193ACE8D016DF19D2CDF2AE0A6"
+  },
+  {
+    "path": "assets-source/graphics-preview.png",
+    "sha256": "94A533B6B2CB6CCD73154254AAAB35C2DA75C69777B101B735A2B48B2AF91CF5"
+  },
+  {
+    "path": "assets-source/hero.prompt.txt",
+    "sha256": "F2F042689ED49ECA25F2F37EF97583B50BA01EFA60142BD8F69565A6486548E9"
+  },
+  {
+    "path": "assets-source/hero.raw.png",
+    "sha256": "46F90AA06B9C47956CFB3917DDBC1AE64B48E419603BD6DBC52C1FB49DAE6ABF"
+  },
+  {
+    "path": "assets-source/icons.prompt.txt",
+    "sha256": "C3D68D9B01A02AAE85210B1720E0F3376CFA2895494C6DAE8C56F6AC9B0179D1"
+  },
+  {
+    "path": "assets-source/icons.raw.png",
+    "sha256": "24F1A34FBFC886F9854FD36D91B446C7A9D713B509A0E93E9D278FF11A21B71A"
+  },
+  {
+    "path": "assets-source/process-art.legacy.mjs",
+    "sha256": "D13E96FBF32742979C9715B5F9D4F88693562631AF62EF1209452CA5871B41CB"
+  },
+  {
+    "path": "assets-source/skeleton.prompt.txt",
+    "sha256": "FFD1710B153E02CA61AF8ED53CD74E3C4D559997BA91178DB44EB62C7FE5EE87"
+  },
+  {
+    "path": "assets-source/skeleton.raw.png",
+    "sha256": "F1600125CCBB6D3EE11B94FA6E8B15A502F25ABF6A01183798C7291912B743E3"
+  },
+  {
+    "path": "assets-source/slime.prompt.txt",
+    "sha256": "4F7A68D8A2AA5D3AD75B15210D1DF86ACBE1FDFC125C9DA341B5BB5BAFEF951B"
+  },
+  {
+    "path": "assets-source/slime.raw.png",
+    "sha256": "B19DE1019D7250C56A1D2700343D4ABA24F538548A15F747F9D95DFC484A09BA"
+  },
+  {
+    "path": "assets-source/wolf.prompt.txt",
+    "sha256": "420E74778E72B114ECE66C611A23DD3086F9011C2787B1C6ABF706FA865E78F9"
+  },
+  {
+    "path": "assets-source/wolf.raw.png",
+    "sha256": "C39018C0028BA8A15A4999ACB7FE4DA0C37FF4DF5E27B27DEF6F285818D54285"
+  },
+  {
+    "path": "assets-source/sunlit/actors.prompt.txt",
+    "sha256": "AB94610F244BCFB0A8CBA41F8A4124D571B3DCCF42842B7FADDB3587F3569FF1"
+  },
+  {
+    "path": "assets-source/sunlit/actors.raw.png",
+    "sha256": "389B88E36A5E61C13731599E1CC6EC4AAEA98B1115B317A0014D069DCF266234"
+  },
+  {
+    "path": "assets-source/sunlit/background.prompt.txt",
+    "sha256": "87368A3F00B93EB4623939785725396ADD01EA56626FA7E1B21646A1A16B8534"
+  },
+  {
+    "path": "assets-source/sunlit/background.raw.png",
+    "sha256": "F6137C41AB8AC1CC0C6AE75FA286A54AA0A4E32FF4E997909A95F0D037F5CC16"
+  },
+  {
+    "path": "assets-source/sunlit/before-natural-gear-sha256.json",
+    "sha256": "ACA9CA6871AF6FDB94CEE152B84C8A46336159C7416155DB3CA2BFDE4A74D354"
+  },
+  {
+    "path": "assets-source/sunlit/graphics-manifest.json",
+    "sha256": "21354F0A6F2F18796C828057E628CE2D7313E4193ACE8D016DF19D2CDF2AE0A6"
+  },
+  {
+    "path": "assets-source/sunlit/icons.prompt.txt",
+    "sha256": "895B35166F9B1F422031361D6E696062A14FE1BB835E3CD451ED633370075192"
+  },
+  {
+    "path": "assets-source/sunlit/icons.raw.png",
+    "sha256": "804738B6E9113E184D0F2947F369767ABC0EED66DD95B10A79640AC2B45512FB"
+  },
+  {
+    "path": "assets-source/sunlit/shield-rectangle.prompt.txt",
+    "sha256": "F257ED07517DF6798C3B1BF5721072AF18DF9A93130ED345BC53013222B48FAF"
+  },
+  {
+    "path": "assets-source/sunlit/shield-rectangle.raw.png",
+    "sha256": "E4CAAB48BA2F6551C9CEE8403402F5AB1F687570B8D8A0BE3253AD73A39F063A"
+  },
+  {
+    "path": "assets-source/sunlit/shield.prompt.txt",
+    "sha256": "8FB24BE54D422AFBE289AB77F9BE4CF97FC019701A022A4EC48380D5223DC03E"
+  },
+  {
+    "path": "assets-source/sunlit/shield.raw.png",
+    "sha256": "BB9218C7C8B009260D19C1329D5A3B4CFFD067596A6B434A42B7EDF2DB7A2B6F"
+  },
+  {
+    "path": "assets-source/sunlit/staff-straight.prompt.txt",
+    "sha256": "68C022E76DCC102EC743BE510590FA62F5DD560D713C0D887B5FDCBC6AE2C0DF"
+  },
+  {
+    "path": "assets-source/sunlit/staff-straight.raw.png",
+    "sha256": "81022E09857A43318AC09F6CBBFF664E9E159C32D2A511FC6D1A7DD62DFA9677"
+  },
+  {
+    "path": "assets-source/sunlit/staff.prompt.txt",
+    "sha256": "7AB22E8A2A71DFB928B0250A67508AB000C15005C9235020BF8F8D95A52D6E7C"
+  },
+  {
+    "path": "assets-source/sunlit/staff.raw.png",
+    "sha256": "83FE340BD6B3F60E8BC0D402567813E6695444CE8AB57BC48B33ACF163FD9007"
+  },
+  {
+    "path": "public/assets/background-loop.png",
+    "sha256": "480F6E9EAEC72323D6019290F0B86EC6147DB47D466F5DCE7117A964CB39AAC8"
+  },
+  {
+    "path": "public/assets/background.png",
+    "sha256": "BD66CC6FE2A470A139B39E008BCDD7057B8FB90670177CB100E2C9176D54E8C0"
+  },
+  {
+    "path": "public/assets/boss.png",
+    "sha256": "3210B9A6965C35CA5E56780126E77107BD86E6BDA367E698F3F849CC293D77D4"
+  },
+  {
+    "path": "public/assets/fairy.png",
+    "sha256": "B14C2CE073224A36C5F0F1CF57166D6AB4FFF94084AD30DA46336D3099F1F808"
+  },
+  {
+    "path": "public/assets/hero.png",
+    "sha256": "9A79395C3B4ACED176BDB0115AF3A9911DCE182DBCB5C2A2E94B81F85DD45A36"
+  },
+  {
+    "path": "public/assets/icon-amulet.png",
+    "sha256": "EA6AFF6733044A07982497F3FC3DD3D3AAFDF2AB5545C53D1ED790759FFC19CA"
+  },
+  {
+    "path": "public/assets/icon-armor.png",
+    "sha256": "07D32098BEC21A164B818B573208C25BC8611D78272BCF15A5365E284253F6F9"
+  },
+  {
+    "path": "public/assets/icon-bow.png",
+    "sha256": "3F6A323BD0DFDCA5AB8399469B7C72F291E41FDE1D310A0429BEB470AA08B9E3"
+  },
+  {
+    "path": "public/assets/icon-dagger.png",
+    "sha256": "81778B3D6317D89FC6198725288BDBA7F2C30DE9A01E5F6C01304B955514A011"
+  },
+  {
+    "path": "public/assets/icon-ring.png",
+    "sha256": "214D4340C2D8F499D6CF07CAFCD6B3E0B0A890B72DD8D0175DA33A32DE81DCD4"
+  },
+  {
+    "path": "public/assets/icon-shield.png",
+    "sha256": "76E4C8EEBDCB8DECCFEB33F47E93235F380A120DB80485FD7352B59C604F726F"
+  },
+  {
+    "path": "public/assets/icon-staff.png",
+    "sha256": "1B39DE20880DF3D18040FE88BAABEB43E03D1CFE0FF3E3900137D0D583E7DDE3"
+  },
+  {
+    "path": "public/assets/icon-sword.png",
+    "sha256": "A666A2949D7ED5E567597C0BA23451B27C083826E3E5592598FF9B1A4AE4FE7F"
+  },
+  {
+    "path": "public/assets/skeleton.png",
+    "sha256": "322160F62B5225DBDE1D4617DE847ACD265FB5D9109F55A59B8B2CC1DCD44B29"
+  },
+  {
+    "path": "public/assets/slime.png",
+    "sha256": "6F2E9264B5AC28E2EE790F6A9418088EA906A80E7CC55BDCFA9B4BF12F286536"
+  },
+  {
+    "path": "public/assets/wolf.png",
+    "sha256": "56E81544A165ABD2A32D8D8BA940D056B4C3A1C3BE486BA3AF7DE938A57E725D"
+  },
+  {
+    "path": "public/assets/audio/attack.wav",
+    "sha256": "2B8FFAECB13009D886DC509E8DCEE2B93AE951D16CFE54C4F9695E86017DB7F9"
+  },
+  {
+    "path": "public/assets/audio/death.wav",
+    "sha256": "F8946188E1F663A9B51C89C32004C9C1C72C43CAA2090FAC9F1D51E01488F843"
+  },
+  {
+    "path": "public/assets/audio/hurt.wav",
+    "sha256": "26B8E51A34C3A83E0FEB3B261E75107CB3CF063BA08702BE3181D141110FE4DC"
+  },
+  {
+    "path": "public/assets/audio/level.wav",
+    "sha256": "44EE7B02F359C1613FD28EC13E79DA5EEF23FB893CBA00C6272D80263291EA28"
+  },
+  {
+    "path": "public/assets/audio/loot.wav",
+    "sha256": "DF1A7EA0138384796C9817C6C8165F54C6910B807BA7C3A0764843908BD2FB2D"
+  },
+  {
+    "path": "public/assets/audio/music.wav",
+    "sha256": "5E5E72116BC773979C58986F17556AF9CD60B40866F617008840F768E1CCF0C7"
+  },
+  {
+    "path": "public/assets/audio/pet.wav",
+    "sha256": "16A9D0AA6C44B354DE5864F4538063AEAB09195ED197D9885267D58C85EBB7FA"
+  },
+  {
+    "path": "public/assets/audio/synthesis-fail.wav",
+    "sha256": "B0D95CF5498B38918A3B080F98992A7C190F0DF73CC3FB7E27FEEA7983676483"
+  },
+  {
+    "path": "public/assets/audio/synthesis-success.wav",
+    "sha256": "A91BDCDF23952B6DBE898947F77E2B58C284D10EB7E197D292536CF45A5E80B0"
+  },
+  {
+    "path": "public/assets/audio/ui.wav",
+    "sha256": "975E95A92B77A441C34DCC3004486A0D4C3E00D936F1DFC4F99ACB63431C53B0"
+  },
+  {
+    "path": "scripts/browser-test.mjs",
+    "sha256": "7297775788E618CD8D0EE64AAF8AFCC77B47876FD50ADF7E73D68DA00B86788B"
+  },
+  {
+    "path": "scripts/generate-audio.mjs",
+    "sha256": "5E5D9FEB9015BCFAFE0EDA58423224003B94CCA7B0DC9E922B9495E7F86B5214"
+  },
+  {
+    "path": "scripts/process-art.mjs",
+    "sha256": "4AFA1EA7D24D89D72431813BE524616B2CB1ACF190E4234EAA652EF31F5D3664"
+  },
+  {
+    "path": "src/audio.ts",
+    "sha256": "4A3234B93713F2F404F3E641EC972B0C0B83957C11DCA1609CFBB30D5CCF3518"
+  },
+  {
+    "path": "src/battle.ts",
+    "sha256": "2EFC7E73F1078329B73AB33B926535720C1197DB6778B3FE491463D5E929B3DB"
+  },
+  {
+    "path": "src/clock.ts",
+    "sha256": "350C06173563DBBD03E52B46944601033063D88E25896681ADBF17578D724BF9"
+  },
+  {
+    "path": "src/main.ts",
+    "sha256": "A2B45201658BD7571A2E612464D69FFFB73A0354C1BD8B9B94A8DD3900BFF8D6"
+  },
+  {
+    "path": "src/save.ts",
+    "sha256": "01B4E3F32F9EA9B3BB6C88D334753739444AEC56F558F1363BA5908A5F37D37F"
+  },
+  {
+    "path": "src/style.css",
+    "sha256": "58AED680652283E1806DA72033360C2D49C72EAC7F3910A6F3E24131D37AF12D"
+  },
+  {
+    "path": "src/ui.ts",
+    "sha256": "72D3674656571F74E6652AEFF958A65D1F9B0655721FB6430CB87D87819CEE3A"
+  },
+  {
+    "path": "src/game/content.ts",
+    "sha256": "5AB944B1E0353E7A67A153E775A581B562E6D1D8C7A574D1F2471E7195081E35"
+  },
+  {
+    "path": "src/game/engine.ts",
+    "sha256": "5F110E3C07075507041B68E0CEA0A3FD362B9150E3ED53747873056FBFCE41D6"
+  },
+  {
+    "path": "src/game/types.ts",
+    "sha256": "A3543063B0418C977129D0AA1BAE8328624AA1908AB34903462006FCE126D71A"
+  },
+  {
+    "path": "tests/lifecycle.test.ts",
+    "sha256": "BC67DADAD2B58B90968F51D37FE912ABFE4CC3843D9CD172D559ABDD35504519"
+  },
+  {
+    "path": "tests/rules.test.ts",
+    "sha256": "C69C8263BAC62643428E6DD76134B4083BAE616D92C9A0125ED58D4474BB515D"
+  },
+  {
+    "path": "tests/save-repair.test.ts",
+    "sha256": "27F094F4E17042414688F1C5716FA6993A5A917623D196B4F8B1B9710ADBE3CD"
+  }
+]

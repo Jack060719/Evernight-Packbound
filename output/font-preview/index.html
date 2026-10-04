@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>永夜行囊・字體遊戲內對照</title>
+<link rel="stylesheet" href="fonts.css">
+<style>
+*{box-sizing:border-box}body{margin:0;background:#152d29;color:#f8eccf;font:15px/1.6 'Microsoft JhengHei',sans-serif}button,a{-webkit-tap-highlight-color:transparent}button{font:inherit;cursor:pointer}button:focus-visible,a:focus-visible{outline:3px solid #fae2a3;outline-offset:3px}main{max-width:1280px;margin:auto;padding:30px 22px 60px}.eyebrow{font-size:11px;letter-spacing:.18em;color:#dbc183}h1{font-size:clamp(24px,4vw,36px);margin:8px 0 10px;letter-spacing:.04em}.intro{color:#c4cebd;max-width:750px;margin:0 0 24px}.controls{position:sticky;top:0;z-index:2;padding:12px 0;background:#152d29f5;backdrop-filter:blur(8px);display:flex;flex-wrap:wrap;gap:12px;justify-content:space-between}.group{display:flex;gap:6px;flex-wrap:wrap}.controls button{min-height:42px;border:1px solid #617064;color:#d8dfcc;background:#243b31;border-radius:9px;padding:7px 14px}.controls button[aria-pressed=true]{background:#e7c47a;border-color:#ffe2a0;color:#372b1c;font-weight:700}.note{color:#acbca8;font-size:12px;margin:8px 0 20px}.cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}.card{min-width:0;padding:15px;background:#253b30;border:1px solid #62704d;border-radius:16px}.card[data-active=true]{border-color:#edc777;box-shadow:0 0 0 1px #edc777}.card-head{display:flex;gap:10px;align-items:center;margin-bottom:10px}.letter{font:bold 20px Georgia,serif;color:#f3d397;border:1px solid #b89c5e;border-radius:50%;width:36px;height:36px;display:grid;place-items:center;flex-shrink:0}.card h2{font-size:18px;margin:0}.card p{font-size:12px;color:#bcc9b3;margin:2px 0 12px;min-height:20px}.sample{font-size:25px;font-weight:800;letter-spacing:.04em;color:#ffedc1;padding:10px 0 15px}.sample small{display:block;font-size:14px;font-weight:400;color:#e0d9bd;letter-spacing:.02em}.round{font-family:PreviewRound,sans-serif;font-synthesis:weight}.hand{font-family:PreviewHand,serif}.sans{font-family:PreviewSans,sans-serif}.screen-button{padding:0;border:0;border-radius:11px;overflow:hidden;display:block;width:100%;background:#3e2f20}.screen-button img{display:block;width:100%;height:auto}.detail-label{font-size:11px;color:#d0bd8f;margin:16px 0 6px}.detail{display:block;width:100%;height:auto;border-radius:8px}footer{margin-top:30px;padding-top:20px;border-top:1px solid #47604b;font-size:12px;color:#b5c3ad}a{color:#eed18b}footer p{margin:7px 0}dialog{padding:0;border:1px solid #b79b5e;border-radius:12px;background:#152d29;color:#f7e8c5;width:min(96vw,800px);max-width:none;max-height:94dvh;overflow:auto}dialog::backdrop{background:#071a17df}dialog header{position:sticky;top:0;padding:10px 14px;display:flex;justify-content:space-between;align-items:center;background:#152d29f5;z-index:1}dialog button{border:1px solid #b79b5e;border-radius:6px;background:#293c2c;color:#ffe5a3;min-height:40px;padding:5px 14px}dialog img{display:block;width:100%;height:auto}@media(max-width:760px){main{padding:20px 14px 40px}.cards{grid-template-columns:1fr;max-width:440px;margin:auto}.card:not([data-active=true]){display:none}.controls{gap:8px}.controls button{padding:7px 12px}.group{width:100%}.group button{flex:1}.intro{margin-bottom:14px}.sample{padding-block:5px 12px}.note{margin-bottom:12px}.card{padding:12px}}
+</style>
+</head>
+<body><main>
+<div class="eyebrow">EVERNIGHT · TYPE STUDY</div>
+<h1>三種字體，放進遊戲比較</h1>
+<p><a href="round-refined.html">最新調整：A 圓角減細前後對照 →</a></p>
+<p class="intro">同一套美術、同一組裝備、相同字級與配色。先看整體氣氛，再比較小字的閱讀感受。</p>
+<nav class="controls" aria-label="字體與畫面切換">
+<div class="group" aria-label="選擇字體"><button data-font="A" aria-pressed="true">A 圓角</button><button data-font="B" aria-pressed="false">B 手寫</button><button data-font="C" aria-pressed="false">C 黑體</button></div>
+<div class="group" aria-label="選擇畫面"><button data-scene="battle" aria-pressed="true">戰鬥與行囊</button><button data-scene="pets" aria-pressed="false">旅伴與小字</button><button data-scene="title" aria-pressed="false">開始畫面</button></div>
+</nav>
+<p class="note">點畫面可放大。電腦並排比較；手機用 A／B／C 切換。這些是套字後的實際遊戲截圖，目前尚未定稿。</p>
+<section class="cards" aria-label="遊戲字體對照">
+<article class="card" data-id="A" data-active="true"><div class="card-head"><span class="letter">A</span><h2>厚實圓角</h2></div><p>jf open 粉圓 · 圓潤、輕鬆的冒險感</p><div class="sample round">永夜行囊<small>整理行囊　合成 90%　Lv.12</small></div><button class="screen-button" data-zoom="A" aria-label="放大 A 圓角遊戲截圖"><img src="screens/A-battle.png" width="780" height="1688" alt="A 圓角字體的戰鬥與行囊畫面"></button><div class="detail-label">小字細節 · 實際介面截圖</div><img class="detail" src="screens/A-detail.png" alt="A 圓角字體的旅伴說明與按鈕"></article>
+<article class="card" data-id="B" data-active="false"><div class="card-head"><span class="letter">B</span><h2>奇幻手寫</h2></div><p>霞鶩文楷 TC · 像冒險手札的筆觸</p><div class="sample hand">永夜行囊<small>整理行囊　合成 90%　Lv.12</small></div><button class="screen-button" data-zoom="B" aria-label="放大 B 手寫遊戲截圖"><img src="screens/B-battle.png" width="780" height="1688" alt="B 手寫字體的戰鬥與行囊畫面"></button><div class="detail-label">小字細節 · 實際介面截圖</div><img class="detail" src="screens/B-detail.png" alt="B 手寫字體的旅伴說明與按鈕"></article>
+<article class="card" data-id="C" data-active="false"><div class="card-head"><span class="letter">C</span><h2>俐落黑體</h2></div><p>Noto Sans TC · 緊實、清楚的遊戲介面</p><div class="sample sans">永夜行囊<small>整理行囊　合成 90%　Lv.12</small></div><button class="screen-button" data-zoom="C" aria-label="放大 C 黑體遊戲截圖"><img src="screens/C-battle.png" width="780" height="1688" alt="C 黑體字體的戰鬥與行囊畫面"></button><div class="detail-label">小字細節 · 實際介面截圖</div><img class="detail" src="screens/C-detail.png" alt="C 黑體字體的旅伴說明與按鈕"></article>
+</section>
+<footer>
+<p>也可以混搭，例如 A 的標題搭配 C 的說明文字。告訴我喜歡哪一款，或哪一部分想保留。</p>
+<p>截圖採 390 × 844 手機視窗，此頁保留最初的字體比較。後續確認的 A2 減細版已套入目前遊戲；測試用配裝只存在獨立預覽工作階段。</p>
+<p>字體來源：<a href="https://github.com/justfont/open-huninn-font">jf open 粉圓</a> · <a href="https://github.com/lxgw/LxgwWenkaiTC">霞鶩文楷 TC</a> · <a href="https://github.com/notofonts/noto-cjk">Noto Sans TC</a>。字型子集及授權保存在 <a href="fonts/sources.json">素材記錄</a>。</p>
+<p><a href="../game-art-preview/index.html">美術前後比較</a> · <a href="../../">目前遊戲</a></p>
+</footer>
+</main>
+<dialog aria-label="放大遊戲截圖"><header><strong id="zoom-title"></strong><button id="close">關閉 ×</button></header><img id="zoom-image" alt=""></dialog>
+<script>
+let scene='battle';
+const names={A:'A 厚實圓角',B:'B 奇幻手寫',C:'C 俐落黑體'};
+const scenes={battle:'戰鬥與行囊',pets:'旅伴與小字',title:'開始畫面'};
+const dialog=document.querySelector('dialog');
+document.querySelectorAll('[data-font]').forEach(button=>button.addEventListener('click',()=>{
+  document.querySelectorAll('[data-font]').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));
+  document.querySelectorAll('.card').forEach(card=>card.dataset.active=String(card.dataset.id===button.dataset.font));
+}));
+document.querySelectorAll('[data-scene]').forEach(button=>button.addEventListener('click',()=>{
+  scene=button.dataset.scene;
+  document.querySelectorAll('[data-scene]').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));
+  document.querySelectorAll('.screen-button img').forEach(img=>{const id=img.closest('.card').dataset.id;img.src=`screens/${id}-${scene}.png`;img.alt=`${names[id]}：${scenes[scene]}`;});
+}));
+document.querySelectorAll('[data-zoom]').forEach(button=>button.addEventListener('click',()=>{
+  const id=button.dataset.zoom;
+  document.querySelector('#zoom-title').textContent=`${names[id]} · ${scenes[scene]}`;
+  const image=document.querySelector('#zoom-image');image.src=`screens/${id}-${scene}.png`;image.alt=`${names[id]}：${scenes[scene]}`;
+  dialog.showModal();dialog.scrollTop=0;
+}));
+document.querySelector('#close').addEventListener('click',()=>dialog.close());
+</script>
+</body></html>

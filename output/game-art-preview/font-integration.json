@@ -1,0 +1,16 @@
+{
+  "adopted": "A2",
+  "actualTitleFonts": [
+    {
+      "familyName": "PreviewRound",
+      "postScriptName": "PreviewRound",
+      "isCustomFont": true,
+      "glyphCount": 4
+    }
+  ],
+  "fontSynthesis": "none",
+  "canvasFonts": [
+    "17px PackboundRound, sans-serif"
+  ],
+  "fontFailureStillPlayable": true
+}

@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="zh-Hant">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>A 圓角字體・減細前後對照</title>
+<link rel="stylesheet" href="fonts.css">
+<style>
+*{box-sizing:border-box}body{margin:0;background:#152d29;color:#f8eccf;font:15px/1.7 'Microsoft JhengHei',sans-serif}main{max-width:960px;margin:auto;padding:28px 20px 50px}h1{font-size:28px;margin:4px 0 12px}.intro{color:#c4cebd;margin:0 0 20px}button{font:inherit;cursor:pointer;min-height:42px;padding:6px 14px;border-radius:8px;border:1px solid #66714f;background:#273d30;color:#ecdfc0}button:focus-visible,a:focus-visible{outline:3px solid #ffe2a0;outline-offset:3px}button[aria-pressed=true]{background:#e7c47a;color:#372b1c;border-color:#ffe2a0}.controls{display:flex;flex-wrap:wrap;gap:8px;position:sticky;top:0;z-index:2;background:#152d29f5;padding:12px 0}.mobile-choices{display:none}.cards{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:12px}.card{min-width:0;padding:14px;border:1px solid #61704b;border-radius:14px;background:#243b30}.card[data-id=A2]{border-color:#edc777}.card h2{font-size:18px;margin:0 0 6px}.card p{color:#c3ceb6;font-size:13px;margin:0 0 14px}.sample{font-family:PreviewRound,sans-serif;font-size:24px;margin-bottom:14px;font-weight:800;font-synthesis:weight}.refined{font-synthesis:none;font-weight:400}.sample small{display:block;font-size:14px;font-weight:700}.detail{display:block;width:100%;border-radius:8px}.detail-label{font-size:12px;color:#d9c389;margin:14px 0 6px}.screen-button{display:block;padding:0;border:0;width:100%;overflow:hidden;border-radius:10px;background:#3e2f20}.screen-button img{width:100%;height:auto;display:block}a{color:#eecd88}footer{margin-top:26px;border-top:1px solid #49604b;padding-top:16px;font-size:13px;color:#bdcbb4}dialog{width:min(96vw,800px);max-width:none;max-height:94dvh;overflow:auto;padding:0;border:1px solid #b99b59;border-radius:12px;background:#152d29;color:#ffe5b2}dialog::backdrop{background:#061916df}dialog header{position:sticky;top:0;display:flex;justify-content:space-between;align-items:center;padding:8px 12px;background:#152d29f5}dialog img{width:100%;height:auto;display:block}@media(max-width:620px){main{padding:20px 14px 40px}h1{font-size:24px}.cards{grid-template-columns:1fr;max-width:440px;margin-inline:auto}.card:not([data-active=true]){display:none}.controls>button{flex:1;padding-inline:8px}.mobile-choices{display:flex;width:100%;gap:8px}.mobile-choices button{flex:1}}
+</style>
+<main>
+<h1>A 的圓角感，筆畫再輕一點</h1>
+<p class="intro">右邊是調整後的 A2。減輕標題與按鈕的厚度，讓「囊、鬃、靈」這類字保留更清楚的筆畫間隙。字級與配色維持相同。</p>
+<nav class="controls" aria-label="比較畫面">
+<div class="mobile-choices"><button data-font="A" aria-pressed="false">原 A</button><button data-font="A2" aria-pressed="true">A2 細一點</button></div>
+<button data-scene="pets" aria-pressed="true">旅伴與小字</button><button data-scene="battle" aria-pressed="false">戰鬥與行囊</button><button data-scene="title" aria-pressed="false">開始畫面</button>
+</nav>
+<section class="cards" aria-label="A 字體減細前後">
+<article class="card" data-id="A" data-active="false"><h2>原 A · 厚實圓角</h2><p>原先較厚的標題、名稱與按鈕。</p><div class="sample">永夜行囊<small>灰鬃狼　芽葉靈　整理行囊</small></div><button class="screen-button" data-zoom="A" aria-label="放大原 A 遊戲截圖"><img src="screens/A-pets.png" width="780" height="1688" alt="原 A 的旅伴面板"></button><div class="detail-label">筆畫細節 · 實際遊戲截圖</div><img class="detail" src="screens/A-detail.png" alt="原 A 的灰鬃狼說明"></article>
+<article class="card" data-id="A2" data-active="true"><h2>A2 · 減細圓角</h2><p>圓角造型不變，名稱和小字更疏朗。</p><div class="sample refined">永夜行囊<small>灰鬃狼　芽葉靈　整理行囊</small></div><button class="screen-button" data-zoom="A2" aria-label="放大 A2 遊戲截圖"><img src="screens/A2-pets.png" width="780" height="1688" alt="A2 的旅伴面板"></button><div class="detail-label">筆畫細節 · 實際遊戲截圖</div><img class="detail" src="screens/A2-detail.png" alt="A2 的灰鬃狼說明"></article>
+</section>
+<footer>點畫面可放大。A2 已獲確認並套入可玩遊戲，此頁保留原 A／A2 的比較截圖。<br><a href="../../">開啟目前遊戲</a> · <a href="index.html">回到原本 A／B／C 三款對照</a></footer>
+</main>
+<dialog aria-label="放大字體對照"><header><strong id="zoom-title"></strong><button id="close">關閉 ×</button></header><img id="zoom-image" alt=""></dialog>
+<script>
+let scene='pets';
+const names={A:'原 A · 厚實圓角',A2:'A2 · 減細圓角'};
+const scenes={pets:'旅伴與小字',battle:'戰鬥與行囊',title:'開始畫面'};
+const dialog=document.querySelector('dialog');
+document.querySelectorAll('[data-font]').forEach(button=>button.addEventListener('click',()=>{
+  document.querySelectorAll('[data-font]').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));
+  document.querySelectorAll('.card').forEach(card=>card.dataset.active=String(card.dataset.id===button.dataset.font));
+}));
+document.querySelectorAll('[data-scene]').forEach(button=>button.addEventListener('click',()=>{
+  scene=button.dataset.scene;
+  document.querySelectorAll('[data-scene]').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));
+  document.querySelectorAll('.screen-button img').forEach(img=>{const id=img.closest('.card').dataset.id;img.src=`screens/${id}-${scene}.png`;img.alt=`${names[id]}：${scenes[scene]}`;});
+}));
+document.querySelectorAll('[data-zoom]').forEach(button=>button.addEventListener('click',()=>{
+  const id=button.dataset.zoom;document.querySelector('#zoom-title').textContent=`${names[id]} · ${scenes[scene]}`;
+  const img=document.querySelector('#zoom-image');img.src=`screens/${id}-${scene}.png`;img.alt=`${names[id]}：${scenes[scene]}`;
+  dialog.showModal();dialog.scrollTop=0;
+}));
+document.querySelector('#close').addEventListener('click',()=>dialog.close());
+</script>
+</html>

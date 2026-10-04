@@ -1,0 +1,90 @@
+{
+  "checkedAt": "2026-10-04T12:54:42.063Z",
+  "method": "Desktop headless Chrome; viewport simulation, not physical phone",
+  "images": [
+    {
+      "file": "00-forest-c.png",
+      "width": 941,
+      "height": 1672
+    },
+    {
+      "file": "01-mine-goblin.png",
+      "width": 941,
+      "height": 1672
+    },
+    {
+      "file": "02-snow-troll.png",
+      "width": 941,
+      "height": 1672
+    },
+    {
+      "file": "03-castle-undead.png",
+      "width": 941,
+      "height": 1672
+    }
+  ],
+  "textCheck": {
+    "title": "永夜行囊 — 場景與怪物驗證 · Round 03",
+    "badEncoding": false,
+    "round3": true
+  },
+  "battleRatio": 0.6216613247863247,
+  "fullRatio": 1.776798433048433,
+  "phoneChecks": [
+    {
+      "title": "基準 / 森林 × 骷髏",
+      "width": 390,
+      "open": true
+    },
+    {
+      "title": "01 / 礦坑 × 哥布林",
+      "width": 390,
+      "open": true
+    },
+    {
+      "title": "02 / 雪地遺跡 × 冰霜巨魔",
+      "width": 390,
+      "open": true
+    },
+    {
+      "title": "03 / 古堡 × 盔甲亡靈",
+      "width": 390,
+      "open": true
+    }
+  ],
+  "responsive": [
+    {
+      "viewport": 360,
+      "pageWidth": 345,
+      "left": 15.5,
+      "right": 329.5
+    },
+    {
+      "viewport": 390,
+      "pageWidth": 375,
+      "left": 15.5,
+      "right": 359.5
+    },
+    {
+      "viewport": 430,
+      "pageWidth": 415,
+      "left": 15.5,
+      "right": 384.5
+    }
+  ],
+  "interactionChecks": [
+    "battle/full view",
+    "open",
+    "close",
+    "next",
+    "ArrowRight",
+    "Escape",
+    "zoom"
+  ],
+  "runtimeErrors": [],
+  "visualNotes": [
+    "All generated screens visually inspected; scene and enemy change while the hero, wolf, six item inventory and botanical UI retain the reference design.",
+    "Scene variants are concept validation, not additions to the planned playable level roster.",
+    "Some multi-cell item artwork obscures internal grid lines; production UI must draw the actual grid precisely."
+  ]
+}

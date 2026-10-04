@@ -1,0 +1,143 @@
+{
+  "checkedAt": "2026-10-04T10:16:48.901Z",
+  "method": "Headless desktop Chrome with emulated viewport widths; not physical-phone testing",
+  "images": [
+    {
+      "file": "01-pixel.png",
+      "width": 941,
+      "height": 1672
+    },
+    {
+      "file": "02-watercolor.png",
+      "width": 941,
+      "height": 1672
+    },
+    {
+      "file": "03-cel-anime.png",
+      "width": 941,
+      "height": 1672
+    },
+    {
+      "file": "04-bold-cartoon.png",
+      "width": 941,
+      "height": 1672
+    },
+    {
+      "file": "05-engraving.png",
+      "width": 941,
+      "height": 1672
+    },
+    {
+      "file": "06-painterly.png",
+      "width": 941,
+      "height": 1672
+    },
+    {
+      "file": "07-papercut.png",
+      "width": 941,
+      "height": 1672
+    },
+    {
+      "file": "08-clay.png",
+      "width": 941,
+      "height": 1672
+    },
+    {
+      "file": "09-lowpoly.png",
+      "width": 941,
+      "height": 1672
+    },
+    {
+      "file": "10-art-nouveau.png",
+      "width": 941,
+      "height": 1672
+    }
+  ],
+  "phoneChecks": [
+    {
+      "title": "01 / 精緻像素冒險",
+      "width": 390,
+      "open": true
+    },
+    {
+      "title": "02 / 水彩童話繪本",
+      "width": 390,
+      "open": true
+    },
+    {
+      "title": "03 / 日系動畫賽璐璐",
+      "width": 390,
+      "open": true
+    },
+    {
+      "title": "04 / 歐美粗線卡通",
+      "width": 390,
+      "open": true
+    },
+    {
+      "title": "05 / 暗黑線描版畫",
+      "width": 390,
+      "open": true
+    },
+    {
+      "title": "06 / 厚塗奇幻插畫",
+      "width": 390,
+      "open": true
+    },
+    {
+      "title": "07 / 分層紙雕劇場",
+      "width": 390,
+      "open": true
+    },
+    {
+      "title": "08 / 黏土定格模型",
+      "width": 390,
+      "open": true
+    },
+    {
+      "title": "09 / 低多邊形微縮世界",
+      "width": 390,
+      "open": true
+    },
+    {
+      "title": "10 / 新藝術裝飾插畫",
+      "width": 390,
+      "open": true
+    }
+  ],
+  "zoomWidth": 941,
+  "responsive": [
+    {
+      "viewport": 360,
+      "pageWidth": 345,
+      "left": 15.5,
+      "right": 329.5
+    },
+    {
+      "viewport": 390,
+      "pageWidth": 375,
+      "left": 15.5,
+      "right": 359.5
+    },
+    {
+      "viewport": 430,
+      "pageWidth": 415,
+      "left": 15.5,
+      "right": 384.5
+    }
+  ],
+  "interactionChecks": [
+    "open",
+    "close",
+    "next",
+    "ArrowLeft",
+    "Escape",
+    "phone size",
+    "zoom"
+  ],
+  "runtimeErrors": [],
+  "visualNotes": [
+    "All 10 source images visually reviewed for character, wolf, skeleton, six items, style and Traditional Chinese labels.",
+    "Multi-cell items obscure some internal grid lines; concepts are not exact production UI."
+  ]
+}

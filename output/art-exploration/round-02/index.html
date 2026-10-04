@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>永夜行囊 — 04 風格收斂 · A / B / C</title>
+<style>
+:root{color-scheme:light;--paper:#f4f1e9;--ink:#24312d;--muted:#67716a;--line:#d8dcd0;--accent:#355b47}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.65 "Microsoft JhengHei","PingFang TC",system-ui,sans-serif}
+a{color:inherit;text-underline-offset:4px}
+button,a,summary{-webkit-tap-highlight-color:transparent}
+button{font:inherit;cursor:pointer}
+:focus-visible{outline:3px solid #a36830;outline-offset:4px}
+.wrap{max-width:1540px;margin:auto;padding:48px 32px}
+header{display:flex;justify-content:space-between;gap:32px;align-items:flex-end;border-bottom:1px solid var(--line);padding-bottom:28px;margin-bottom:28px}
+.eyebrow{margin:0 0 10px;color:var(--accent);font-size:12px;font-weight:700;letter-spacing:.16em}
+h1{font-size:clamp(26px,3.8vw,44px);letter-spacing:.04em;line-height:1.25;margin:0 0 16px}
+.intro{max-width:670px;margin:0;color:var(--muted)}
+.round{white-space:nowrap;text-align:right;font-size:13px;color:var(--muted)}
+.round strong{display:block;color:var(--ink);font-size:40px;font-weight:400;line-height:1.2}
+.how{display:flex;gap:24px;justify-content:space-between;align-items:center;margin:0 0 28px;padding:16px 20px;background:#e8ece2;border-radius:8px}
+.how p{margin:0}.how small{color:var(--muted)}
+.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));gap:34px 24px}
+.card{min-width:0}
+.card-heading{display:flex;gap:12px;align-items:center;margin-bottom:12px;min-height:55px}
+.number{font-size:25px;font-weight:300;color:#69806c;font-variant-numeric:tabular-nums}
+h2{font-size:17px;line-height:1.4;margin:0;font-weight:700}
+.tag{margin:3px 0 0;font-size:11px;letter-spacing:.07em;color:var(--muted)}
+.art-link{position:relative;display:block;overflow:hidden;border-radius:8px;background:#24312d;box-shadow:0 4px 14px #24312d14;text-decoration:none}
+.art-link img{display:block;width:100%;height:auto}
+.image-action{position:absolute;bottom:0;left:0;right:0;text-align:center;background:#14261ee8;color:white;font-size:12px;padding:9px;opacity:0;transition:opacity .15s}
+.art-link:hover .image-action,.art-link:focus-visible .image-action{opacity:1}
+.description{font-size:13px;margin:12px 0 8px}
+details{font-size:12px;color:var(--muted)}summary{cursor:pointer}details p{margin:7px 0}
+footer{border-top:1px solid var(--line);margin-top:42px;padding-top:22px;display:flex;justify-content:space-between;gap:18px;font-size:12px;color:var(--muted)}
+footer p{margin:0}
+dialog{border:1px solid var(--line);border-radius:12px;padding:0;background:var(--paper);color:var(--ink);width:min(520px,calc(100vw - 24px));max-width:none;max-height:94dvh;box-shadow:0 16px 80px #0005}
+dialog::backdrop{background:#142018de}
+dialog.zoom{width:min(1040px,calc(100vw - 24px))}
+.viewer-top{padding:14px 18px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:center;gap:10px}
+.viewer-top h2{font-size:17px}
+.close{border:0;background:transparent;font-size:23px;line-height:1;padding:8px;min-width:40px;min-height:40px}
+.viewer-tools{display:flex;align-items:center;justify-content:center;gap:8px;flex-wrap:wrap;padding:10px}
+.viewer-tools button,.viewer-tools a{font:inherit;font-size:12px;background:transparent;border:1px solid var(--line);border-radius:5px;padding:7px 10px;min-height:36px;text-decoration:none}
+.viewer-tools button[aria-pressed="true"]{background:var(--accent);color:#fff;border-color:var(--accent)}
+.viewer-body{max-height:calc(94dvh - 160px);overflow:auto;padding:0 10px 16px}
+.viewer-art{display:block;width:390px;max-width:100%;height:auto;margin:0 auto;border-radius:3px}
+.zoom .viewer-art{width:941px}
+.viewer-note{text-align:center;margin:0;padding:0 10px 10px;font-size:11px;color:var(--muted)}
+@media(max-width:600px){.wrap{padding:28px 18px}header{gap:15px}.round strong{font-size:30px}.how{display:block;padding:13px 15px}.how small{display:block;margin-top:4px}footer{display:block}footer p+p{margin-top:10px}.image-action{opacity:1;font-size:11px;padding:6px}.gallery{gap:28px}.viewer-top{padding:10px 12px}.viewer-top h2{font-size:15px}}
+@media(prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<main class="wrap">
+  <header>
+    <div><p class="eyebrow">EVERNIGHT: PACKBOUND / ART EXPLORATION</p><h1>讓 04，更合你的胃口。</h1>
+    <p class="intro">保留你最喜歡的粗線卡通造型。比較純卡通精修、增加材質與增加裝飾，原版 04 也一併保留。</p></div>
+    <div class="round"><strong>3 + 1</strong>新變體與原版 / ROUND 02</div>
+  </header>
+  <aside class="how"><p>點圖片，以 <strong>390 px 手機寬度</strong>查看，也能放大比較細節。</p><small>看完回覆：原版 / A / B / C，也可以指出想保留的部分。</small></aside>
+  <section class="gallery" aria-label="原版與三個精修變體">
+      <article class="card" id="style-0">
+        <div class="card-heading"><span class="number">原版</span><div><h2>第一輪 04</h2><p class="tag">原始首選 · 比較基準</p></div></div>
+        <a class="art-link" href="00-original-04.png" data-index="0" aria-label="查看 原版 第一輪 04">
+          <img src="00-original-04.png" alt="原版 第一輪 04：同一組角色、戰場與背包配置。" width="941" height="1672" loading="eager">
+          <span class="image-action">手機尺寸 / 放大查看 ↗</span>
+        </a>
+        <p class="description">保留第一輪最喜歡的原始線條、材質與配色，與三個新變體一起比較。</p>
+        <details><summary>這款的取捨</summary><p>如果原版最合胃口，可以直接保留，無須因為有新版就更換。</p></details>
+      </article>
+      <article class="card" id="style-1">
+        <div class="card-heading"><span class="number">A</span><div><h2>04 精修版</h2><p class="tag">粗線 · 平塗 · 清楚</p></div></div>
+        <a class="art-link" href="A-cartoon-refined.png" data-index="1" aria-label="查看 A 04 精修版">
+          <img src="A-cartoon-refined.png" alt="A 04 精修版：同一組角色、戰場與背包配置。" width="941" height="1672" loading="eager">
+          <span class="image-action">手機尺寸 / 放大查看 ↗</span>
+        </a>
+        <p class="description">保留最喜歡的卡通造型，統一輪廓與色塊，讓角色和道具更乾淨醒目。</p>
+        <details><summary>這款的取捨</summary><p>最接近原本的 04；偏重輪廓、表情和清楚的色塊，材質刻畫較少。</p></details>
+      </article>
+      <article class="card" id="style-2">
+        <div class="card-heading"><span class="number">B</span><div><h2>04＋06 材質版</h2><p class="tag">卡通主體 · 皮革 · 金屬光</p></div></div>
+        <a class="art-link" href="B-cartoon-materials.png" data-index="2" aria-label="查看 B 04＋06 材質版">
+          <img src="B-cartoon-materials.png" alt="B 04＋06 材質版：同一組角色、戰場與背包配置。" width="941" height="1672" loading="eager">
+          <span class="image-action">手機尺寸 / 放大查看 ↗</span>
+        </a>
+        <p class="description">保留粗線與角色比例，讓皮革、金屬和寶石多一層材質與柔和光影。</p>
+        <details><summary>這款的取捨</summary><p>細節較豐富；後續動畫需要維持相同的材質層次與光源。</p></details>
+      </article>
+      <article class="card" id="style-3">
+        <div class="card-heading"><span class="number">C</span><div><h2>04＋10 裝飾版</h2><p class="tag">卡通主體 · 花葉 · 精緻邊框</p></div></div>
+        <a class="art-link" href="C-cartoon-ornament.png" data-index="3" aria-label="查看 C 04＋10 裝飾版">
+          <img src="C-cartoon-ornament.png" alt="C 04＋10 裝飾版：同一組角色、戰場與背包配置。" width="941" height="1672" loading="eager">
+          <span class="image-action">手機尺寸 / 放大查看 ↗</span>
+        </a>
+        <p class="description">保持卡通角色與平塗道具，僅在介面外框加入少量植物曲線和金色裝飾。</p>
+        <details><summary>這款的取捨</summary><p>介面更有收藏感；花紋必須避開資訊、物品與格線。</p></details>
+      </article>
+  </section>
+  <footer><p>這是美術方向概念圖，尚未接入遊戲。跨格裝備會遮住部分內部格線，正式介面仍需精確實作。<br>04 是目前首選；A、B、C 是比較樣本，尚未定案。</p>
+  <p><a href="prompts.json" download>生成提示詞</a> · 內建 imagegen 製作<br><a href="../round-01/index.html">回看第一輪 10 款</a><br>3 張新變體與原版 PNG 可離線查看，請保留與本頁相同的資料夾。</p></footer>
+</main>
+<dialog id="viewer" aria-labelledby="viewer-title" aria-describedby="viewer-note">
+  <div class="viewer-top"><h2 id="viewer-title"></h2><button class="close" type="button" aria-label="關閉預覽" autofocus>×</button></div>
+  <div class="viewer-tools">
+    <button id="prev" type="button" aria-label="上一款風格">← 上一款</button>
+    <button id="phone" type="button" aria-pressed="true">390 px</button>
+    <button id="large" type="button" aria-pressed="false">放大</button>
+    <a id="original" href="00-original-04.png" target="_blank" rel="noopener">開啟 PNG ↗</a>
+    <button id="next" type="button" aria-label="下一款風格">下一款 →</button>
+  </div>
+  <p class="viewer-note" id="viewer-note">390 px 寬度預覽；視窗不足時等比縮小。可用左右方向鍵切換，Esc 關閉。</p>
+  <div class="viewer-body"><img class="viewer-art" width="941" height="1672" alt="" id="viewer-image"></div>
+</dialog>
+<script>
+const styles=[{"id":"原版","name":"第一輪 04","file":"00-original-04.png"},{"id":"A","name":"04 精修版","file":"A-cartoon-refined.png"},{"id":"B","name":"04＋06 材質版","file":"B-cartoon-materials.png"},{"id":"C","name":"04＋10 裝飾版","file":"C-cartoon-ornament.png"}];
+const viewer=document.getElementById('viewer');
+const preview=document.getElementById('viewer-image');
+const phone=document.getElementById('phone');
+const large=document.getElementById('large');
+let current=0;
+function show(index){
+  current=(index+styles.length)%styles.length;
+  const style=styles[current];
+  document.getElementById('viewer-title').textContent=style.id+' / '+style.name;
+  preview.src=style.file;
+  preview.alt=style.name+'完整遊戲概念圖';
+  document.getElementById('original').href=style.file;
+  document.querySelector('.viewer-body').scrollTop=0;
+}
+function setZoom(enabled){
+  viewer.classList.toggle('zoom',enabled);
+  phone.setAttribute('aria-pressed',String(!enabled));
+  large.setAttribute('aria-pressed',String(enabled));
+  document.getElementById('viewer-note').textContent=enabled?'放大細節；可用左右方向鍵切換，Esc 關閉。':'390 px 寬度預覽；視窗不足時等比縮小。可用左右方向鍵切換，Esc 關閉。';
+}
+document.querySelectorAll('.art-link').forEach(link=>link.addEventListener('click',event=>{
+  if(event.ctrlKey||event.metaKey||event.shiftKey||event.altKey)return;
+  event.preventDefault();
+  setZoom(false);
+  show(Number(link.dataset.index));
+  viewer.showModal();
+}));
+document.querySelector('.close').addEventListener('click',()=>viewer.close());
+document.getElementById('prev').addEventListener('click',()=>show(current-1));
+document.getElementById('next').addEventListener('click',()=>show(current+1));
+phone.addEventListener('click',()=>setZoom(false));
+large.addEventListener('click',()=>setZoom(true));
+viewer.addEventListener('keydown',event=>{
+  if(event.key==='ArrowLeft'){event.preventDefault();show(current-1)}
+  if(event.key==='ArrowRight'){event.preventDefault();show(current+1)}
+});
+viewer.addEventListener('click',event=>{if(event.target===viewer){const box=viewer.getBoundingClientRect();if(event.clientX<box.left||event.clientX>box.right||event.clientY<box.top||event.clientY>box.bottom)viewer.close()}});
+</script>
+</body>
+</html>

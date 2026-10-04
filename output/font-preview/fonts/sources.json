@@ -1,0 +1,43 @@
+{
+  "processing": "FontTools WOFF subset for game preview; derivatives renamed PreviewRound/PreviewHand/PreviewSans; original font copyrights and OFL preserved.",
+  "fonts": [
+    {
+      "file": "round.woff",
+      "family": "PreviewRound",
+      "source": "https://github.com/justfont/open-huninn-font/releases/download/v2.1/jf-openhuninn-2.1.ttf",
+      "sourceSha256": "9d5bf4932d31fe94c18cd8cfddc98bc1b14ce10f4e354c682179db290a99c825",
+      "bytes": 111476,
+      "missingGameHanCharacters": []
+    },
+    {
+      "file": "hand-regular.woff",
+      "family": "PreviewHand",
+      "source": "https://github.com/lxgw/LxgwWenkaiTC/releases/download/v1.522/LXGWWenKaiTC-Regular.ttf",
+      "sourceSha256": "b1a0795862c1415bf3f393ea50b2a4ea6275012cf5bad3f94feeb1222f555731",
+      "bytes": 167668,
+      "missingGameHanCharacters": []
+    },
+    {
+      "file": "hand-medium.woff",
+      "family": "PreviewHand",
+      "source": "https://github.com/lxgw/LxgwWenkaiTC/releases/download/v1.522/LXGWWenKaiTC-Medium.ttf",
+      "sourceSha256": "94ca2870022fb8e4f90e2887524603690598142d17b620dfae318f1818ba8e17",
+      "bytes": 169880,
+      "missingGameHanCharacters": []
+    },
+    {
+      "file": "sans.woff",
+      "family": "PreviewSans",
+      "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosanstc/NotoSansTC%5Bwght%5D.ttf",
+      "sourceSha256": "864727d210d54f2537bbe23b3a839436c3992af72de9322af5270897246bd44f",
+      "bytes": 163060,
+      "missingGameHanCharacters": []
+    }
+  ],
+  "previewWeights": {
+    "A": "Regular font with browser-synthesized bold for existing bold UI rules.",
+    "B": "Regular for body; native Medium mapped to heading weights 500-900.",
+    "C": "Variable 100-900; original game weight rules retained.",
+    "A2": "Same native rounded font as A, with font-synthesis:none. Large headings use 0.15-0.2px text stroke; small labels and buttons use unemboldened native glyphs. Title shadows reduced from 3px to 1px outlines."
+  }
+}

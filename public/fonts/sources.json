@@ -1,0 +1,11 @@
+{
+  "file": "round.woff",
+  "family": "PackboundRound (CSS alias; internal subset name PreviewRound)",
+  "source": "https://github.com/justfont/open-huninn-font/releases/download/v2.1/jf-openhuninn-2.1.ttf",
+  "sourceSha256": "9d5bf4932d31fe94c18cd8cfddc98bc1b14ce10f4e354c682179db290a99c825",
+  "bytes": 111476,
+  "missingGameHanCharacters": [],
+  "license": "OFL.txt",
+  "style": "Approved A2: native regular strokes, no synthetic bold",
+  "subset": "All characters in the existing game source; regenerate or extend when adding new text."
+}

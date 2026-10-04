@@ -20,20 +20,24 @@ export class BattleScene extends Phaser.Scene {
   }
 
   create() {
+    // Render at 2x density while retaining the existing 480 x 264 scene coordinates.
+    this.cameras.main.setZoom(2).centerOn(240, 132);
     this.background = this.add.tileSprite(240, 132, 480, 264, 'background');
-    this.background.setTileScale(2);
+    this.background.setTileScale(0.5);
     this.add.ellipse(116, 218, 54, 8, 0x405e3b, 0.2);
     this.hero = this.actor('hero', 116, 222);
     this.lastTime = this.engine.state.time;
     this.ready = true;
     this.game.canvas.setAttribute('aria-label', '自動回合戰鬥：旅人依序使用裝備，接著由怪物行動');
     this.game.canvas.setAttribute('role', 'img');
-    this.onReady();
+    // Let the shared interface font settle before the first canvas labels are drawn.
+    void document.fonts.ready.then(() => this.onReady());
   }
 
   private actor(texture: string, x: number, y: number) {
     const actor = this.add.image(x, y, texture).setOrigin(0.5, 1);
-    actor.setScale(2);
+    const heights: Record<string, number> = { hero: 108, skeleton: 90, slime: 54, boss: 124, wolf: 64, fairy: 54 };
+    actor.setScale(heights[texture] / actor.height);
     return actor;
   }
 
@@ -64,7 +68,7 @@ export class BattleScene extends Phaser.Scene {
         actor = {
           image: this.actor(enemy.kind, x, 222),
           bar: this.add.graphics(),
-          label: enemy.kind === 'boss' ? this.add.text(x, 236, enemy.name, { fontFamily: 'sans-serif', fontSize: '10px', color: '#334b36', backgroundColor: '#f2edcf' }).setOrigin(0.5) : undefined,
+          label: enemy.kind === 'boss' ? this.add.text(x, 236, enemy.name, { fontFamily: 'PackboundRound, sans-serif', fontSize: '10px', color: '#334b36', backgroundColor: '#f2edcf' }).setResolution(2).setOrigin(0.5) : undefined,
         };
         this.enemies.set(enemy.id, actor);
       }
@@ -92,9 +96,9 @@ export class BattleScene extends Phaser.Scene {
       if (event.amount !== undefined) {
         const healing = event.type === 'heal' || (event.type === 'pet' && event.target === 'hero');
         const text = this.add.text(receiver.x, receiver.y - receiver.displayHeight - 7, `${healing ? '+' : '−'}${Math.round(event.amount)}`, {
-          fontFamily: 'monospace', fontSize: '17px', fontStyle: 'bold', color: healing ? '#b9f58a' : target ? '#fff2bc' : '#ffc6a6',
-          stroke: '#344a33', strokeThickness: 3,
-        }).setOrigin(0.5);
+          fontFamily: 'PackboundRound, sans-serif', fontSize: '17px', color: healing ? '#b9f58a' : target ? '#fff2bc' : '#ffc6a6',
+          stroke: '#344a33', strokeThickness: 2,
+        }).setResolution(2).setOrigin(0.5);
         this.tweens.add({ targets: text, y: text.y - 24, alpha: 0, duration: 700, onComplete: () => text.destroy() });
       }
       if (event.type === 'attack') {
@@ -123,13 +127,13 @@ export function createBattle(engine: GameEngine, onReady: () => void, isBlocked:
   const game = new Phaser.Game({
     type: Phaser.AUTO,
     parent: 'battle-stage',
-    width: 480,
-    height: 264,
+    width: 960,
+    height: 528,
     backgroundColor: '#b4d997',
     scale: { mode: Phaser.Scale.FIT, autoCenter: Phaser.Scale.CENTER_BOTH },
     scene,
     audio: { noAudio: true },
-    render: { antialias: false, pixelArt: true, roundPixels: true },
+    render: { antialias: true, pixelArt: false, roundPixels: false },
     banner: false,
   });
   return { scene, game };

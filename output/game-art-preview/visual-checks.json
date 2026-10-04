@@ -1,0 +1,19 @@
+{
+  "canvas": [
+    960,
+    528
+  ],
+  "logicalScene": [
+    480,
+    264
+  ],
+  "previewWidths": [
+    360,
+    390,
+    430,
+    1280
+  ],
+  "imagesLoaded": true,
+  "errors": [],
+  "showcase": "Temporary test state in an isolated browser context; no user save changed"
+}

@@ -1,0 +1,79 @@
+{
+  "results": [
+    {
+      "variant": "A",
+      "font": "PreviewRound",
+      "actualFonts": [
+        {
+          "familyName": "PreviewRound",
+          "postScriptName": "PreviewRound",
+          "isCustomFont": true,
+          "glyphCount": 4
+        }
+      ],
+      "viewports": [
+        360,
+        390,
+        430
+      ],
+      "overflow": false
+    },
+    {
+      "variant": "B",
+      "font": "PreviewHand",
+      "actualFonts": [
+        {
+          "familyName": "PreviewHand-Medium",
+          "postScriptName": "PreviewHand-Medium",
+          "isCustomFont": true,
+          "glyphCount": 4
+        }
+      ],
+      "viewports": [
+        360,
+        390,
+        430
+      ],
+      "overflow": false
+    },
+    {
+      "variant": "C",
+      "font": "PreviewSans",
+      "actualFonts": [
+        {
+          "familyName": "PreviewSans",
+          "postScriptName": "PreviewSans-Black",
+          "isCustomFont": true,
+          "glyphCount": 4
+        }
+      ],
+      "viewports": [
+        360,
+        390,
+        430
+      ],
+      "overflow": false
+    },
+    {
+      "variant": "A2",
+      "font": "PreviewRound",
+      "actualFonts": [
+        {
+          "familyName": "PreviewRound",
+          "postScriptName": "PreviewRound",
+          "isCustomFont": true,
+          "glyphCount": 4
+        }
+      ],
+      "viewports": [
+        360,
+        390,
+        430
+      ],
+      "overflow": false
+    }
+  ],
+  "errors": [],
+  "scope": "Fonts injected only into isolated screenshot sessions; game source and player save untouched. Canvas battle text stays at the original font until a final font is selected.",
+  "refinement": "A2 disables synthesized bold; only large headings receive a 0.15-0.2px outline, with a lighter title shadow."
+}

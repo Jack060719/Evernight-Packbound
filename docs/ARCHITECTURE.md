@@ -87,7 +87,9 @@
 
 ## 6. 素材與後續驗證
 
-角色、怪物、靈寵及圖示使用 `generate2dsprite`，捲動背景使用 `generate2dmap`。保留生成原圖、提示詞、透明輸出與處理結果；角色及敵人與背景分離。明亮森林素材使用統一像素密度，戰場以最近鄰與整數 2 倍縮放，裝備圖以原始比例跨越占格並隨旋轉轉向。
+角色、怪物、靈寵及圖示使用 `generate2dsprite`，背景使用 `generate2dmap`，由內建 image_gen 產生。C 卡通原圖與提示詞在 `assets-source/cartoon-c/`，透明輸出在 `public/assets/`；角色及敵人與背景分離。以 `node scripts/process-art.mjs` 重建、檢查透明邊界；戰場保持 480 × 264 邏輯座標，使用 960 × 528 畫布及平滑縮放，裝備仍等比跨格並隨旋轉轉向。
+
+介面及 Phaser 文字使用網站自帶的 `PackboundRound`（粉圓遊戲字集）。CSS 關閉模擬粗體，開始按鈕等待圖像與字型載入結束；字型失敗時保留系統字體回退。來源與 OFL 在 `public/fonts/`。
 
 音訊由 `scripts/generate-audio.mjs` 另行合成，包含 32 秒循環背景音樂與 9 種事件音效。`src/audio.ts` 將事件名稱對應同名 WAV（換層共用升級音效），同時播放上限為 6 個；背景切換停止尚在播放的音效，避免回到前景補播。
 

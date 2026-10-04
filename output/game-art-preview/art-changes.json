@@ -1,0 +1,226 @@
+{
+  "baseBranch": "main",
+  "baseCommit": "4fefd3800d9d4b5adda959c8e691d6975f7ecdcd",
+  "decision": "User approved C cartoon art and A2 rounded font and explicitly authorized merge to main.",
+  "unchanged": "Gameplay engine, save format, input handlers, audio, dependency lock and existing tests match main.",
+  "historicalSnapshot": "baseline-files.json records the initial uncommitted prototype snapshot, retained for history only. Current comparison uses baseCommit.",
+  "files": [
+    {
+      "path": "assets-source/cartoon-c/actors.prompt.txt",
+      "status": "added",
+      "baselineSha256": null,
+      "previewSha256": "7a2207b3c9945a78f554c134b34394c420fb8f928695ba3ebc66f74c9455a72d"
+    },
+    {
+      "path": "assets-source/cartoon-c/actors.raw.png",
+      "status": "added",
+      "baselineSha256": null,
+      "previewSha256": "f30361021aadb21289b18a8e7e6168759e671c7b6a60dfe627b88deed2ffb744"
+    },
+    {
+      "path": "assets-source/cartoon-c/background.prompt.txt",
+      "status": "added",
+      "baselineSha256": null,
+      "previewSha256": "52e994551e9db56f7b099b32402a59211a75c7c130e01c7313dad7c33393c9ba"
+    },
+    {
+      "path": "assets-source/cartoon-c/background.raw.png",
+      "status": "added",
+      "baselineSha256": null,
+      "previewSha256": "09c70a4fcd3eead1d54f6cb96b85531b7cea4a2bfc516543cc674cc28e3d7d6a"
+    },
+    {
+      "path": "assets-source/cartoon-c/graphics-manifest.json",
+      "status": "added",
+      "baselineSha256": null,
+      "previewSha256": "712a348d966a0e6373877ef2708c49eb3995fcf681b9c946f9925ec9e37e71f1"
+    },
+    {
+      "path": "assets-source/cartoon-c/icons.prompt.txt",
+      "status": "added",
+      "baselineSha256": null,
+      "previewSha256": "f83c64ada876f2bb469e5521906783fb76c40caa14592b919c33dc20739196b9"
+    },
+    {
+      "path": "assets-source/cartoon-c/icons.raw.png",
+      "status": "added",
+      "baselineSha256": null,
+      "previewSha256": "5275f5d33264fd9870c10df68c69661810d442fe08cdee8846a8c4fba61a7488"
+    },
+    {
+      "path": "assets-source/cartoon-c/ornament.prompt.txt",
+      "status": "added",
+      "baselineSha256": null,
+      "previewSha256": "b4e13fbd83e82c443394966c46ab39e35eecab03158c44f91730dd846609fc5f"
+    },
+    {
+      "path": "assets-source/cartoon-c/ornament.raw.png",
+      "status": "added",
+      "baselineSha256": null,
+      "previewSha256": "323140f2577bcf98a5ce65bf7fc446bd33846dca39a1afe3cf141ea08d38d653"
+    },
+    {
+      "path": "assets-source/graphics-manifest.json",
+      "status": "modified",
+      "baselineSha256": "21354f0a6f2f18796c828057e628ce2d7313e4193ace8d016df19d2cdf2ae0a6",
+      "previewSha256": "712a348d966a0e6373877ef2708c49eb3995fcf681b9c946f9925ec9e37e71f1"
+    },
+    {
+      "path": "assets-source/graphics-preview.png",
+      "status": "modified",
+      "baselineSha256": "94a533b6b2cb6ccd73154254aaab35c2da75c69777b101b735a2b48b2af91cf5",
+      "previewSha256": "d5d9a6dd5ee0ee7095c502332e1f7ed28dbe8ac39efc636ee6c9661983c2fb85"
+    },
+    {
+      "path": "index.html",
+      "status": "modified",
+      "baselineSha256": "f90fe0728c9a0eee7308d90e395f343d5c3e48131b26b718cbaa26a9f5a17a6f",
+      "previewSha256": "94866b8bc0ebcd9e28f41fa5ce45f8e5b34dbd204c405a1fd8316b2e770b6f68"
+    },
+    {
+      "path": "public/assets/background-loop.png",
+      "status": "modified",
+      "baselineSha256": "480f6e9eaec72323d6019290f0b86ec6147db47d466f5dce7117a964cb39aac8",
+      "previewSha256": "dad58636e696ea437750d5d6aeac24f38cf3849f56c8bd6205a2bc47a3019469"
+    },
+    {
+      "path": "public/assets/background.png",
+      "status": "modified",
+      "baselineSha256": "bd66cc6fe2a470a139b39e008bcdd7057b8fb90670177cb100e2c9176d54e8c0",
+      "previewSha256": "4eaf32a0a6c50a9db4c41d40f1631cd039e2f4522441c3e736dbe572e83b5014"
+    },
+    {
+      "path": "public/assets/boss.png",
+      "status": "modified",
+      "baselineSha256": "3210b9a6965c35ca5e56780126e77107bd86e6bda367e698f3f849cc293d77d4",
+      "previewSha256": "c60e27437aa26cb646b8333c054c674af1134c4054b7ab0ce3ea4fceba911387"
+    },
+    {
+      "path": "public/assets/fairy.png",
+      "status": "modified",
+      "baselineSha256": "b14c2ce073224a36c5f0f1cf57166d6ab4fff94084ad30da46336d3099f1f808",
+      "previewSha256": "dd6ce428d69afd3bb2d94973341b8b053a05f6432c96a68f8c5f8154565265a7"
+    },
+    {
+      "path": "public/assets/hero.png",
+      "status": "modified",
+      "baselineSha256": "9a79395c3b4aced176bdb0115af3a9911dce182dbcb5c2a2e94b81f85dd45a36",
+      "previewSha256": "09518ed85d37aaafb5283256d16c8fc6330b811fe7e3f442ad937ed88fd2e888"
+    },
+    {
+      "path": "public/assets/icon-amulet.png",
+      "status": "modified",
+      "baselineSha256": "ea6aff6733044a07982497f3fc3dd3d3aafdf2ab5545c53d1ed790759ffc19ca",
+      "previewSha256": "319517a573cb7f933150bf9112223795dcd67c180199037d14e22d0b629ca167"
+    },
+    {
+      "path": "public/assets/icon-armor.png",
+      "status": "modified",
+      "baselineSha256": "07d32098bec21a164b818b573208c25bc8611d78272bcf15a5365e284253f6f9",
+      "previewSha256": "507cdb46641d8362b6b4f9d6378112ea2170aa5039076877fe3300b5c24cd2c9"
+    },
+    {
+      "path": "public/assets/icon-bow.png",
+      "status": "modified",
+      "baselineSha256": "3f6a323bd0dfdca5ab8399469b7c72f291e41fde1d310a0429beb470aa08b9e3",
+      "previewSha256": "5bd3b8e3b0d8681f00e3c2a3ba63184c18b91b94a2d527b6092623885814afd9"
+    },
+    {
+      "path": "public/assets/icon-dagger.png",
+      "status": "modified",
+      "baselineSha256": "81778b3d6317d89fc6198725288bdba7f2c30de9a01e5f6c01304b955514a011",
+      "previewSha256": "f045b2232605e4415b21d87b3eece71f578bcd6d1060fc444655e099e28f356b"
+    },
+    {
+      "path": "public/assets/icon-ring.png",
+      "status": "modified",
+      "baselineSha256": "214d4340c2d8f499d6cf07cafcd6b3e0b0a890b72dd8d0175da33a32de81dcd4",
+      "previewSha256": "044cdf31f59a16463e8471d6185815131f5f3a06e9ab497601c3e97faa5f1784"
+    },
+    {
+      "path": "public/assets/icon-shield.png",
+      "status": "modified",
+      "baselineSha256": "76e4c8eebdcb8deccfeb33f47e93235f380a120db80485fd7352b59c604f726f",
+      "previewSha256": "5322d0de7e901b71a9dace3813795ac4ed0b09a9adb00addc3b87d6f1b18385a"
+    },
+    {
+      "path": "public/assets/icon-staff.png",
+      "status": "modified",
+      "baselineSha256": "1b39de20880df3d18040fe88baabeb43e03d1cfe0ff3e3900137d0d583e7dde3",
+      "previewSha256": "f0d7ba1a9d3381657161dfa125461cf51c0a30793282ae732772abdc5130ba1c"
+    },
+    {
+      "path": "public/assets/icon-sword.png",
+      "status": "modified",
+      "baselineSha256": "a666a2949d7ed5e567597c0ba23451b27c083826e3e5592598ff9b1a4ae4fe7f",
+      "previewSha256": "f692b2b9d36791a86b998b0dd70355bf3f6e7399889917e348d6c08b4c84d50e"
+    },
+    {
+      "path": "public/assets/ornament-corner.png",
+      "status": "added",
+      "baselineSha256": null,
+      "previewSha256": "820f2dcd3b1834193d59e8249aa3fbe8b94953231070c065fc76d34ea195298a"
+    },
+    {
+      "path": "public/assets/skeleton.png",
+      "status": "modified",
+      "baselineSha256": "322160f62b5225dbde1d4617de847acd265fb5d9109f55a59b8b2cc1dcd44b29",
+      "previewSha256": "5271dfa7686e87f816d8523ac3c04b479b1de74d4a43ee5cf1d17af3c587b156"
+    },
+    {
+      "path": "public/assets/slime.png",
+      "status": "modified",
+      "baselineSha256": "6f2e9264b5ac28e2ee790f6a9418088ea906a80e7cc55bdcfa9b4bf12f286536",
+      "previewSha256": "cadf9a87f7c49b72041c5c904c4b11c57d78eee6c0d788dc2b8c256a902e1974"
+    },
+    {
+      "path": "public/assets/wolf.png",
+      "status": "modified",
+      "baselineSha256": "56e81544a165abd2a32d8d8ba940d056b4c3a1c3be486ba3af7de938a57e725d",
+      "previewSha256": "63db497533b711210e7f63527e586a2562867dfc896a3d260f8d4445b574ae55"
+    },
+    {
+      "path": "public/fonts/OFL.txt",
+      "status": "added",
+      "baselineSha256": null,
+      "previewSha256": "8ae3a343e586dde693ec82bef87e627c4446be5506b6a2e038a4461fc37bd552"
+    },
+    {
+      "path": "public/fonts/round.woff",
+      "status": "added",
+      "baselineSha256": null,
+      "previewSha256": "af64a73e1f33060d66578220c685c495ee1842fcdeb33c1a30081877003c4492"
+    },
+    {
+      "path": "public/fonts/sources.json",
+      "status": "added",
+      "baselineSha256": null,
+      "previewSha256": "fc5928982d67aeb821ed7f1dfb52311993398c84e4595b4fa626bf2bc527d3af"
+    },
+    {
+      "path": "scripts/process-art.mjs",
+      "status": "modified",
+      "baselineSha256": "f575c360a9c0bf0abda31efaed05298e71ea1d010359b6cf3fc96d3cc5b5433b",
+      "previewSha256": "2545d904bf580178ef7acd1164e81aa7b393e0cec897b52d6543c4229378020e"
+    },
+    {
+      "path": "src/battle.ts",
+      "status": "modified",
+      "baselineSha256": "2efc7e73f1078329b73ab33b926535720c1197db6778b3fe491463d5e929b3db",
+      "previewSha256": "72c25ad37ccdbe65cf8ec4c278c8c4596ed05b42216b64b6ef5a927eb5151106"
+    },
+    {
+      "path": "src/game/content.ts",
+      "status": "modified",
+      "baselineSha256": "5ab944b1e0353e7a67a153e775a581b562e6d1d8c7a574d1f2471e7195081e35",
+      "previewSha256": "020e648913477f64b1e948200e13fe02be95fb98d4acafcefdac44c83bff06d4"
+    },
+    {
+      "path": "src/style.css",
+      "status": "modified",
+      "baselineSha256": "53460439485bf570e20a1e4dded5ca6a6fd75cbc17e948d5757e1e778f7a75da",
+      "previewSha256": "80141e0af5ac744c39a691c1e3ccdb42eb1ecd594ee830df0f907ec22d226277"
+    }
+  ],
+  "codePatch": "art-code.patch is a zero-context review diff; use git diff against baseCommit for a normal contextual diff."
+}
