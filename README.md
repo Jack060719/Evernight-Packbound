@@ -16,6 +16,8 @@
 
 進度保存在各裝置的瀏覽器，不會自動同步。要從電腦接續到手機，先在原遊戲的「設定」匯出存檔，再於手機同一選單匯入。
 
+支援加入主畫面，名稱為「永夜行囊」，使用金葉綠寶石圖示。已提供 iPhone 的 180px 圖示、Android 的 192／512px 圖示與可裁切圖示；舊捷徑若仍顯示舊圖示，可先匯出存檔備份，再重新加入主畫面。圖示原圖與提示詞位於 `assets-source/home-screen/`，可用 `node scripts/process-home-icon.mjs` 重建各尺寸。
+
 GitHub Pages 由 [.github/workflows/pages.yml](.github/workflows/pages.yml) 部署；推送至 `main` 後，會安裝依賴、執行測試及建置，再發布 `dist/`。
 
 ## 啟動

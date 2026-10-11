@@ -1,7 +1,7 @@
 {
-  "generatedAtUTC": "2026-10-11T06:23:37.099088+00:00",
+  "generatedAtUTC": "2026-10-11T06:58:36.623607+00:00",
   "baselineCommit": "1e2ac7e891835e85f9f31b02a1166cd99f9cbb52",
-  "headCommit": "1e2ac7e891835e85f9f31b02a1166cd99f9cbb52",
+  "headCommit": "4014c10f45e4768ccb4e63c8d9d4a2778303a013",
   "uncommittedWorkingTree": true,
   "contentVersion": "integrated-v2-r2-feedback02-C1",
   "contractVersion": "BASE_CONTRACT_V1.1",
@@ -26,8 +26,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 9581,
-      "sha256": "41e550dc27d93a961b281dfc448ccf70b66159becda015953446027590dae55f"
+      "bytes": 9967,
+      "sha256": "6c6e46f90e3b3fc76f1aad1f4c29a6a35148390433e158df20c563c99cdd10b9"
     },
     {
       "path": "ROADMAP.md",
@@ -128,6 +128,16 @@
       "path": "assets-source/hero.raw.png",
       "bytes": 1538259,
       "sha256": "46f90aa06b9c47956cfb3917ddbc1ae64b48e419603bd6dbc52c1fb49dae6abf"
+    },
+    {
+      "path": "assets-source/home-screen/icon-source.png",
+      "bytes": 1496846,
+      "sha256": "14c5a460ec1cf4348cbaab4a16ad792af4efcd7f5312c7eb8c09af3213da28b4"
+    },
+    {
+      "path": "assets-source/home-screen/icon.prompt.txt",
+      "bytes": 1020,
+      "sha256": "5fcb203904d822894b234881c97421ecb74985186d2c9999534235ca3a6fe36c"
     },
     {
       "path": "assets-source/icons.prompt.txt",
@@ -556,8 +566,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 628,
-      "sha256": "e7869159a993a0f105ed26d1610526ff70d5798bbee197ee390d754d5a8ea984"
+      "bytes": 985,
+      "sha256": "0284c1a20e2318a11f54bf23f6f6a5d0f73b8fa183968f2713b64507f1537c1f"
     },
     {
       "path": "output/art-exploration/round-01/01-pixel.png",
@@ -1560,6 +1570,31 @@
       "sha256": "fc5928982d67aeb821ed7f1dfb52311993398c84e4595b4fa626bf2bc527d3af"
     },
     {
+      "path": "public/icons/apple-touch-icon.png",
+      "bytes": 48526,
+      "sha256": "c43349e97a0889004e50236d5ba5a0cbeec2e009fda99727a37698a7e0cc6fd3"
+    },
+    {
+      "path": "public/icons/icon-192.png",
+      "bytes": 54460,
+      "sha256": "0b17fbe7ab5f5aa407b7408e720cf262274b64c6e2816f1533c88129471c9498"
+    },
+    {
+      "path": "public/icons/icon-512.png",
+      "bytes": 344252,
+      "sha256": "7585f5b9069f4b9cc7f7ce416d81092c62b8fa5ecd0a7dddcf5347ffa2dcf38f"
+    },
+    {
+      "path": "public/icons/icon-maskable-512.png",
+      "bytes": 257259,
+      "sha256": "c847002631641a4ba6cfa216c41d2ee9c22107559c3cab0fe645a8764c170c90"
+    },
+    {
+      "path": "public/manifest.webmanifest",
+      "bytes": 625,
+      "sha256": "5005627bac3a1855364a30dcf308abe0c64c6ba8d77e9f162587451e3e059737"
+    },
+    {
       "path": "scripts/browser-test.mjs",
       "bytes": 29916,
       "sha256": "2974babbb2f34cf87532ae23f4bde4adc9d85ec8efdf4b0f35f30a9ada847132"
@@ -1573,6 +1608,11 @@
       "path": "scripts/process-art.mjs",
       "bytes": 7241,
       "sha256": "47a3d126acb014eda5e400609cd802e124c07043de844cbc55461b13f352eb62"
+    },
+    {
+      "path": "scripts/process-home-icon.mjs",
+      "bytes": 645,
+      "sha256": "2a2876ce54054e51a9a87d0ab3563b215fb3fe8c90e3dbf2538e9cf3831d01f6"
     },
     {
       "path": "scripts/process-release-sprites.py",
