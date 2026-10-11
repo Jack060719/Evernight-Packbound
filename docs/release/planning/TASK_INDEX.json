@@ -1,0 +1,341 @@
+{
+  "version": "integrated-v2-r2",
+  "workTaskCount": 20,
+  "gates": [
+    {
+      "id": "G1",
+      "title": "統一設計明確核准",
+      "dependsOn": [
+        "01",
+        "02",
+        "03"
+      ],
+      "status": "G1_APPROVED",
+      "requiredPlanningRevision": "integrated-v2-r2",
+      "criteria": [
+        "三套完整構築與缺件／替代",
+        "全世界內容與連擊／客製數表",
+        "同屏戰鬥與完整背包草圖",
+        "持久重打與地物狀態表",
+        "同版契約／遷移／驗收互核",
+        "使用者明確核准"
+      ],
+      "approvedRevision": "integrated-v2-r2-feedback02"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "00",
+      "title": "盤點分支與避免重工",
+      "owner": "唯讀協調員",
+      "dependsOn": [],
+      "dependencyMode": "accepted_planning_artifacts",
+      "file": "tasks/00_盤點分支與避免重工.md",
+      "planningRevision": "integrated-v2-r2",
+      "status": "accepted_in_conversation",
+      "acceptedArtifact": "使用者已接受的Task 00對話回報；沒有另存00-audit.md"
+    },
+    {
+      "id": "01",
+      "title": "提出正式版體驗與數值",
+      "owner": "產品設計員",
+      "dependsOn": [
+        "00"
+      ],
+      "dependencyMode": "accepted_planning_artifacts",
+      "file": "tasks/01_提出正式版體驗與數值.md",
+      "planningRevision": "integrated-v2-r2",
+      "status": "approved_in_G1",
+      "reviewInputs": [
+        "02",
+        "03"
+      ]
+    },
+    {
+      "id": "02",
+      "title": "提出模組契約與資料方案",
+      "owner": "架構／整合負責人",
+      "dependsOn": [
+        "00"
+      ],
+      "dependencyMode": "accepted_planning_artifacts",
+      "file": "tasks/02_提出模組契約與資料方案.md",
+      "planningRevision": "integrated-v2-r2",
+      "status": "approved_in_G1",
+      "reviewInputs": [
+        "01",
+        "03"
+      ]
+    },
+    {
+      "id": "03",
+      "title": "提出驗收矩陣與風險",
+      "owner": "獨立測試規劃員",
+      "dependsOn": [
+        "00"
+      ],
+      "dependencyMode": "accepted_planning_artifacts",
+      "file": "tasks/03_提出驗收矩陣與風險.md",
+      "planningRevision": "integrated-v2-r2",
+      "status": "approved_in_G1",
+      "reviewInputs": [
+        "01",
+        "02"
+      ]
+    },
+    {
+      "id": "04",
+      "title": "建立契約與整合骨架",
+      "owner": "唯一架構／整合owner",
+      "dependsOn": [
+        "01",
+        "02",
+        "03",
+        "G1"
+      ],
+      "dependencyMode": "accepted_and_integrated_base",
+      "file": "tasks/04_建立契約與整合骨架.md",
+      "planningRevision": "integrated-v2-r2",
+      "status": "ready_for_re_review",
+      "contractVersion": "BASE_CONTRACT_V1.1",
+      "delivery": "docs/release/04-contracts.md",
+      "manifest": "docs/release/04-manifest.json",
+      "outputCommit": null
+    },
+    {
+      "id": "05",
+      "title": "實作戰鬥流派與寵物合作",
+      "owner": "戰鬥owner",
+      "dependsOn": [
+        "04"
+      ],
+      "dependencyMode": "accepted_and_integrated_base",
+      "file": "tasks/05_實作戰鬥流派與寵物合作.md",
+      "planningRevision": "integrated-v2-r2",
+      "status": "not_started"
+    },
+    {
+      "id": "06",
+      "title": "實作分區關卡與重打流程",
+      "owner": "世界流程owner",
+      "dependsOn": [
+        "04"
+      ],
+      "dependencyMode": "accepted_and_integrated_base",
+      "file": "tasks/06_實作分區關卡與重打流程.md",
+      "planningRevision": "integrated-v2-r2",
+      "status": "not_started"
+    },
+    {
+      "id": "07",
+      "title": "實作背包手動合成與拆解",
+      "owner": "經濟交易owner",
+      "dependsOn": [
+        "04"
+      ],
+      "dependencyMode": "accepted_and_integrated_base",
+      "file": "tasks/07_實作背包手動合成與拆解.md",
+      "planningRevision": "integrated-v2-r2",
+      "status": "not_started"
+    },
+    {
+      "id": "08",
+      "title": "實作永久收藏與配裝",
+      "owner": "收藏／配裝owner",
+      "dependsOn": [
+        "04"
+      ],
+      "dependencyMode": "accepted_and_integrated_base",
+      "file": "tasks/08_實作永久收藏與配裝.md",
+      "planningRevision": "integrated-v2-r2",
+      "status": "not_started"
+    },
+    {
+      "id": "09",
+      "title": "編製區域內容與掉落資料",
+      "owner": "內容資料owner",
+      "dependsOn": [
+        "04"
+      ],
+      "dependencyMode": "accepted_and_integrated_base",
+      "file": "tasks/09_編製區域內容與掉落資料.md",
+      "planningRevision": "integrated-v2-r2",
+      "status": "not_started"
+    },
+    {
+      "id": "10",
+      "title": "製作手機介面模組",
+      "owner": "UI owner",
+      "dependsOn": [
+        "04"
+      ],
+      "dependencyMode": "accepted_and_integrated_base",
+      "file": "tasks/10_製作手機介面模組.md",
+      "planningRevision": "integrated-v2-r2",
+      "status": "not_started"
+    },
+    {
+      "id": "11",
+      "title": "製作戰鬥視覺與資產",
+      "owner": "視覺／renderer owner",
+      "dependsOn": [
+        "04"
+      ],
+      "dependencyMode": "accepted_and_integrated_base",
+      "file": "tasks/11_製作戰鬥視覺與資產.md",
+      "planningRevision": "integrated-v2-r2",
+      "status": "not_started"
+    },
+    {
+      "id": "12",
+      "title": "實作詞綴重洗與寶石",
+      "owner": "裝備客製owner",
+      "dependsOn": [
+        "04"
+      ],
+      "dependencyMode": "accepted_and_integrated_base",
+      "file": "tasks/12_實作詞綴重洗與寶石.md",
+      "planningRevision": "integrated-v2-r2",
+      "status": "not_started"
+    },
+    {
+      "id": "13",
+      "title": "實作地上掉落與撿取",
+      "owner": "地面掉落owner",
+      "dependsOn": [
+        "04"
+      ],
+      "dependencyMode": "accepted_and_integrated_base",
+      "file": "tasks/13_實作地上掉落與撿取.md",
+      "planningRevision": "integrated-v2-r2",
+      "status": "not_started"
+    },
+    {
+      "id": "14",
+      "title": "集中整合與保存相容",
+      "owner": "唯一整合owner（沿用04）",
+      "dependsOn": [
+        "05",
+        "06",
+        "07",
+        "08",
+        "09",
+        "10",
+        "11",
+        "12",
+        "13"
+      ],
+      "dependencyMode": "verified_leaf_deliveries_ready_for_integration",
+      "file": "tasks/14_集中整合與保存相容.md",
+      "planningRevision": "integrated-v2-r2",
+      "status": "not_started"
+    },
+    {
+      "id": "15",
+      "title": "驗證長期刷寶與平衡",
+      "owner": "平衡／模擬owner",
+      "dependsOn": [
+        "14"
+      ],
+      "dependencyMode": "accepted_and_integrated_base",
+      "file": "tasks/15_驗證長期刷寶與平衡.md",
+      "planningRevision": "integrated-v2-r2",
+      "status": "not_started"
+    },
+    {
+      "id": "16",
+      "title": "獨立唯讀審查",
+      "owner": "獨立reviewer（非主要實作者）",
+      "dependsOn": [
+        "15"
+      ],
+      "dependencyMode": "accepted_and_integrated_base",
+      "file": "tasks/16_獨立唯讀審查.md",
+      "planningRevision": "integrated-v2-r2",
+      "status": "not_started"
+    },
+    {
+      "id": "17",
+      "title": "依審查修正阻擋",
+      "owner": "整合owner協調單一修復責任人",
+      "dependsOn": [
+        "16"
+      ],
+      "dependencyMode": "accepted_and_integrated_base",
+      "file": "tasks/17_依審查修正阻擋.md",
+      "planningRevision": "integrated-v2-r2",
+      "status": "not_started"
+    },
+    {
+      "id": "18",
+      "title": "執行最終驗收與手機檢查",
+      "owner": "驗收員；可由16 reviewer回查",
+      "dependsOn": [
+        "17"
+      ],
+      "dependencyMode": "accepted_and_integrated_base",
+      "file": "tasks/18_執行最終驗收與手機檢查.md",
+      "planningRevision": "integrated-v2-r2",
+      "status": "not_started"
+    },
+    {
+      "id": "19",
+      "title": "整理正式版交接包",
+      "owner": "發布協調員",
+      "dependsOn": [
+        "18"
+      ],
+      "dependencyMode": "accepted_and_integrated_base",
+      "file": "tasks/19_整理正式版交接包.md",
+      "planningRevision": "integrated-v2-r2",
+      "status": "not_started"
+    }
+  ],
+  "planningStatus": "G1_APPROVED",
+  "revisedAt": "2026-10-08",
+  "verifiedBase": "1e2ac7e891835e85f9f31b02a1166cd99f9cbb52",
+  "projectRoot": "../../..",
+  "sourceInstruction": "sources/Evernight-Packbound_正式版規劃修正指令.md",
+  "requirementsMap": "docs/release/requirements-r2.md",
+  "confirmedMinimumContent": {
+    "regions": 7,
+    "stagesPerRegion": 10,
+    "wavesPerStage": 10,
+    "maxEnemiesSimultaneously": 5
+  },
+  "invalidatedPlanningVersion": "integrated-v2-r1",
+  "planningFeedback": {
+    "id": "G1-feedback-02",
+    "acceptedDirection": "連擊較弱、以觸發為主；15/10/5可作首輪實測候選，保留逐擊規則與上限",
+    "acceptedIdleGoal": "整理後成熟重刷已通關，至少約15分鐘不因裝備/寵物/寶石容量被迫操作；包含快速低關與隨機提前風險",
+    "confirmedEquipmentWarehouseCapacity": 60,
+    "dropCandidateStatus": "B獲准作首輪實測候選；S/C保留比較，最終平衡未驗收；feedback01約減81%表非預設",
+    "proposalsPending": [
+      "B真實速度/容量聯合風險與材料體驗尚待15；不自行改用C或宣稱已達95%"
+    ],
+    "affectedTaskNotes": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "07",
+      "09",
+      "10",
+      "12",
+      "14",
+      "15",
+      "18"
+    ],
+    "implementationAuthorized": true,
+    "authorizedTasksOnly": [
+      "04"
+    ],
+    "acceptedTestConditions": [
+      "prepared早期55裝位、中後/返刷50裝位、20寵位；另驗45裝位",
+      "900秒三庫聯合不中斷率至少95%目標，尚未引擎驗證"
+    ]
+  },
+  "implementationStatus": "04_READY_FOR_RE_REVIEW",
+  "stopAfterTask": "04",
+  "deliveredAt": "2026-10-09"
+}

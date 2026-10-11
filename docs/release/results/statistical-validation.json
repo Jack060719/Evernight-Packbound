@@ -1,0 +1,2490 @@
+{
+  "contentVersion": "integrated-v2-r2-feedback02-C1",
+  "dropCandidate": "C",
+  "distribution": [
+    {
+      "name": "S/equipment",
+      "n": 100000,
+      "observed": 528,
+      "expected": 0.005,
+      "tolerance": 0.0011152354011597732,
+      "status": "PASS"
+    },
+    {
+      "name": "S/pet",
+      "n": 100000,
+      "observed": 308,
+      "expected": 0.003,
+      "tolerance": 0.000864725389936019,
+      "status": "PASS"
+    },
+    {
+      "name": "S/gem",
+      "n": 100000,
+      "observed": 0,
+      "expected": 0,
+      "tolerance": 0.00005,
+      "status": "PASS"
+    },
+    {
+      "name": "S/dust",
+      "n": 100000,
+      "observed": 24950,
+      "expected": 0.25,
+      "tolerance": 0.006846531968814577,
+      "status": "PASS"
+    },
+    {
+      "name": "N/equipment",
+      "n": 100000,
+      "observed": 1007,
+      "expected": 0.01,
+      "tolerance": 0.0015732132722552274,
+      "status": "PASS"
+    },
+    {
+      "name": "N/pet",
+      "n": 100000,
+      "observed": 312,
+      "expected": 0.003,
+      "tolerance": 0.000864725389936019,
+      "status": "PASS"
+    },
+    {
+      "name": "N/gem",
+      "n": 100000,
+      "observed": 0,
+      "expected": 0,
+      "tolerance": 0.00005,
+      "status": "PASS"
+    },
+    {
+      "name": "N/dust",
+      "n": 100000,
+      "observed": 24997,
+      "expected": 0.25,
+      "tolerance": 0.006846531968814577,
+      "status": "PASS"
+    },
+    {
+      "name": "G/equipment",
+      "n": 100000,
+      "observed": 1593,
+      "expected": 0.015,
+      "tolerance": 0.001921913109378257,
+      "status": "PASS"
+    },
+    {
+      "name": "G/pet",
+      "n": 100000,
+      "observed": 323,
+      "expected": 0.003,
+      "tolerance": 0.000864725389936019,
+      "status": "PASS"
+    },
+    {
+      "name": "G/gem",
+      "n": 100000,
+      "observed": 1015,
+      "expected": 0.01,
+      "tolerance": 0.0015732132722552274,
+      "status": "PASS"
+    },
+    {
+      "name": "G/dust",
+      "n": 100000,
+      "observed": 35186,
+      "expected": 0.35,
+      "tolerance": 0.007541551564499177,
+      "status": "PASS"
+    },
+    {
+      "name": "H/equipment",
+      "n": 100000,
+      "observed": 1593,
+      "expected": 0.015,
+      "tolerance": 0.001921913109378257,
+      "status": "PASS"
+    },
+    {
+      "name": "H/pet",
+      "n": 100000,
+      "observed": 323,
+      "expected": 0.003,
+      "tolerance": 0.000864725389936019,
+      "status": "PASS"
+    },
+    {
+      "name": "H/gem",
+      "n": 100000,
+      "observed": 1015,
+      "expected": 0.01,
+      "tolerance": 0.0015732132722552274,
+      "status": "PASS"
+    },
+    {
+      "name": "H/dust",
+      "n": 100000,
+      "observed": 35186,
+      "expected": 0.35,
+      "tolerance": 0.007541551564499177,
+      "status": "PASS"
+    },
+    {
+      "name": "E/equipment",
+      "n": 100000,
+      "observed": 1921,
+      "expected": 0.02,
+      "tolerance": 0.0022135943621178654,
+      "status": "PASS"
+    },
+    {
+      "name": "E/pet",
+      "n": 100000,
+      "observed": 1963,
+      "expected": 0.02,
+      "tolerance": 0.0022135943621178654,
+      "status": "PASS"
+    },
+    {
+      "name": "E/gem",
+      "n": 100000,
+      "observed": 4025,
+      "expected": 0.04,
+      "tolerance": 0.0030983866769659332,
+      "status": "PASS"
+    },
+    {
+      "name": "E/dust",
+      "n": 100000,
+      "observed": 100000,
+      "expected": 1,
+      "tolerance": 0.00005,
+      "status": "PASS"
+    },
+    {
+      "name": "B/equipment",
+      "n": 100000,
+      "observed": 59904,
+      "expected": 0.6,
+      "tolerance": 0.007745966692414833,
+      "status": "PASS"
+    },
+    {
+      "name": "B/pet",
+      "n": 100000,
+      "observed": 6085,
+      "expected": 0.06,
+      "tolerance": 0.0037549966711037173,
+      "status": "PASS"
+    },
+    {
+      "name": "B/gem",
+      "n": 100000,
+      "observed": 20109,
+      "expected": 0.2,
+      "tolerance": 0.00632455532033676,
+      "status": "PASS"
+    },
+    {
+      "name": "B/dust",
+      "n": 100000,
+      "observed": 100000,
+      "expected": 1,
+      "tolerance": 0.00005,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-01/equipment/0",
+      "n": 100000,
+      "observed": 87925,
+      "expected": 0.88,
+      "tolerance": 0.005138093031466051,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-01/equipment/1",
+      "n": 100000,
+      "observed": 12075,
+      "expected": 0.12,
+      "tolerance": 0.005138093031466051,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-01/equipment/2",
+      "n": 100000,
+      "observed": 0,
+      "expected": 0,
+      "tolerance": 0.00005,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-01/equipment/3",
+      "n": 100000,
+      "observed": 0,
+      "expected": 0,
+      "tolerance": 0.00005,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-01/equipment/4",
+      "n": 100000,
+      "observed": 0,
+      "expected": 0,
+      "tolerance": 0.00005,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-01/equipment/5",
+      "n": 100000,
+      "observed": 0,
+      "expected": 0,
+      "tolerance": 0.00005,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-01/pet/0",
+      "n": 100000,
+      "observed": 94979,
+      "expected": 0.95,
+      "tolerance": 0.003446012188022557,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-01/pet/1",
+      "n": 100000,
+      "observed": 5021,
+      "expected": 0.05,
+      "tolerance": 0.0034460121880225555,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-01/pet/2",
+      "n": 100000,
+      "observed": 0,
+      "expected": 0,
+      "tolerance": 0.00005,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-01/gem/1",
+      "n": 100000,
+      "observed": 100000,
+      "expected": 1,
+      "tolerance": 0.00005,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-01/gem/2",
+      "n": 100000,
+      "observed": 0,
+      "expected": 0,
+      "tolerance": 0.00005,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-01/gem/3",
+      "n": 100000,
+      "observed": 0,
+      "expected": 0,
+      "tolerance": 0.00005,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-02/equipment/0",
+      "n": 100000,
+      "observed": 81828,
+      "expected": 0.82,
+      "tolerance": 0.0060745370193949775,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-02/equipment/1",
+      "n": 100000,
+      "observed": 17181,
+      "expected": 0.17,
+      "tolerance": 0.005939276050159649,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-02/equipment/2",
+      "n": 100000,
+      "observed": 991,
+      "expected": 0.01,
+      "tolerance": 0.0015732132722552274,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-02/equipment/3",
+      "n": 100000,
+      "observed": 0,
+      "expected": 0,
+      "tolerance": 0.00005,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-02/equipment/4",
+      "n": 100000,
+      "observed": 0,
+      "expected": 0,
+      "tolerance": 0.00005,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-02/equipment/5",
+      "n": 100000,
+      "observed": 0,
+      "expected": 0,
+      "tolerance": 0.00005,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-02/pet/0",
+      "n": 100000,
+      "observed": 94979,
+      "expected": 0.95,
+      "tolerance": 0.003446012188022557,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-02/pet/1",
+      "n": 100000,
+      "observed": 5021,
+      "expected": 0.05,
+      "tolerance": 0.0034460121880225555,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-02/pet/2",
+      "n": 100000,
+      "observed": 0,
+      "expected": 0,
+      "tolerance": 0.00005,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-02/gem/1",
+      "n": 100000,
+      "observed": 94979,
+      "expected": 0.95,
+      "tolerance": 0.003446012188022557,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-02/gem/2",
+      "n": 100000,
+      "observed": 5021,
+      "expected": 0.05,
+      "tolerance": 0.0034460121880225555,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-02/gem/3",
+      "n": 100000,
+      "observed": 0,
+      "expected": 0,
+      "tolerance": 0.00005,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-03/equipment/0",
+      "n": 100000,
+      "observed": 75895,
+      "expected": 0.76,
+      "tolerance": 0.0067527772064536525,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-03/equipment/1",
+      "n": 100000,
+      "observed": 21102,
+      "expected": 0.21,
+      "tolerance": 0.0064401086947348946,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-03/equipment/2",
+      "n": 100000,
+      "observed": 3003,
+      "expected": 0.03,
+      "tolerance": 0.0026972207918522354,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-03/equipment/3",
+      "n": 100000,
+      "observed": 0,
+      "expected": 0,
+      "tolerance": 0.00005,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-03/equipment/4",
+      "n": 100000,
+      "observed": 0,
+      "expected": 0,
+      "tolerance": 0.00005,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-03/equipment/5",
+      "n": 100000,
+      "observed": 0,
+      "expected": 0,
+      "tolerance": 0.00005,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-03/pet/0",
+      "n": 100000,
+      "observed": 94979,
+      "expected": 0.95,
+      "tolerance": 0.003446012188022557,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-03/pet/1",
+      "n": 100000,
+      "observed": 5021,
+      "expected": 0.05,
+      "tolerance": 0.0034460121880225555,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-03/pet/2",
+      "n": 100000,
+      "observed": 0,
+      "expected": 0,
+      "tolerance": 0.00005,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-03/gem/1",
+      "n": 100000,
+      "observed": 89931,
+      "expected": 0.9,
+      "tolerance": 0.004743416490252569,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-03/gem/2",
+      "n": 100000,
+      "observed": 10069,
+      "expected": 0.1,
+      "tolerance": 0.004743416490252569,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-03/gem/3",
+      "n": 100000,
+      "observed": 0,
+      "expected": 0,
+      "tolerance": 0.00005,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-04/equipment/0",
+      "n": 100000,
+      "observed": 67847,
+      "expected": 0.68,
+      "tolerance": 0.00737563556583431,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-04/equipment/1",
+      "n": 100000,
+      "observed": 25117,
+      "expected": 0.25,
+      "tolerance": 0.006846531968814577,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-04/equipment/2",
+      "n": 100000,
+      "observed": 6569,
+      "expected": 0.065,
+      "tolerance": 0.0038979161099233525,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-04/equipment/3",
+      "n": 100000,
+      "observed": 467,
+      "expected": 0.005,
+      "tolerance": 0.0011152354011597732,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-04/equipment/4",
+      "n": 100000,
+      "observed": 0,
+      "expected": 0,
+      "tolerance": 0.00005,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-04/equipment/5",
+      "n": 100000,
+      "observed": 0,
+      "expected": 0,
+      "tolerance": 0.00005,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-04/pet/0",
+      "n": 100000,
+      "observed": 79856,
+      "expected": 0.8,
+      "tolerance": 0.006324555320336758,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-04/pet/1",
+      "n": 100000,
+      "observed": 18145,
+      "expected": 0.18,
+      "tolerance": 0.006074537019394977,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-04/pet/2",
+      "n": 100000,
+      "observed": 1999,
+      "expected": 0.02,
+      "tolerance": 0.0022135943621178654,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-04/gem/1",
+      "n": 100000,
+      "observed": 79856,
+      "expected": 0.8,
+      "tolerance": 0.006324555320336758,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-04/gem/2",
+      "n": 100000,
+      "observed": 20144,
+      "expected": 0.2,
+      "tolerance": 0.00632455532033676,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-04/gem/3",
+      "n": 100000,
+      "observed": 0,
+      "expected": 0,
+      "tolerance": 0.00005,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-05/equipment/0",
+      "n": 100000,
+      "observed": 59903,
+      "expected": 0.6,
+      "tolerance": 0.007745966692414833,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-05/equipment/1",
+      "n": 100000,
+      "observed": 29014,
+      "expected": 0.29,
+      "tolerance": 0.007174608003229165,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-05/equipment/2",
+      "n": 100000,
+      "observed": 10092,
+      "expected": 0.1,
+      "tolerance": 0.004743416490252569,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-05/equipment/3",
+      "n": 100000,
+      "observed": 991,
+      "expected": 0.01,
+      "tolerance": 0.0015732132722552274,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-05/equipment/4",
+      "n": 100000,
+      "observed": 0,
+      "expected": 0,
+      "tolerance": 0.00005,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-05/equipment/5",
+      "n": 100000,
+      "observed": 0,
+      "expected": 0,
+      "tolerance": 0.00005,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-05/pet/0",
+      "n": 100000,
+      "observed": 79856,
+      "expected": 0.8,
+      "tolerance": 0.006324555320336758,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-05/pet/1",
+      "n": 100000,
+      "observed": 18145,
+      "expected": 0.18,
+      "tolerance": 0.006074537019394977,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-05/pet/2",
+      "n": 100000,
+      "observed": 1999,
+      "expected": 0.02,
+      "tolerance": 0.0022135943621178654,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-05/gem/1",
+      "n": 100000,
+      "observed": 69875,
+      "expected": 0.7,
+      "tolerance": 0.007245688373094719,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-05/gem/2",
+      "n": 100000,
+      "observed": 29134,
+      "expected": 0.29,
+      "tolerance": 0.007174608003229165,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-05/gem/3",
+      "n": 100000,
+      "observed": 991,
+      "expected": 0.01,
+      "tolerance": 0.0015732132722552274,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-06/equipment/0",
+      "n": 100000,
+      "observed": 51752,
+      "expected": 0.52,
+      "tolerance": 0.0078993670632526,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-06/equipment/1",
+      "n": 100000,
+      "observed": 31986,
+      "expected": 0.32,
+      "tolerance": 0.00737563556583431,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-06/equipment/2",
+      "n": 100000,
+      "observed": 13767,
+      "expected": 0.135,
+      "tolerance": 0.005403124096298363,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-06/equipment/3",
+      "n": 100000,
+      "observed": 2495,
+      "expected": 0.025,
+      "tolerance": 0.0024685522072664377,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-06/equipment/4",
+      "n": 100000,
+      "observed": 0,
+      "expected": 0,
+      "tolerance": 0.00005,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-06/equipment/5",
+      "n": 100000,
+      "observed": 0,
+      "expected": 0,
+      "tolerance": 0.00005,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-06/pet/0",
+      "n": 100000,
+      "observed": 79856,
+      "expected": 0.8,
+      "tolerance": 0.006324555320336758,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-06/pet/1",
+      "n": 100000,
+      "observed": 18145,
+      "expected": 0.18,
+      "tolerance": 0.006074537019394977,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-06/pet/2",
+      "n": 100000,
+      "observed": 1999,
+      "expected": 0.02,
+      "tolerance": 0.0022135943621178654,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-06/gem/1",
+      "n": 100000,
+      "observed": 59903,
+      "expected": 0.6,
+      "tolerance": 0.007745966692414833,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-06/gem/2",
+      "n": 100000,
+      "observed": 37094,
+      "expected": 0.37,
+      "tolerance": 0.007633806389999684,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-06/gem/3",
+      "n": 100000,
+      "observed": 3003,
+      "expected": 0.03,
+      "tolerance": 0.0026972207918522354,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-07/equipment/0",
+      "n": 100000,
+      "observed": 43756,
+      "expected": 0.44,
+      "tolerance": 0.007848566748139434,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-07/equipment/1",
+      "n": 100000,
+      "observed": 35123,
+      "expected": 0.35,
+      "tolerance": 0.007541551564499177,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-07/equipment/2",
+      "n": 100000,
+      "observed": 16586,
+      "expected": 0.165,
+      "tolerance": 0.005868879790897067,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-07/equipment/3",
+      "n": 100000,
+      "observed": 4068,
+      "expected": 0.04,
+      "tolerance": 0.0030983866769659332,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-07/equipment/4",
+      "n": 100000,
+      "observed": 467,
+      "expected": 0.005,
+      "tolerance": 0.0011152354011597732,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-07/equipment/5",
+      "n": 100000,
+      "observed": 0,
+      "expected": 0,
+      "tolerance": 0.00005,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-07/pet/0",
+      "n": 100000,
+      "observed": 54804,
+      "expected": 0.55,
+      "tolerance": 0.007866066361276137,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-07/pet/1",
+      "n": 100000,
+      "observed": 35127,
+      "expected": 0.35,
+      "tolerance": 0.007541551564499177,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-07/pet/2",
+      "n": 100000,
+      "observed": 10069,
+      "expected": 0.1,
+      "tolerance": 0.004743416490252569,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-07/gem/1",
+      "n": 100000,
+      "observed": 49703,
+      "expected": 0.5,
+      "tolerance": 0.007905694150420948,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-07/gem/2",
+      "n": 100000,
+      "observed": 44257,
+      "expected": 0.44,
+      "tolerance": 0.007848566748139434,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-07/gem/3",
+      "n": 100000,
+      "observed": 6040,
+      "expected": 0.06,
+      "tolerance": 0.0037549966711037173,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-08/equipment/0",
+      "n": 100000,
+      "observed": 35791,
+      "expected": 0.36,
+      "tolerance": 0.0075894663844041105,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-08/equipment/1",
+      "n": 100000,
+      "observed": 37079,
+      "expected": 0.37,
+      "tolerance": 0.007633806389999684,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-08/equipment/2",
+      "n": 100000,
+      "observed": 20094,
+      "expected": 0.2,
+      "tolerance": 0.00632455532033676,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-08/equipment/3",
+      "n": 100000,
+      "observed": 6045,
+      "expected": 0.06,
+      "tolerance": 0.0037549966711037173,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-08/equipment/4",
+      "n": 100000,
+      "observed": 907,
+      "expected": 0.009000000000000001,
+      "tolerance": 0.0014932347437693783,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-08/equipment/5",
+      "n": 100000,
+      "observed": 84,
+      "expected": 0.001,
+      "tolerance": 0.0004997499374687304,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-08/pet/0",
+      "n": 100000,
+      "observed": 54804,
+      "expected": 0.55,
+      "tolerance": 0.007866066361276137,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-08/pet/1",
+      "n": 100000,
+      "observed": 35127,
+      "expected": 0.35,
+      "tolerance": 0.007541551564499177,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-08/pet/2",
+      "n": 100000,
+      "observed": 10069,
+      "expected": 0.1,
+      "tolerance": 0.004743416490252569,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-08/gem/1",
+      "n": 100000,
+      "observed": 41742,
+      "expected": 0.42,
+      "tolerance": 0.007803845206050668,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-08/gem/2",
+      "n": 100000,
+      "observed": 48189,
+      "expected": 0.48,
+      "tolerance": 0.0078993670632526,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-08/gem/3",
+      "n": 100000,
+      "observed": 10069,
+      "expected": 0.1,
+      "tolerance": 0.004743416490252569,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-09/equipment/0",
+      "n": 100000,
+      "observed": 29776,
+      "expected": 0.3,
+      "tolerance": 0.0072456883730947184,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-09/equipment/1",
+      "n": 100000,
+      "observed": 37091,
+      "expected": 0.37,
+      "tolerance": 0.007633806389999684,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-09/equipment/2",
+      "n": 100000,
+      "observed": 24086,
+      "expected": 0.24,
+      "tolerance": 0.0067527772064536525,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-09/equipment/3",
+      "n": 100000,
+      "observed": 7532,
+      "expected": 0.075,
+      "tolerance": 0.004164582812239421,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-09/equipment/4",
+      "n": 100000,
+      "observed": 1376,
+      "expected": 0.013500000000000002,
+      "tolerance": 0.0018246746285297006,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-09/equipment/5",
+      "n": 100000,
+      "observed": 139,
+      "expected": 0.0015,
+      "tolerance": 0.0006119129840099817,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-09/pet/0",
+      "n": 100000,
+      "observed": 54804,
+      "expected": 0.55,
+      "tolerance": 0.007866066361276137,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-09/pet/1",
+      "n": 100000,
+      "observed": 35127,
+      "expected": 0.35,
+      "tolerance": 0.007541551564499177,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-09/pet/2",
+      "n": 100000,
+      "observed": 10069,
+      "expected": 0.1,
+      "tolerance": 0.004743416490252569,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-09/gem/1",
+      "n": 100000,
+      "observed": 34789,
+      "expected": 0.35,
+      "tolerance": 0.007541551564499177,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-09/gem/2",
+      "n": 100000,
+      "observed": 50018,
+      "expected": 0.5,
+      "tolerance": 0.007905694150420948,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-09/gem/3",
+      "n": 100000,
+      "observed": 15193,
+      "expected": 0.15,
+      "tolerance": 0.005645794895318108,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-10/equipment/0",
+      "n": 100000,
+      "observed": 23719,
+      "expected": 0.24,
+      "tolerance": 0.0067527772064536525,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-10/equipment/1",
+      "n": 100000,
+      "observed": 36184,
+      "expected": 0.36,
+      "tolerance": 0.0075894663844041105,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-10/equipment/2",
+      "n": 100000,
+      "observed": 28022,
+      "expected": 0.28,
+      "tolerance": 0.007099295739719539,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-10/equipment/3",
+      "n": 100000,
+      "observed": 9580,
+      "expected": 0.095,
+      "tolerance": 0.004636135243928935,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-10/equipment/4",
+      "n": 100000,
+      "observed": 2205,
+      "expected": 0.022000000000000002,
+      "tolerance": 0.0023192671256239547,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-10/equipment/5",
+      "n": 100000,
+      "observed": 290,
+      "expected": 0.003,
+      "tolerance": 0.000864725389936019,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-10/pet/0",
+      "n": 100000,
+      "observed": 54804,
+      "expected": 0.55,
+      "tolerance": 0.007866066361276137,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-10/pet/1",
+      "n": 100000,
+      "observed": 35127,
+      "expected": 0.35,
+      "tolerance": 0.007541551564499177,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-10/pet/2",
+      "n": 100000,
+      "observed": 10069,
+      "expected": 0.1,
+      "tolerance": 0.004743416490252569,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-10/gem/1",
+      "n": 100000,
+      "observed": 27778,
+      "expected": 0.28,
+      "tolerance": 0.007099295739719539,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-10/gem/2",
+      "n": 100000,
+      "observed": 52078,
+      "expected": 0.52,
+      "tolerance": 0.0078993670632526,
+      "status": "PASS"
+    },
+    {
+      "name": "quality-depth-10/gem/3",
+      "n": 100000,
+      "observed": 20144,
+      "expected": 0.2,
+      "tolerance": 0.00632455532033676,
+      "status": "PASS"
+    }
+  ],
+  "expectedStages": [
+    {
+      "stage": "verdant-01",
+      "ranks": {
+        "N": 9,
+        "S": 0,
+        "G": 0,
+        "H": 0,
+        "E": 0,
+        "B": 1
+      },
+      "equipment": 0.69,
+      "pets": 0.087,
+      "gems": 0.2,
+      "dust": 8.25
+    },
+    {
+      "stage": "verdant-02",
+      "ranks": {
+        "N": 6,
+        "S": 11,
+        "G": 1,
+        "H": 1,
+        "E": 1,
+        "B": 1
+      },
+      "equipment": 0.765,
+      "pets": 0.137,
+      "gems": 0.26,
+      "dust": 12.95
+    },
+    {
+      "stage": "verdant-03",
+      "ranks": {
+        "N": 5,
+        "S": 5,
+        "G": 6,
+        "H": 2,
+        "E": 3,
+        "B": 1
+      },
+      "equipment": 0.855,
+      "pets": 0.17400000000000002,
+      "gems": 0.4,
+      "dust": 17.3
+    },
+    {
+      "stage": "verdant-04",
+      "ranks": {
+        "N": 2,
+        "S": 30,
+        "G": 0,
+        "H": 1,
+        "E": 3,
+        "B": 1
+      },
+      "equipment": 0.8450000000000001,
+      "pets": 0.21900000000000006,
+      "gems": 0.33,
+      "dust": 20.35
+    },
+    {
+      "stage": "verdant-05",
+      "ranks": {
+        "N": 6,
+        "S": 3,
+        "G": 3,
+        "H": 10,
+        "E": 4,
+        "B": 1
+      },
+      "equipment": 0.9500000000000002,
+      "pets": 0.20600000000000002,
+      "gems": 0.49000000000000005,
+      "dust": 20.8
+    },
+    {
+      "stage": "verdant-06",
+      "ranks": {
+        "N": 2,
+        "S": 0,
+        "G": 1,
+        "H": 1,
+        "E": 5,
+        "B": 1
+      },
+      "equipment": 0.75,
+      "pets": 0.17200000000000001,
+      "gems": 0.42000000000000004,
+      "dust": 17.2
+    },
+    {
+      "stage": "verdant-07",
+      "ranks": {
+        "N": 3,
+        "S": 13,
+        "G": 5,
+        "H": 2,
+        "E": 3,
+        "B": 1
+      },
+      "equipment": 0.8600000000000001,
+      "pets": 0.18900000000000006,
+      "gems": 0.39000000000000007,
+      "dust": 18.450000000000003
+    },
+    {
+      "stage": "verdant-08",
+      "ranks": {
+        "N": 10,
+        "S": 3,
+        "G": 4,
+        "H": 5,
+        "E": 4,
+        "B": 1
+      },
+      "equipment": 0.9300000000000002,
+      "pets": 0.20600000000000004,
+      "gems": 0.45000000000000007,
+      "dust": 20.4
+    },
+    {
+      "stage": "verdant-09",
+      "ranks": {
+        "N": 4,
+        "S": 17,
+        "G": 1,
+        "H": 1,
+        "E": 7,
+        "B": 1
+      },
+      "equipment": 0.895,
+      "pets": 0.269,
+      "gems": 0.5,
+      "dust": 25.95
+    },
+    {
+      "stage": "verdant-10",
+      "ranks": {
+        "N": 7,
+        "S": 11,
+        "G": 4,
+        "H": 5,
+        "E": 9,
+        "B": 1
+      },
+      "equipment": 1.0399999999999998,
+      "pets": 0.32100000000000006,
+      "gems": 0.6500000000000001,
+      "dust": 31.650000000000002
+    },
+    {
+      "stage": "ember-01",
+      "ranks": {
+        "N": 5,
+        "S": 5,
+        "G": 6,
+        "H": 2,
+        "E": 3,
+        "B": 1
+      },
+      "equipment": 0.855,
+      "pets": 0.17400000000000002,
+      "gems": 0.4,
+      "dust": 17.3
+    },
+    {
+      "stage": "ember-02",
+      "ranks": {
+        "N": 2,
+        "S": 0,
+        "G": 1,
+        "H": 1,
+        "E": 5,
+        "B": 1
+      },
+      "equipment": 0.75,
+      "pets": 0.17200000000000001,
+      "gems": 0.42000000000000004,
+      "dust": 17.2
+    },
+    {
+      "stage": "ember-03",
+      "ranks": {
+        "N": 3,
+        "S": 13,
+        "G": 5,
+        "H": 2,
+        "E": 3,
+        "B": 1
+      },
+      "equipment": 0.8600000000000001,
+      "pets": 0.18900000000000006,
+      "gems": 0.39000000000000007,
+      "dust": 18.450000000000003
+    },
+    {
+      "stage": "ember-04",
+      "ranks": {
+        "N": 6,
+        "S": 11,
+        "G": 1,
+        "H": 1,
+        "E": 1,
+        "B": 1
+      },
+      "equipment": 0.765,
+      "pets": 0.137,
+      "gems": 0.26,
+      "dust": 12.95
+    },
+    {
+      "stage": "ember-05",
+      "ranks": {
+        "N": 10,
+        "S": 3,
+        "G": 4,
+        "H": 5,
+        "E": 4,
+        "B": 1
+      },
+      "equipment": 0.9300000000000002,
+      "pets": 0.20600000000000004,
+      "gems": 0.45000000000000007,
+      "dust": 20.4
+    },
+    {
+      "stage": "ember-06",
+      "ranks": {
+        "N": 6,
+        "S": 3,
+        "G": 3,
+        "H": 10,
+        "E": 4,
+        "B": 1
+      },
+      "equipment": 0.9500000000000002,
+      "pets": 0.20600000000000002,
+      "gems": 0.49000000000000005,
+      "dust": 20.8
+    },
+    {
+      "stage": "ember-07",
+      "ranks": {
+        "N": 4,
+        "S": 17,
+        "G": 1,
+        "H": 1,
+        "E": 7,
+        "B": 1
+      },
+      "equipment": 0.895,
+      "pets": 0.269,
+      "gems": 0.5,
+      "dust": 25.95
+    },
+    {
+      "stage": "ember-08",
+      "ranks": {
+        "N": 2,
+        "S": 30,
+        "G": 0,
+        "H": 1,
+        "E": 3,
+        "B": 1
+      },
+      "equipment": 0.8450000000000001,
+      "pets": 0.21900000000000006,
+      "gems": 0.33,
+      "dust": 20.35
+    },
+    {
+      "stage": "ember-09",
+      "ranks": {
+        "N": 3,
+        "S": 13,
+        "G": 5,
+        "H": 2,
+        "E": 3,
+        "B": 1
+      },
+      "equipment": 0.8600000000000001,
+      "pets": 0.18900000000000006,
+      "gems": 0.39000000000000007,
+      "dust": 18.450000000000003
+    },
+    {
+      "stage": "ember-10",
+      "ranks": {
+        "N": 7,
+        "S": 11,
+        "G": 4,
+        "H": 5,
+        "E": 9,
+        "B": 1
+      },
+      "equipment": 1.0399999999999998,
+      "pets": 0.32100000000000006,
+      "gems": 0.6500000000000001,
+      "dust": 31.650000000000002
+    },
+    {
+      "stage": "moonwell-01",
+      "ranks": {
+        "N": 2,
+        "S": 30,
+        "G": 0,
+        "H": 1,
+        "E": 3,
+        "B": 1
+      },
+      "equipment": 0.8450000000000001,
+      "pets": 0.21900000000000006,
+      "gems": 0.33,
+      "dust": 20.35
+    },
+    {
+      "stage": "moonwell-02",
+      "ranks": {
+        "N": 6,
+        "S": 3,
+        "G": 3,
+        "H": 10,
+        "E": 4,
+        "B": 1
+      },
+      "equipment": 0.9500000000000002,
+      "pets": 0.20600000000000002,
+      "gems": 0.49000000000000005,
+      "dust": 20.8
+    },
+    {
+      "stage": "moonwell-03",
+      "ranks": {
+        "N": 6,
+        "S": 11,
+        "G": 1,
+        "H": 1,
+        "E": 1,
+        "B": 1
+      },
+      "equipment": 0.765,
+      "pets": 0.137,
+      "gems": 0.26,
+      "dust": 12.95
+    },
+    {
+      "stage": "moonwell-04",
+      "ranks": {
+        "N": 3,
+        "S": 13,
+        "G": 5,
+        "H": 2,
+        "E": 3,
+        "B": 1
+      },
+      "equipment": 0.8600000000000001,
+      "pets": 0.18900000000000006,
+      "gems": 0.39000000000000007,
+      "dust": 18.450000000000003
+    },
+    {
+      "stage": "moonwell-05",
+      "ranks": {
+        "N": 4,
+        "S": 17,
+        "G": 1,
+        "H": 1,
+        "E": 7,
+        "B": 1
+      },
+      "equipment": 0.895,
+      "pets": 0.269,
+      "gems": 0.5,
+      "dust": 25.95
+    },
+    {
+      "stage": "moonwell-06",
+      "ranks": {
+        "N": 2,
+        "S": 30,
+        "G": 0,
+        "H": 1,
+        "E": 3,
+        "B": 1
+      },
+      "equipment": 0.8450000000000001,
+      "pets": 0.21900000000000006,
+      "gems": 0.33,
+      "dust": 20.35
+    },
+    {
+      "stage": "moonwell-07",
+      "ranks": {
+        "N": 10,
+        "S": 3,
+        "G": 4,
+        "H": 5,
+        "E": 4,
+        "B": 1
+      },
+      "equipment": 0.9300000000000002,
+      "pets": 0.20600000000000004,
+      "gems": 0.45000000000000007,
+      "dust": 20.4
+    },
+    {
+      "stage": "moonwell-08",
+      "ranks": {
+        "N": 2,
+        "S": 0,
+        "G": 1,
+        "H": 1,
+        "E": 5,
+        "B": 1
+      },
+      "equipment": 0.75,
+      "pets": 0.17200000000000001,
+      "gems": 0.42000000000000004,
+      "dust": 17.2
+    },
+    {
+      "stage": "moonwell-09",
+      "ranks": {
+        "N": 6,
+        "S": 3,
+        "G": 3,
+        "H": 10,
+        "E": 4,
+        "B": 1
+      },
+      "equipment": 0.9500000000000002,
+      "pets": 0.20600000000000002,
+      "gems": 0.49000000000000005,
+      "dust": 20.8
+    },
+    {
+      "stage": "moonwell-10",
+      "ranks": {
+        "N": 7,
+        "S": 11,
+        "G": 4,
+        "H": 5,
+        "E": 9,
+        "B": 1
+      },
+      "equipment": 1.0399999999999998,
+      "pets": 0.32100000000000006,
+      "gems": 0.6500000000000001,
+      "dust": 31.650000000000002
+    },
+    {
+      "stage": "mire-01",
+      "ranks": {
+        "N": 6,
+        "S": 3,
+        "G": 3,
+        "H": 10,
+        "E": 4,
+        "B": 1
+      },
+      "equipment": 0.9500000000000002,
+      "pets": 0.20600000000000002,
+      "gems": 0.49000000000000005,
+      "dust": 20.8
+    },
+    {
+      "stage": "mire-02",
+      "ranks": {
+        "N": 10,
+        "S": 3,
+        "G": 4,
+        "H": 5,
+        "E": 4,
+        "B": 1
+      },
+      "equipment": 0.9300000000000002,
+      "pets": 0.20600000000000004,
+      "gems": 0.45000000000000007,
+      "dust": 20.4
+    },
+    {
+      "stage": "mire-03",
+      "ranks": {
+        "N": 5,
+        "S": 5,
+        "G": 6,
+        "H": 2,
+        "E": 3,
+        "B": 1
+      },
+      "equipment": 0.855,
+      "pets": 0.17400000000000002,
+      "gems": 0.4,
+      "dust": 17.3
+    },
+    {
+      "stage": "mire-04",
+      "ranks": {
+        "N": 3,
+        "S": 13,
+        "G": 5,
+        "H": 2,
+        "E": 3,
+        "B": 1
+      },
+      "equipment": 0.8600000000000001,
+      "pets": 0.18900000000000006,
+      "gems": 0.39000000000000007,
+      "dust": 18.450000000000003
+    },
+    {
+      "stage": "mire-05",
+      "ranks": {
+        "N": 2,
+        "S": 0,
+        "G": 1,
+        "H": 1,
+        "E": 5,
+        "B": 1
+      },
+      "equipment": 0.75,
+      "pets": 0.17200000000000001,
+      "gems": 0.42000000000000004,
+      "dust": 17.2
+    },
+    {
+      "stage": "mire-06",
+      "ranks": {
+        "N": 4,
+        "S": 17,
+        "G": 1,
+        "H": 1,
+        "E": 7,
+        "B": 1
+      },
+      "equipment": 0.895,
+      "pets": 0.269,
+      "gems": 0.5,
+      "dust": 25.95
+    },
+    {
+      "stage": "mire-07",
+      "ranks": {
+        "N": 6,
+        "S": 11,
+        "G": 1,
+        "H": 1,
+        "E": 1,
+        "B": 1
+      },
+      "equipment": 0.765,
+      "pets": 0.137,
+      "gems": 0.26,
+      "dust": 12.95
+    },
+    {
+      "stage": "mire-08",
+      "ranks": {
+        "N": 6,
+        "S": 3,
+        "G": 3,
+        "H": 10,
+        "E": 4,
+        "B": 1
+      },
+      "equipment": 0.9500000000000002,
+      "pets": 0.20600000000000002,
+      "gems": 0.49000000000000005,
+      "dust": 20.8
+    },
+    {
+      "stage": "mire-09",
+      "ranks": {
+        "N": 2,
+        "S": 30,
+        "G": 0,
+        "H": 1,
+        "E": 3,
+        "B": 1
+      },
+      "equipment": 0.8450000000000001,
+      "pets": 0.21900000000000006,
+      "gems": 0.33,
+      "dust": 20.35
+    },
+    {
+      "stage": "mire-10",
+      "ranks": {
+        "N": 7,
+        "S": 11,
+        "G": 4,
+        "H": 5,
+        "E": 9,
+        "B": 1
+      },
+      "equipment": 1.0399999999999998,
+      "pets": 0.32100000000000006,
+      "gems": 0.6500000000000001,
+      "dust": 31.650000000000002
+    },
+    {
+      "stage": "gale-01",
+      "ranks": {
+        "N": 6,
+        "S": 11,
+        "G": 1,
+        "H": 1,
+        "E": 1,
+        "B": 1
+      },
+      "equipment": 0.765,
+      "pets": 0.137,
+      "gems": 0.26,
+      "dust": 12.95
+    },
+    {
+      "stage": "gale-02",
+      "ranks": {
+        "N": 2,
+        "S": 30,
+        "G": 0,
+        "H": 1,
+        "E": 3,
+        "B": 1
+      },
+      "equipment": 0.8450000000000001,
+      "pets": 0.21900000000000006,
+      "gems": 0.33,
+      "dust": 20.35
+    },
+    {
+      "stage": "gale-03",
+      "ranks": {
+        "N": 4,
+        "S": 17,
+        "G": 1,
+        "H": 1,
+        "E": 7,
+        "B": 1
+      },
+      "equipment": 0.895,
+      "pets": 0.269,
+      "gems": 0.5,
+      "dust": 25.95
+    },
+    {
+      "stage": "gale-04",
+      "ranks": {
+        "N": 2,
+        "S": 0,
+        "G": 1,
+        "H": 1,
+        "E": 5,
+        "B": 1
+      },
+      "equipment": 0.75,
+      "pets": 0.17200000000000001,
+      "gems": 0.42000000000000004,
+      "dust": 17.2
+    },
+    {
+      "stage": "gale-05",
+      "ranks": {
+        "N": 3,
+        "S": 13,
+        "G": 5,
+        "H": 2,
+        "E": 3,
+        "B": 1
+      },
+      "equipment": 0.8600000000000001,
+      "pets": 0.18900000000000006,
+      "gems": 0.39000000000000007,
+      "dust": 18.450000000000003
+    },
+    {
+      "stage": "gale-06",
+      "ranks": {
+        "N": 5,
+        "S": 5,
+        "G": 6,
+        "H": 2,
+        "E": 3,
+        "B": 1
+      },
+      "equipment": 0.855,
+      "pets": 0.17400000000000002,
+      "gems": 0.4,
+      "dust": 17.3
+    },
+    {
+      "stage": "gale-07",
+      "ranks": {
+        "N": 10,
+        "S": 3,
+        "G": 4,
+        "H": 5,
+        "E": 4,
+        "B": 1
+      },
+      "equipment": 0.9300000000000002,
+      "pets": 0.20600000000000004,
+      "gems": 0.45000000000000007,
+      "dust": 20.4
+    },
+    {
+      "stage": "gale-08",
+      "ranks": {
+        "N": 2,
+        "S": 30,
+        "G": 0,
+        "H": 1,
+        "E": 3,
+        "B": 1
+      },
+      "equipment": 0.8450000000000001,
+      "pets": 0.21900000000000006,
+      "gems": 0.33,
+      "dust": 20.35
+    },
+    {
+      "stage": "gale-09",
+      "ranks": {
+        "N": 4,
+        "S": 17,
+        "G": 1,
+        "H": 1,
+        "E": 7,
+        "B": 1
+      },
+      "equipment": 0.895,
+      "pets": 0.269,
+      "gems": 0.5,
+      "dust": 25.95
+    },
+    {
+      "stage": "gale-10",
+      "ranks": {
+        "N": 7,
+        "S": 11,
+        "G": 4,
+        "H": 5,
+        "E": 9,
+        "B": 1
+      },
+      "equipment": 1.0399999999999998,
+      "pets": 0.32100000000000006,
+      "gems": 0.6500000000000001,
+      "dust": 31.650000000000002
+    },
+    {
+      "stage": "frost-01",
+      "ranks": {
+        "N": 2,
+        "S": 0,
+        "G": 1,
+        "H": 1,
+        "E": 5,
+        "B": 1
+      },
+      "equipment": 0.75,
+      "pets": 0.17200000000000001,
+      "gems": 0.42000000000000004,
+      "dust": 17.2
+    },
+    {
+      "stage": "frost-02",
+      "ranks": {
+        "N": 5,
+        "S": 5,
+        "G": 6,
+        "H": 2,
+        "E": 3,
+        "B": 1
+      },
+      "equipment": 0.855,
+      "pets": 0.17400000000000002,
+      "gems": 0.4,
+      "dust": 17.3
+    },
+    {
+      "stage": "frost-03",
+      "ranks": {
+        "N": 6,
+        "S": 3,
+        "G": 3,
+        "H": 10,
+        "E": 4,
+        "B": 1
+      },
+      "equipment": 0.9500000000000002,
+      "pets": 0.20600000000000002,
+      "gems": 0.49000000000000005,
+      "dust": 20.8
+    },
+    {
+      "stage": "frost-04",
+      "ranks": {
+        "N": 10,
+        "S": 3,
+        "G": 4,
+        "H": 5,
+        "E": 4,
+        "B": 1
+      },
+      "equipment": 0.9300000000000002,
+      "pets": 0.20600000000000004,
+      "gems": 0.45000000000000007,
+      "dust": 20.4
+    },
+    {
+      "stage": "frost-05",
+      "ranks": {
+        "N": 6,
+        "S": 11,
+        "G": 1,
+        "H": 1,
+        "E": 1,
+        "B": 1
+      },
+      "equipment": 0.765,
+      "pets": 0.137,
+      "gems": 0.26,
+      "dust": 12.95
+    },
+    {
+      "stage": "frost-06",
+      "ranks": {
+        "N": 3,
+        "S": 13,
+        "G": 5,
+        "H": 2,
+        "E": 3,
+        "B": 1
+      },
+      "equipment": 0.8600000000000001,
+      "pets": 0.18900000000000006,
+      "gems": 0.39000000000000007,
+      "dust": 18.450000000000003
+    },
+    {
+      "stage": "frost-07",
+      "ranks": {
+        "N": 5,
+        "S": 5,
+        "G": 6,
+        "H": 2,
+        "E": 3,
+        "B": 1
+      },
+      "equipment": 0.855,
+      "pets": 0.17400000000000002,
+      "gems": 0.4,
+      "dust": 17.3
+    },
+    {
+      "stage": "frost-08",
+      "ranks": {
+        "N": 4,
+        "S": 17,
+        "G": 1,
+        "H": 1,
+        "E": 7,
+        "B": 1
+      },
+      "equipment": 0.895,
+      "pets": 0.269,
+      "gems": 0.5,
+      "dust": 25.95
+    },
+    {
+      "stage": "frost-09",
+      "ranks": {
+        "N": 6,
+        "S": 3,
+        "G": 3,
+        "H": 10,
+        "E": 4,
+        "B": 1
+      },
+      "equipment": 0.9500000000000002,
+      "pets": 0.20600000000000002,
+      "gems": 0.49000000000000005,
+      "dust": 20.8
+    },
+    {
+      "stage": "frost-10",
+      "ranks": {
+        "N": 7,
+        "S": 11,
+        "G": 4,
+        "H": 5,
+        "E": 9,
+        "B": 1
+      },
+      "equipment": 1.0399999999999998,
+      "pets": 0.32100000000000006,
+      "gems": 0.6500000000000001,
+      "dust": 31.650000000000002
+    },
+    {
+      "stage": "astral-01",
+      "ranks": {
+        "N": 3,
+        "S": 13,
+        "G": 5,
+        "H": 2,
+        "E": 3,
+        "B": 1
+      },
+      "equipment": 0.8600000000000001,
+      "pets": 0.18900000000000006,
+      "gems": 0.39000000000000007,
+      "dust": 18.450000000000003
+    },
+    {
+      "stage": "astral-02",
+      "ranks": {
+        "N": 4,
+        "S": 17,
+        "G": 1,
+        "H": 1,
+        "E": 7,
+        "B": 1
+      },
+      "equipment": 0.895,
+      "pets": 0.269,
+      "gems": 0.5,
+      "dust": 25.95
+    },
+    {
+      "stage": "astral-03",
+      "ranks": {
+        "N": 2,
+        "S": 0,
+        "G": 1,
+        "H": 1,
+        "E": 5,
+        "B": 1
+      },
+      "equipment": 0.75,
+      "pets": 0.17200000000000001,
+      "gems": 0.42000000000000004,
+      "dust": 17.2
+    },
+    {
+      "stage": "astral-04",
+      "ranks": {
+        "N": 2,
+        "S": 30,
+        "G": 0,
+        "H": 1,
+        "E": 3,
+        "B": 1
+      },
+      "equipment": 0.8450000000000001,
+      "pets": 0.21900000000000006,
+      "gems": 0.33,
+      "dust": 20.35
+    },
+    {
+      "stage": "astral-05",
+      "ranks": {
+        "N": 6,
+        "S": 3,
+        "G": 3,
+        "H": 10,
+        "E": 4,
+        "B": 1
+      },
+      "equipment": 0.9500000000000002,
+      "pets": 0.20600000000000002,
+      "gems": 0.49000000000000005,
+      "dust": 20.8
+    },
+    {
+      "stage": "astral-06",
+      "ranks": {
+        "N": 10,
+        "S": 3,
+        "G": 4,
+        "H": 5,
+        "E": 4,
+        "B": 1
+      },
+      "equipment": 0.9300000000000002,
+      "pets": 0.20600000000000004,
+      "gems": 0.45000000000000007,
+      "dust": 20.4
+    },
+    {
+      "stage": "astral-07",
+      "ranks": {
+        "N": 3,
+        "S": 13,
+        "G": 5,
+        "H": 2,
+        "E": 3,
+        "B": 1
+      },
+      "equipment": 0.8600000000000001,
+      "pets": 0.18900000000000006,
+      "gems": 0.39000000000000007,
+      "dust": 18.450000000000003
+    },
+    {
+      "stage": "astral-08",
+      "ranks": {
+        "N": 5,
+        "S": 5,
+        "G": 6,
+        "H": 2,
+        "E": 3,
+        "B": 1
+      },
+      "equipment": 0.855,
+      "pets": 0.17400000000000002,
+      "gems": 0.4,
+      "dust": 17.3
+    },
+    {
+      "stage": "astral-09",
+      "ranks": {
+        "N": 4,
+        "S": 17,
+        "G": 1,
+        "H": 1,
+        "E": 7,
+        "B": 1
+      },
+      "equipment": 0.895,
+      "pets": 0.269,
+      "gems": 0.5,
+      "dust": 25.95
+    },
+    {
+      "stage": "astral-10",
+      "ranks": {
+        "N": 7,
+        "S": 11,
+        "G": 4,
+        "H": 5,
+        "E": 9,
+        "B": 1
+      },
+      "equipment": 1.0399999999999998,
+      "pets": 0.32100000000000006,
+      "gems": 0.6500000000000001,
+      "dust": 31.650000000000002
+    }
+  ],
+  "capacity": [
+    {
+      "profile": "early",
+      "stage": "verdant-01",
+      "challenge": false,
+      "n": 1000,
+      "capacityFailures": 0,
+      "deaths": 0,
+      "firstRunSeconds": {
+        "p05": 21.6,
+        "p50": 21.650000000000002,
+        "p95": 21.700000000000003
+      },
+      "meanEquipment": 28.197,
+      "meanPets": 3.703,
+      "upperFailure95": 0.002991249545095276,
+      "upperFailure95Bonferroni16": 0.005751716174892174
+    },
+    {
+      "profile": "early",
+      "stage": "verdant-01",
+      "challenge": true,
+      "n": 1000,
+      "capacityFailures": 0,
+      "deaths": 0,
+      "firstRunSeconds": {
+        "p05": 21.650000000000002,
+        "p50": 22.700000000000003,
+        "p95": 22.75
+      },
+      "meanEquipment": 30.838,
+      "meanPets": 3.438,
+      "upperFailure95": 0.002991249545095276,
+      "upperFailure95Bonferroni16": 0.005751716174892174
+    },
+    {
+      "profile": "mid",
+      "stage": "verdant-04",
+      "challenge": false,
+      "n": 1000,
+      "capacityFailures": 0,
+      "deaths": 0,
+      "firstRunSeconds": {
+        "p05": 23.6,
+        "p50": 25.05,
+        "p95": 25.1
+      },
+      "meanEquipment": 30.67,
+      "meanPets": 7.945,
+      "upperFailure95": 0.002991249545095276,
+      "upperFailure95Bonferroni16": 0.005751716174892174
+    },
+    {
+      "profile": "mid",
+      "stage": "verdant-04",
+      "challenge": true,
+      "n": 1000,
+      "capacityFailures": 0,
+      "deaths": 0,
+      "firstRunSeconds": {
+        "p05": 26.200000000000003,
+        "p50": 28.1,
+        "p95": 28.200000000000003
+      },
+      "meanEquipment": 30.577,
+      "meanPets": 7.179,
+      "upperFailure95": 0.002991249545095276,
+      "upperFailure95Bonferroni16": 0.005751716174892174
+    },
+    {
+      "profile": "late",
+      "stage": "verdant-10",
+      "challenge": false,
+      "n": 1000,
+      "capacityFailures": 1,
+      "deaths": 0,
+      "firstRunSeconds": {
+        "p05": 28.1,
+        "p50": 29.1,
+        "p95": 30.150000000000002
+      },
+      "meanEquipment": 31.636,
+      "meanPets": 9.873,
+      "upperFailure95": 0.004734993575499724,
+      "upperFailure95Bonferroni16": 0.007933576283629507
+    },
+    {
+      "profile": "late",
+      "stage": "verdant-10",
+      "challenge": true,
+      "n": 1000,
+      "capacityFailures": 0,
+      "deaths": 0,
+      "firstRunSeconds": {
+        "p05": 33.7,
+        "p50": 36.7,
+        "p95": 40.150000000000006
+      },
+      "meanEquipment": 27.351,
+      "meanPets": 7.812,
+      "upperFailure95": 0.002991249545095276,
+      "upperFailure95Bonferroni16": 0.005751716174892174
+    },
+    {
+      "profile": "late-gem",
+      "stage": "verdant-10",
+      "challenge": false,
+      "n": 1000,
+      "capacityFailures": 11,
+      "deaths": 0,
+      "firstRunSeconds": {
+        "p05": 23.6,
+        "p50": 25.6,
+        "p95": 26.6
+      },
+      "meanEquipment": 36.91,
+      "meanPets": 11.568,
+      "upperFailure95": 0.018141892240076285,
+      "upperFailure95Bonferroni16": 0.02347456603300685
+    },
+    {
+      "profile": "late-gem",
+      "stage": "verdant-10",
+      "challenge": true,
+      "n": 1000,
+      "capacityFailures": 1,
+      "deaths": 0,
+      "firstRunSeconds": {
+        "p05": 27.650000000000002,
+        "p50": 29.700000000000003,
+        "p95": 31.200000000000003
+      },
+      "meanEquipment": 34.284,
+      "meanPets": 9.665,
+      "upperFailure95": 0.004734993575499724,
+      "upperFailure95Bonferroni16": 0.007933576283629507
+    },
+    {
+      "profile": "return",
+      "stage": "verdant-01",
+      "challenge": false,
+      "n": 1000,
+      "capacityFailures": 0,
+      "deaths": 0,
+      "firstRunSeconds": {
+        "p05": 21.1,
+        "p50": 21.150000000000002,
+        "p95": 21.200000000000003
+      },
+      "meanEquipment": 28.879,
+      "meanPets": 3.79,
+      "upperFailure95": 0.002991249545095276,
+      "upperFailure95Bonferroni16": 0.005751716174892174
+    },
+    {
+      "profile": "return",
+      "stage": "verdant-01",
+      "challenge": true,
+      "n": 1000,
+      "capacityFailures": 0,
+      "deaths": 0,
+      "firstRunSeconds": {
+        "p05": 21.150000000000002,
+        "p50": 21.200000000000003,
+        "p95": 21.25
+      },
+      "meanEquipment": 33.249,
+      "meanPets": 3.706,
+      "upperFailure95": 0.002991249545095276,
+      "upperFailure95Bonferroni16": 0.005751716174892174
+    },
+    {
+      "profile": "wolf",
+      "stage": "verdant-10",
+      "challenge": false,
+      "n": 1000,
+      "capacityFailures": 0,
+      "deaths": 0,
+      "firstRunSeconds": {
+        "p05": 31.650000000000002,
+        "p50": 33.1,
+        "p95": 35.1
+      },
+      "meanEquipment": 28.108,
+      "meanPets": 8.741,
+      "upperFailure95": 0.002991249545095276,
+      "upperFailure95Bonferroni16": 0.005751716174892174
+    },
+    {
+      "profile": "wolf",
+      "stage": "verdant-10",
+      "challenge": true,
+      "n": 1000,
+      "capacityFailures": 0,
+      "deaths": 0,
+      "firstRunSeconds": {
+        "p05": 34.800000000000004,
+        "p50": 37.65,
+        "p95": 40.150000000000006
+      },
+      "meanEquipment": 27.535,
+      "meanPets": 7.872,
+      "upperFailure95": 0.002991249545095276,
+      "upperFailure95Bonferroni16": 0.005751716174892174
+    },
+    {
+      "profile": "ward",
+      "stage": "verdant-10",
+      "challenge": false,
+      "n": 1000,
+      "capacityFailures": 0,
+      "deaths": 0,
+      "firstRunSeconds": {
+        "p05": 42.6,
+        "p50": 48.6,
+        "p95": 48.650000000000006
+      },
+      "meanEquipment": 19.278,
+      "meanPets": 6.013,
+      "upperFailure95": 0.002991249545095276,
+      "upperFailure95Bonferroni16": 0.005751716174892174
+    },
+    {
+      "profile": "ward",
+      "stage": "verdant-10",
+      "challenge": true,
+      "n": 1000,
+      "capacityFailures": 0,
+      "deaths": 0,
+      "firstRunSeconds": {
+        "p05": 49.150000000000006,
+        "p50": 51.7,
+        "p95": 52.2
+      },
+      "meanEquipment": 19.633,
+      "meanPets": 5.622,
+      "upperFailure95": 0.002991249545095276,
+      "upperFailure95Bonferroni16": 0.005751716174892174
+    },
+    {
+      "profile": "charge",
+      "stage": "verdant-10",
+      "challenge": false,
+      "n": 1000,
+      "capacityFailures": 4,
+      "deaths": 0,
+      "firstRunSeconds": {
+        "p05": 26.6,
+        "p50": 27.650000000000002,
+        "p95": 28.650000000000002
+      },
+      "meanEquipment": 33.402,
+      "meanPets": 10.466,
+      "upperFailure95": 0.009129952563871446,
+      "upperFailure95Bonferroni16": 0.0131879045897208
+    },
+    {
+      "profile": "charge",
+      "stage": "verdant-10",
+      "challenge": true,
+      "n": 1000,
+      "capacityFailures": 3,
+      "deaths": 0,
+      "firstRunSeconds": {
+        "p05": 28.150000000000002,
+        "p50": 28.200000000000003,
+        "p95": 28.8
+      },
+      "meanEquipment": 35.516,
+      "meanPets": 9.965,
+      "upperFailure95": 0.007735244718479473,
+      "upperFailure95Bonferroni16": 0.011546803052272125
+    }
+  ],
+  "matrixSummary": {
+    "cases": 420,
+    "runs": 12600,
+    "deaths": 0,
+    "stalled": 0
+  }
+}

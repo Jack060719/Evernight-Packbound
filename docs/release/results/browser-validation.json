@@ -1,0 +1,62 @@
+[
+  {
+    "case": "footer-mouse-held-press-across-renders",
+    "status": "PASS"
+  },
+  {
+    "case": "footer-touch-held-press-across-renders",
+    "status": "PASS"
+  },
+  {
+    "case": "mobile-360x740",
+    "status": "PASS"
+  },
+  {
+    "case": "mobile-390x844",
+    "status": "PASS"
+  },
+  {
+    "case": "mobile-430x932",
+    "status": "PASS"
+  },
+  {
+    "case": "desktop-1024x720",
+    "status": "PASS"
+  },
+  {
+    "case": "desktop-1366x768",
+    "status": "PASS"
+  },
+  {
+    "case": "desktop-1440x900",
+    "status": "PASS"
+  },
+  {
+    "case": "desktop-1920x1080",
+    "status": "PASS"
+  },
+  {
+    "case": "touch-placement-loadout-preview-reload",
+    "status": "PASS"
+  },
+  {
+    "case": "real-indexeddb-multitab-single-winner",
+    "status": "PASS"
+  },
+  {
+    "case": "real-indexeddb-abort-after-put",
+    "status": "PASS"
+  },
+  {
+    "case": "legacy-v2-real-storage-migration",
+    "status": "PASS"
+  },
+  {
+    "case": "import-preview-cancel-confirm-no-heal",
+    "status": "PASS"
+  },
+  {
+    "case": "future-save-readonly-raw-preserved",
+    "status": "PASS"
+  }
+]

@@ -61,8 +61,8 @@ async function touchDrag(page, from, to) {
     await page.waitForTimeout(20);
   }
   await cdp.send('Input.dispatchTouchEvent', { type: 'touchEnd', touchPoints: [] });
-  // Chrome suppresses compatibility clicks briefly after a touch drag.
-  await page.waitForTimeout(350);
+  // CDP touch drags can suppress the next compatibility click for longer than 350 ms.
+  await page.waitForTimeout(1000);
   await cdp.detach();
 }
 
@@ -372,9 +372,11 @@ try {
     await mergePage.waitForSelector('#game-dialog[open]');
     assert.match(await mergePage.locator('#dialog-content').innerText(), /90%/);
     await tap(mergePage, '[data-action="cancel-dialog"]');
+    await mergePage.waitForFunction(() => !document.querySelector('#game-dialog').open);
     assert.deepEqual((await stateOf(mergePage)).items, before, 'Cancelling never moves or consumes either item');
     await touchDrag(mergePage, source, target);
     await tap(mergePage, '[data-action="confirm-dialog"]');
+    await mergePage.waitForFunction(() => !document.querySelector('#game-dialog').open);
     const merged = (await stateOf(mergePage)).items;
     assert.equal(merged.length, 1);
     assert.equal(merged[0].id, 'merge-target');
@@ -460,7 +462,7 @@ try {
   results.push({ reducedMotion: 'passed' });
   await reducedContext.close();
 
-  // Unrecognized saves survive opening and hiding until an explicit new start.
+  // Task 04: opening, hiding and even a forced start click cannot unlock a damaged save.
   const context = await browser.newContext();
   const corrupt = JSON.stringify({ version: 999, keep: 'original' });
   await context.addInitScript(([key, raw]) => localStorage.setItem(key, raw), [saveKey, corrupt]);
@@ -469,10 +471,21 @@ try {
   await page.waitForFunction(() => window.__packbound?.engine);
   await page.evaluate(() => window.dispatchEvent(new Event('pagehide')));
   assert.equal(await page.evaluate(key => localStorage.getItem(key), saveKey), corrupt, 'Unrecognized save must not be silently overwritten');
-  await page.waitForFunction(() => !document.querySelector('[data-action="start"]').disabled);
-  await page.locator('[data-action="start"]').click();
-  assert.equal(JSON.parse(await page.evaluate(key => localStorage.getItem(key), saveKey)).version, 2);
-  results.push({ corruptSavePreservedUntilExplicitStart: true });
+  await page.waitForFunction(() => document.querySelector('[data-action="start"]').textContent === '存檔需要恢復');
+  assert.equal(await page.locator('[data-action="start"]').isDisabled(), true);
+  const protectedState = await stateOf(page);
+  await page.evaluate(() => {
+    const button = document.querySelector('[data-action="start"]');
+    button.disabled = false;
+    button.click();
+    window.__packbound.save();
+    window.dispatchEvent(new Event('pagehide'));
+  });
+  await page.waitForTimeout(250);
+  assert.equal(await page.locator('#title-screen').isVisible(), true, 'Forced click cannot bypass the readonly guard');
+  assert.deepEqual(await stateOf(page), protectedState, 'Readonly mode does not start or simulate the fallback state');
+  assert.equal(await page.evaluate(key => localStorage.getItem(key), saveKey), corrupt, 'Explicit start cannot overwrite an unrecognized save');
+  results.push({ corruptSaveLockedAcrossStartAndPagehide: true });
   await context.close();
   assert.deepEqual(failures, [], 'Browser errors');
   await writeFile(new URL('browser-results.json', output), JSON.stringify({ results, failures }, null, 2));

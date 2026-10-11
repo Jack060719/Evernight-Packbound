@@ -11,7 +11,7 @@ export class GameAudio {
   private voices = 0;
   private activeSounds = new Set<AudioBufferSourceNode>();
 
-  async start(settings: Settings) {
+  async start(settings: Pick<Settings,'musicVolume'|'soundVolume'|'musicMuted'|'soundMuted'>) {
     if (!this.context) {
       this.context = new AudioContext();
       this.musicGain = this.context.createGain();
@@ -41,7 +41,7 @@ export class GameAudio {
     music.start();
   }
 
-  sync(settings: Settings) {
+  sync(settings: Pick<Settings,'musicVolume'|'soundVolume'|'musicMuted'|'soundMuted'>) {
     if (this.musicGain) this.musicGain.gain.value = settings.musicMuted ? 0 : settings.musicVolume * 0.55;
     if (this.soundGain) this.soundGain.gain.value = settings.soundMuted ? 0 : settings.soundVolume * 0.7;
   }

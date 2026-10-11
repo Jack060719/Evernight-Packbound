@@ -1,8 +1,27 @@
 # 開發路線與驗收
 
-已建立三層可玩原型，並完成明亮森林像素風、全自動回合與背包操作改版。最新驗證見第 7 階段下方，舊版紀錄另行保留；手機實機及長期平衡仍待完成。
+2026-10-11：正式版入口已接上 70 關、完整養成與 v3 存檔，已完成自動化驗證並交付試玩。使用者已授權依模擬調整平衡及一路完成實作；先前「只做到 04」的停點已被後續授權取代。最新狀態與真人檢查清單見 [19 正式版交接](docs/release/19-handoff.md)。以下保留 04 和原型歷史，不能視為目前入口。
+
+- [x] 05–14：戰鬥、世界、裝備／靈寵、收藏、素材、介面、客製化、地物、中央交易及遷移整合。
+- [x] 15–17：B／C 掉率比較、三套配裝與消融、70 關普通／挑戰、容量驗收、存檔／介面問題修正。
+- [x] 18 自動化：235 項單元／整合測試、建置、三種手機與四種桌面尺寸，十五組瀏覽器場景。
+- [ ] 18 真人／真機：使用者主動與低操作各 30 分鐘，Android／iOS 觸控、背景與音訊；不把模擬冒充實玩。
+- [x] 19：交接文件、可重跑腳本、原始結果與試玩清單；依後續授權加入 GitHub Pages 自動發布，提供手機線上入口。
 
 玩法依據為 [產品規格](docs/PRODUCT.md)，技術分工見 [技術架構](docs/ARCHITECTURE.md)。以下核取方塊表示實作進度；驗收條件與實際通過範圍分開記錄。
+
+## 正式版進度：G1_APPROVED／04_READY_FOR_RE_REVIEW
+
+2026-10-09：只修復04驗收的三項問題；契約升為BASE_CONTRACT_V1.1，包含寫前驗證、四類轉移接口與可攜重建包。[本次修復與證據](docs/release/04-contracts.md)獨立於下方首次交付歷史。05–19仍未啟動。
+
+2026-10-08：使用者核准01–03並授權只完成04、完成即停。基線仍為 main / 1e2ac7e891835e85f9f31b02a1166cd99f9cbb52；保留前輪未提交規劃，沒有commit、merge、push或部署，未操作玩家存檔。00已在對話接受，沒有另造00-audit.md。
+
+- [04契約與骨架交接](docs/release/04-contracts.md)：BASE_CONTRACT_V1、ports、保存狀態、RNG/gate與存檔保護；[交付SHA-256清單](docs/release/04-manifest.json)標識exact base加工作樹，不是新commit。
+- 111項測試、typecheck/build、360/390/430瀏覽器回歸通過；正式版平衡/容量引擎實測仍待15。
+- 裝備60、寵物30、背包48是新契約，原型尚未切換。B及15/10/5為首輪候選，prepared 55/50裝位、20寵位及95%目標納入驗收，不把紙算當實測。
+- 01：[設計](docs/release/01-design.md)、[數表](docs/release/01-tables.md)、[UI](docs/release/01-ui-sketches.md)；02：[契約](docs/release/02-contract-proposal.md)、[責任](docs/release/02-file-ownership.md)、[遷移](docs/release/02-save-plan.md)；03：[驗收](docs/release/03-test-plan.md)、[資料](docs/release/03-fixture-plan.md)；[需求](docs/release/requirements-r2.md)。
+- 可攜派工入口為[包內 ROADMAP](docs/release/planning/ROADMAP.md)、TASK_INDEX.json、DISPATCH.md與tasks/；新 agent 先讀[重建與停點](docs/release/04-rebuild.md)。
+- **04完成待驗收，05–19未啟動。** 以下核取保留為原型歷史，不代表正式版新系統完成。
 
 ## 1. 基礎專案與戰鬥循環 — 已實作／規則測試通過
 

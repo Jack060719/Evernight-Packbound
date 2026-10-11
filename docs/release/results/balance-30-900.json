@@ -1,0 +1,5078 @@
+{
+  "version": "integrated-v2-r2-feedback02-B",
+  "clock": "50ms simulation ticks; includes ground exit pickups; no storage latency",
+  "results": [
+    {
+      "profile": "early",
+      "stage": "verdant-01",
+      "challenge": false,
+      "n": 30,
+      "capacityFailures": 0,
+      "deaths": 0,
+      "firstRunSeconds": {
+        "p05": 21.150000000000002,
+        "p50": 21.650000000000002,
+        "p95": 21.700000000000003
+      },
+      "meanEquipment": 32.63333333333333,
+      "meanPets": 3.6666666666666665,
+      "rows": [
+        {
+          "seconds": 900,
+          "runs": 41,
+          "firstRun": 21.650000000000002,
+          "actions": 456,
+          "reason": "none",
+          "equipment": 30,
+          "pets": 5,
+          "hp": 118
+        },
+        {
+          "seconds": 900,
+          "runs": 41,
+          "firstRun": 21.6,
+          "actions": 453,
+          "reason": "none",
+          "equipment": 29,
+          "pets": 4,
+          "hp": 118
+        },
+        {
+          "seconds": 900,
+          "runs": 41,
+          "firstRun": 21.700000000000003,
+          "actions": 456,
+          "reason": "none",
+          "equipment": 36,
+          "pets": 6,
+          "hp": 118
+        },
+        {
+          "seconds": 900,
+          "runs": 41,
+          "firstRun": 21.75,
+          "actions": 454,
+          "reason": "none",
+          "equipment": 37,
+          "pets": 3,
+          "hp": 118
+        },
+        {
+          "seconds": 900,
+          "runs": 41,
+          "firstRun": 21.6,
+          "actions": 454,
+          "reason": "none",
+          "equipment": 32,
+          "pets": 6,
+          "hp": 118
+        },
+        {
+          "seconds": 900,
+          "runs": 41,
+          "firstRun": 21.650000000000002,
+          "actions": 456,
+          "reason": "none",
+          "equipment": 37,
+          "pets": 2,
+          "hp": 118
+        },
+        {
+          "seconds": 900,
+          "runs": 41,
+          "firstRun": 21.650000000000002,
+          "actions": 456,
+          "reason": "none",
+          "equipment": 31,
+          "pets": 3,
+          "hp": 118
+        },
+        {
+          "seconds": 900,
+          "runs": 41,
+          "firstRun": 21.650000000000002,
+          "actions": 454,
+          "reason": "none",
+          "equipment": 29,
+          "pets": 4,
+          "hp": 118
+        },
+        {
+          "seconds": 900,
+          "runs": 41,
+          "firstRun": 21.650000000000002,
+          "actions": 456,
+          "reason": "none",
+          "equipment": 26,
+          "pets": 3,
+          "hp": 118
+        },
+        {
+          "seconds": 900,
+          "runs": 41,
+          "firstRun": 21.700000000000003,
+          "actions": 455,
+          "reason": "none",
+          "equipment": 30,
+          "pets": 1,
+          "hp": 118
+        },
+        {
+          "seconds": 900,
+          "runs": 41,
+          "firstRun": 21.650000000000002,
+          "actions": 456,
+          "reason": "none",
+          "equipment": 30,
+          "pets": 4,
+          "hp": 118
+        },
+        {
+          "seconds": 900,
+          "runs": 41,
+          "firstRun": 21.650000000000002,
+          "actions": 456,
+          "reason": "none",
+          "equipment": 38,
+          "pets": 3,
+          "hp": 118
+        },
+        {
+          "seconds": 900,
+          "runs": 41,
+          "firstRun": 21.6,
+          "actions": 454,
+          "reason": "none",
+          "equipment": 32,
+          "pets": 4,
+          "hp": 118
+        },
+        {
+          "seconds": 900,
+          "runs": 41,
+          "firstRun": 21.650000000000002,
+          "actions": 456,
+          "reason": "none",
+          "equipment": 31,
+          "pets": 6,
+          "hp": 118
+        },
+        {
+          "seconds": 900,
+          "runs": 41,
+          "firstRun": 21.6,
+          "actions": 456,
+          "reason": "none",
+          "equipment": 32,
+          "pets": 2,
+          "hp": 118
+        },
+        {
+          "seconds": 900,
+          "runs": 41,
+          "firstRun": 21.6,
+          "actions": 455,
+          "reason": "none",
+          "equipment": 33,
+          "pets": 6,
+          "hp": 118
+        },
+        {
+          "seconds": 900,
+          "runs": 41,
+          "firstRun": 21.650000000000002,
+          "actions": 456,
+          "reason": "none",
+          "equipment": 33,
+          "pets": 2,
+          "hp": 118
+        },
+        {
+          "seconds": 900,
+          "runs": 41,
+          "firstRun": 21.650000000000002,
+          "actions": 454,
+          "reason": "none",
+          "equipment": 32,
+          "pets": 2,
+          "hp": 118
+        },
+        {
+          "seconds": 900,
+          "runs": 41,
+          "firstRun": 21.650000000000002,
+          "actions": 457,
+          "reason": "none",
+          "equipment": 39,
+          "pets": 2,
+          "hp": 118
+        },
+        {
+          "seconds": 900,
+          "runs": 41,
+          "firstRun": 21.6,
+          "actions": 453,
+          "reason": "none",
+          "equipment": 31,
+          "pets": 2,
+          "hp": 118
+        },
+        {
+          "seconds": 900,
+          "runs": 41,
+          "firstRun": 21.700000000000003,
+          "actions": 455,
+          "reason": "none",
+          "equipment": 33,
+          "pets": 5,
+          "hp": 118
+        },
+        {
+          "seconds": 900,
+          "runs": 41,
+          "firstRun": 21.650000000000002,
+          "actions": 452,
+          "reason": "none",
+          "equipment": 33,
+          "pets": 4,
+          "hp": 118
+        },
+        {
+          "seconds": 900,
+          "runs": 41,
+          "firstRun": 21.150000000000002,
+          "actions": 455,
+          "reason": "none",
+          "equipment": 30,
+          "pets": 6,
+          "hp": 118
+        },
+        {
+          "seconds": 900,
+          "runs": 41,
+          "firstRun": 21.150000000000002,
+          "actions": 454,
+          "reason": "none",
+          "equipment": 39,
+          "pets": 6,
+          "hp": 118
+        },
+        {
+          "seconds": 900,
+          "runs": 41,
+          "firstRun": 21.650000000000002,
+          "actions": 455,
+          "reason": "none",
+          "equipment": 32,
+          "pets": 5,
+          "hp": 118
+        },
+        {
+          "seconds": 900,
+          "runs": 41,
+          "firstRun": 21.650000000000002,
+          "actions": 455,
+          "reason": "none",
+          "equipment": 26,
+          "pets": 1,
+          "hp": 118
+        },
+        {
+          "seconds": 900,
+          "runs": 41,
+          "firstRun": 21.650000000000002,
+          "actions": 455,
+          "reason": "none",
+          "equipment": 30,
+          "pets": 3,
+          "hp": 118
+        },
+        {
+          "seconds": 900,
+          "runs": 41,
+          "firstRun": 21.650000000000002,
+          "actions": 454,
+          "reason": "none",
+          "equipment": 40,
+          "pets": 4,
+          "hp": 118
+        },
+        {
+          "seconds": 900,
+          "runs": 41,
+          "firstRun": 21.700000000000003,
+          "actions": 456,
+          "reason": "none",
+          "equipment": 31,
+          "pets": 3,
+          "hp": 118
+        },
+        {
+          "seconds": 900,
+          "runs": 41,
+          "firstRun": 21.650000000000002,
+          "actions": 457,
+          "reason": "none",
+          "equipment": 37,
+          "pets": 3,
+          "hp": 118
+        }
+      ]
+    },
+    {
+      "profile": "early",
+      "stage": "verdant-01",
+      "challenge": true,
+      "n": 30,
+      "capacityFailures": 0,
+      "deaths": 0,
+      "firstRunSeconds": {
+        "p05": 21.200000000000003,
+        "p50": 22.700000000000003,
+        "p95": 22.75
+      },
+      "meanEquipment": 35.06666666666667,
+      "meanPets": 3,
+      "rows": [
+        {
+          "seconds": 900,
+          "runs": 39,
+          "firstRun": 21.700000000000003,
+          "actions": 524,
+          "reason": "none",
+          "equipment": 35,
+          "pets": 4,
+          "hp": 118
+        },
+        {
+          "seconds": 900,
+          "runs": 39,
+          "firstRun": 21.650000000000002,
+          "actions": 519,
+          "reason": "none",
+          "equipment": 35,
+          "pets": 2,
+          "hp": 118
+        },
+        {
+          "seconds": 900,
+          "runs": 39,
+          "firstRun": 22.75,
+          "actions": 528,
+          "reason": "none",
+          "equipment": 36,
+          "pets": 6,
+          "hp": 118
+        },
+        {
+          "seconds": 900,
+          "runs": 39,
+          "firstRun": 22.8,
+          "actions": 530,
+          "reason": "none",
+          "equipment": 35,
+          "pets": 4,
+          "hp": 118
+        },
+        {
+          "seconds": 900,
+          "runs": 39,
+          "firstRun": 22.650000000000002,
+          "actions": 526,
+          "reason": "none",
+          "equipment": 33,
+          "pets": 0,
+          "hp": 118
+        },
+        {
+          "seconds": 900,
+          "runs": 39,
+          "firstRun": 22.75,
+          "actions": 519,
+          "reason": "none",
+          "equipment": 37,
+          "pets": 3,
+          "hp": 118
+        },
+        {
+          "seconds": 900,
+          "runs": 39,
+          "firstRun": 22.700000000000003,
+          "actions": 518,
+          "reason": "none",
+          "equipment": 39,
+          "pets": 2,
+          "hp": 118
+        },
+        {
+          "seconds": 900,
+          "runs": 39,
+          "firstRun": 22.700000000000003,
+          "actions": 526,
+          "reason": "none",
+          "equipment": 36,
+          "pets": 4,
+          "hp": 118
+        },
+        {
+          "seconds": 900,
+          "runs": 39,
+          "firstRun": 22.700000000000003,
+          "actions": 528,
+          "reason": "none",
+          "equipment": 39,
+          "pets": 3,
+          "hp": 118
+        },
+        {
+          "seconds": 900,
+          "runs": 39,
+          "firstRun": 22.75,
+          "actions": 515,
+          "reason": "none",
+          "equipment": 38,
+          "pets": 3,
+          "hp": 118
+        },
+        {
+          "seconds": 900,
+          "runs": 39,
+          "firstRun": 22.700000000000003,
+          "actions": 521,
+          "reason": "none",
+          "equipment": 37,
+          "pets": 3,
+          "hp": 118
+        },
+        {
+          "seconds": 900,
+          "runs": 39,
+          "firstRun": 22.700000000000003,
+          "actions": 527,
+          "reason": "none",
+          "equipment": 34,
+          "pets": 3,
+          "hp": 118
+        },
+        {
+          "seconds": 900,
+          "runs": 39,
+          "firstRun": 22.650000000000002,
+          "actions": 530,
+          "reason": "none",
+          "equipment": 25,
+          "pets": 2,
+          "hp": 118
+        },
+        {
+          "seconds": 900,
+          "runs": 39,
+          "firstRun": 22.700000000000003,
+          "actions": 519,
+          "reason": "none",
+          "equipment": 34,
+          "pets": 5,
+          "hp": 118
+        },
+        {
+          "seconds": 900,
+          "runs": 39,
+          "firstRun": 22.75,
+          "actions": 532,
+          "reason": "none",
+          "equipment": 29,
+          "pets": 4,
+          "hp": 118
+        },
+        {
+          "seconds": 900,
+          "runs": 39,
+          "firstRun": 22.650000000000002,
+          "actions": 528,
+          "reason": "none",
+          "equipment": 43,
+          "pets": 5,
+          "hp": 118
+        },
+        {
+          "seconds": 900,
+          "runs": 39,
+          "firstRun": 21.700000000000003,
+          "actions": 521,
+          "reason": "none",
+          "equipment": 31,
+          "pets": 1,
+          "hp": 118
+        },
+        {
+          "seconds": 900,
+          "runs": 39,
+          "firstRun": 22.700000000000003,
+          "actions": 519,
+          "reason": "none",
+          "equipment": 33,
+          "pets": 2,
+          "hp": 118
+        },
+        {
+          "seconds": 900,
+          "runs": 39,
+          "firstRun": 22.700000000000003,
+          "actions": 521,
+          "reason": "none",
+          "equipment": 41,
+          "pets": 2,
+          "hp": 118
+        },
+        {
+          "seconds": 900,
+          "runs": 39,
+          "firstRun": 22.700000000000003,
+          "actions": 514,
+          "reason": "none",
+          "equipment": 33,
+          "pets": 1,
+          "hp": 118
+        },
+        {
+          "seconds": 900,
+          "runs": 39,
+          "firstRun": 22.75,
+          "actions": 532,
+          "reason": "none",
+          "equipment": 27,
+          "pets": 4,
+          "hp": 118
+        },
+        {
+          "seconds": 900,
+          "runs": 39,
+          "firstRun": 22.700000000000003,
+          "actions": 515,
+          "reason": "none",
+          "equipment": 33,
+          "pets": 4,
+          "hp": 118
+        },
+        {
+          "seconds": 900,
+          "runs": 39,
+          "firstRun": 21.200000000000003,
+          "actions": 525,
+          "reason": "none",
+          "equipment": 31,
+          "pets": 4,
+          "hp": 118
+        },
+        {
+          "seconds": 900,
+          "runs": 39,
+          "firstRun": 21.200000000000003,
+          "actions": 524,
+          "reason": "none",
+          "equipment": 40,
+          "pets": 4,
+          "hp": 118
+        },
+        {
+          "seconds": 900,
+          "runs": 39,
+          "firstRun": 22.700000000000003,
+          "actions": 529,
+          "reason": "none",
+          "equipment": 31,
+          "pets": 1,
+          "hp": 118
+        },
+        {
+          "seconds": 900,
+          "runs": 39,
+          "firstRun": 22.700000000000003,
+          "actions": 526,
+          "reason": "none",
+          "equipment": 32,
+          "pets": 1,
+          "hp": 118
+        },
+        {
+          "seconds": 900,
+          "runs": 39,
+          "firstRun": 22.700000000000003,
+          "actions": 527,
+          "reason": "none",
+          "equipment": 41,
+          "pets": 2,
+          "hp": 118
+        },
+        {
+          "seconds": 900,
+          "runs": 39,
+          "firstRun": 22.700000000000003,
+          "actions": 529,
+          "reason": "none",
+          "equipment": 38,
+          "pets": 3,
+          "hp": 118
+        },
+        {
+          "seconds": 900,
+          "runs": 39,
+          "firstRun": 22.75,
+          "actions": 532,
+          "reason": "none",
+          "equipment": 39,
+          "pets": 4,
+          "hp": 118
+        },
+        {
+          "seconds": 900,
+          "runs": 39,
+          "firstRun": 22.700000000000003,
+          "actions": 525,
+          "reason": "none",
+          "equipment": 37,
+          "pets": 4,
+          "hp": 118
+        }
+      ]
+    },
+    {
+      "profile": "mid",
+      "stage": "verdant-04",
+      "challenge": false,
+      "n": 30,
+      "capacityFailures": 0,
+      "deaths": 0,
+      "firstRunSeconds": {
+        "p05": 23.6,
+        "p50": 25.05,
+        "p95": 25.1
+      },
+      "meanEquipment": 35.4,
+      "meanPets": 7.7,
+      "rows": [
+        {
+          "seconds": 900,
+          "runs": 36,
+          "firstRun": 23.6,
+          "actions": 642,
+          "reason": "none",
+          "equipment": 37,
+          "pets": 5,
+          "hp": 235
+        },
+        {
+          "seconds": 900,
+          "runs": 36,
+          "firstRun": 23.700000000000003,
+          "actions": 633,
+          "reason": "none",
+          "equipment": 40,
+          "pets": 8,
+          "hp": 235
+        },
+        {
+          "seconds": 900,
+          "runs": 36,
+          "firstRun": 25.05,
+          "actions": 626,
+          "reason": "none",
+          "equipment": 38,
+          "pets": 4,
+          "hp": 235
+        },
+        {
+          "seconds": 900,
+          "runs": 36,
+          "firstRun": 25.05,
+          "actions": 633,
+          "reason": "none",
+          "equipment": 38,
+          "pets": 8,
+          "hp": 235
+        },
+        {
+          "seconds": 900,
+          "runs": 36,
+          "firstRun": 23.1,
+          "actions": 632,
+          "reason": "none",
+          "equipment": 31,
+          "pets": 9,
+          "hp": 235
+        },
+        {
+          "seconds": 900,
+          "runs": 36,
+          "firstRun": 25.05,
+          "actions": 628,
+          "reason": "none",
+          "equipment": 36,
+          "pets": 13,
+          "hp": 235
+        },
+        {
+          "seconds": 900,
+          "runs": 36,
+          "firstRun": 25.05,
+          "actions": 636,
+          "reason": "none",
+          "equipment": 37,
+          "pets": 2,
+          "hp": 235
+        },
+        {
+          "seconds": 900,
+          "runs": 36,
+          "firstRun": 25.05,
+          "actions": 632,
+          "reason": "none",
+          "equipment": 34,
+          "pets": 7,
+          "hp": 235
+        },
+        {
+          "seconds": 900,
+          "runs": 36,
+          "firstRun": 23.650000000000002,
+          "actions": 623,
+          "reason": "none",
+          "equipment": 35,
+          "pets": 7,
+          "hp": 235
+        },
+        {
+          "seconds": 900,
+          "runs": 35,
+          "firstRun": 25.1,
+          "actions": 645,
+          "reason": "none",
+          "equipment": 33,
+          "pets": 10,
+          "hp": 235
+        },
+        {
+          "seconds": 900,
+          "runs": 36,
+          "firstRun": 25.05,
+          "actions": 633,
+          "reason": "none",
+          "equipment": 39,
+          "pets": 5,
+          "hp": 235
+        },
+        {
+          "seconds": 900,
+          "runs": 36,
+          "firstRun": 25.05,
+          "actions": 641,
+          "reason": "none",
+          "equipment": 38,
+          "pets": 3,
+          "hp": 235
+        },
+        {
+          "seconds": 900,
+          "runs": 36,
+          "firstRun": 25.1,
+          "actions": 642,
+          "reason": "none",
+          "equipment": 38,
+          "pets": 12,
+          "hp": 235
+        },
+        {
+          "seconds": 900,
+          "runs": 36,
+          "firstRun": 23.650000000000002,
+          "actions": 633,
+          "reason": "none",
+          "equipment": 33,
+          "pets": 8,
+          "hp": 235
+        },
+        {
+          "seconds": 900,
+          "runs": 36,
+          "firstRun": 25.05,
+          "actions": 642,
+          "reason": "none",
+          "equipment": 27,
+          "pets": 6,
+          "hp": 235
+        },
+        {
+          "seconds": 900,
+          "runs": 36,
+          "firstRun": 25.1,
+          "actions": 638,
+          "reason": "none",
+          "equipment": 33,
+          "pets": 13,
+          "hp": 235
+        },
+        {
+          "seconds": 900,
+          "runs": 36,
+          "firstRun": 25.05,
+          "actions": 642,
+          "reason": "none",
+          "equipment": 29,
+          "pets": 6,
+          "hp": 235
+        },
+        {
+          "seconds": 900,
+          "runs": 36,
+          "firstRun": 25.05,
+          "actions": 637,
+          "reason": "none",
+          "equipment": 34,
+          "pets": 9,
+          "hp": 235
+        },
+        {
+          "seconds": 900,
+          "runs": 36,
+          "firstRun": 25.05,
+          "actions": 636,
+          "reason": "none",
+          "equipment": 36,
+          "pets": 10,
+          "hp": 235
+        },
+        {
+          "seconds": 900,
+          "runs": 36,
+          "firstRun": 23.700000000000003,
+          "actions": 633,
+          "reason": "none",
+          "equipment": 34,
+          "pets": 5,
+          "hp": 235
+        },
+        {
+          "seconds": 900,
+          "runs": 36,
+          "firstRun": 25.05,
+          "actions": 639,
+          "reason": "none",
+          "equipment": 37,
+          "pets": 8,
+          "hp": 235
+        },
+        {
+          "seconds": 900,
+          "runs": 36,
+          "firstRun": 25.05,
+          "actions": 634,
+          "reason": "none",
+          "equipment": 38,
+          "pets": 5,
+          "hp": 235
+        },
+        {
+          "seconds": 900,
+          "runs": 36,
+          "firstRun": 25.05,
+          "actions": 636,
+          "reason": "none",
+          "equipment": 33,
+          "pets": 8,
+          "hp": 235
+        },
+        {
+          "seconds": 900,
+          "runs": 36,
+          "firstRun": 25.05,
+          "actions": 627,
+          "reason": "none",
+          "equipment": 38,
+          "pets": 10,
+          "hp": 235
+        },
+        {
+          "seconds": 900,
+          "runs": 36,
+          "firstRun": 25.1,
+          "actions": 636,
+          "reason": "none",
+          "equipment": 34,
+          "pets": 7,
+          "hp": 235
+        },
+        {
+          "seconds": 900,
+          "runs": 36,
+          "firstRun": 25.1,
+          "actions": 639,
+          "reason": "none",
+          "equipment": 37,
+          "pets": 7,
+          "hp": 235
+        },
+        {
+          "seconds": 900,
+          "runs": 36,
+          "firstRun": 25.05,
+          "actions": 633,
+          "reason": "none",
+          "equipment": 38,
+          "pets": 16,
+          "hp": 235
+        },
+        {
+          "seconds": 900,
+          "runs": 36,
+          "firstRun": 25.05,
+          "actions": 642,
+          "reason": "none",
+          "equipment": 36,
+          "pets": 9,
+          "hp": 235
+        },
+        {
+          "seconds": 900,
+          "runs": 36,
+          "firstRun": 25.05,
+          "actions": 631,
+          "reason": "none",
+          "equipment": 37,
+          "pets": 2,
+          "hp": 235
+        },
+        {
+          "seconds": 900,
+          "runs": 36,
+          "firstRun": 25.05,
+          "actions": 627,
+          "reason": "none",
+          "equipment": 34,
+          "pets": 9,
+          "hp": 235
+        }
+      ]
+    },
+    {
+      "profile": "mid",
+      "stage": "verdant-04",
+      "challenge": true,
+      "n": 30,
+      "capacityFailures": 1,
+      "deaths": 0,
+      "firstRunSeconds": {
+        "p05": 26.150000000000002,
+        "p50": 28.1,
+        "p95": 28.150000000000002
+      },
+      "meanEquipment": 36.233333333333334,
+      "meanPets": 6.766666666666667,
+      "rows": [
+        {
+          "seconds": 900,
+          "runs": 32,
+          "firstRun": 28.1,
+          "actions": 750,
+          "reason": "none",
+          "equipment": 32,
+          "pets": 8,
+          "hp": 235
+        },
+        {
+          "seconds": 900,
+          "runs": 32,
+          "firstRun": 24.75,
+          "actions": 745,
+          "reason": "none",
+          "equipment": 42,
+          "pets": 2,
+          "hp": 235
+        },
+        {
+          "seconds": 900,
+          "runs": 32,
+          "firstRun": 28.150000000000002,
+          "actions": 752,
+          "reason": "none",
+          "equipment": 31,
+          "pets": 4,
+          "hp": 235
+        },
+        {
+          "seconds": 900,
+          "runs": 32,
+          "firstRun": 28.1,
+          "actions": 751,
+          "reason": "none",
+          "equipment": 36,
+          "pets": 14,
+          "hp": 235
+        },
+        {
+          "seconds": 900,
+          "runs": 32,
+          "firstRun": 26.150000000000002,
+          "actions": 746,
+          "reason": "none",
+          "equipment": 34,
+          "pets": 5,
+          "hp": 235
+        },
+        {
+          "seconds": 900,
+          "runs": 32,
+          "firstRun": 28.1,
+          "actions": 736,
+          "reason": "none",
+          "equipment": 29,
+          "pets": 8,
+          "hp": 235
+        },
+        {
+          "seconds": 900,
+          "runs": 32,
+          "firstRun": 28.150000000000002,
+          "actions": 756,
+          "reason": "none",
+          "equipment": 34,
+          "pets": 5,
+          "hp": 235
+        },
+        {
+          "seconds": 900,
+          "runs": 32,
+          "firstRun": 28.1,
+          "actions": 749,
+          "reason": "none",
+          "equipment": 39,
+          "pets": 8,
+          "hp": 235
+        },
+        {
+          "seconds": 900,
+          "runs": 32,
+          "firstRun": 27.650000000000002,
+          "actions": 748,
+          "reason": "none",
+          "equipment": 42,
+          "pets": 5,
+          "hp": 235
+        },
+        {
+          "seconds": 894.9000000000001,
+          "runs": 32,
+          "firstRun": 28.200000000000003,
+          "actions": 741,
+          "reason": "capacity",
+          "equipment": 50,
+          "pets": 7,
+          "hp": 235
+        },
+        {
+          "seconds": 900,
+          "runs": 32,
+          "firstRun": 28.1,
+          "actions": 744,
+          "reason": "none",
+          "equipment": 45,
+          "pets": 9,
+          "hp": 235
+        },
+        {
+          "seconds": 900,
+          "runs": 32,
+          "firstRun": 28.1,
+          "actions": 742,
+          "reason": "none",
+          "equipment": 36,
+          "pets": 5,
+          "hp": 235
+        },
+        {
+          "seconds": 900,
+          "runs": 32,
+          "firstRun": 28.150000000000002,
+          "actions": 749,
+          "reason": "none",
+          "equipment": 44,
+          "pets": 4,
+          "hp": 235
+        },
+        {
+          "seconds": 900,
+          "runs": 32,
+          "firstRun": 28.150000000000002,
+          "actions": 749,
+          "reason": "none",
+          "equipment": 40,
+          "pets": 3,
+          "hp": 235
+        },
+        {
+          "seconds": 900,
+          "runs": 32,
+          "firstRun": 28.1,
+          "actions": 747,
+          "reason": "none",
+          "equipment": 36,
+          "pets": 5,
+          "hp": 235
+        },
+        {
+          "seconds": 900,
+          "runs": 32,
+          "firstRun": 28.150000000000002,
+          "actions": 746,
+          "reason": "none",
+          "equipment": 36,
+          "pets": 7,
+          "hp": 235
+        },
+        {
+          "seconds": 900,
+          "runs": 32,
+          "firstRun": 28.1,
+          "actions": 752,
+          "reason": "none",
+          "equipment": 36,
+          "pets": 4,
+          "hp": 235
+        },
+        {
+          "seconds": 900,
+          "runs": 32,
+          "firstRun": 26.150000000000002,
+          "actions": 746,
+          "reason": "none",
+          "equipment": 39,
+          "pets": 8,
+          "hp": 235
+        },
+        {
+          "seconds": 900,
+          "runs": 32,
+          "firstRun": 28.1,
+          "actions": 746,
+          "reason": "none",
+          "equipment": 28,
+          "pets": 6,
+          "hp": 235
+        },
+        {
+          "seconds": 900,
+          "runs": 32,
+          "firstRun": 26.25,
+          "actions": 743,
+          "reason": "none",
+          "equipment": 28,
+          "pets": 5,
+          "hp": 235
+        },
+        {
+          "seconds": 900,
+          "runs": 32,
+          "firstRun": 28.1,
+          "actions": 748,
+          "reason": "none",
+          "equipment": 40,
+          "pets": 9,
+          "hp": 235
+        },
+        {
+          "seconds": 900,
+          "runs": 33,
+          "firstRun": 26.200000000000003,
+          "actions": 733,
+          "reason": "none",
+          "equipment": 38,
+          "pets": 7,
+          "hp": 235
+        },
+        {
+          "seconds": 900,
+          "runs": 32,
+          "firstRun": 28.1,
+          "actions": 755,
+          "reason": "none",
+          "equipment": 34,
+          "pets": 8,
+          "hp": 235
+        },
+        {
+          "seconds": 900,
+          "runs": 32,
+          "firstRun": 28.1,
+          "actions": 747,
+          "reason": "none",
+          "equipment": 32,
+          "pets": 8,
+          "hp": 235
+        },
+        {
+          "seconds": 900,
+          "runs": 32,
+          "firstRun": 28.150000000000002,
+          "actions": 750,
+          "reason": "none",
+          "equipment": 30,
+          "pets": 5,
+          "hp": 235
+        },
+        {
+          "seconds": 900,
+          "runs": 32,
+          "firstRun": 26.650000000000002,
+          "actions": 744,
+          "reason": "none",
+          "equipment": 33,
+          "pets": 9,
+          "hp": 235
+        },
+        {
+          "seconds": 900,
+          "runs": 32,
+          "firstRun": 27.650000000000002,
+          "actions": 752,
+          "reason": "none",
+          "equipment": 36,
+          "pets": 10,
+          "hp": 235
+        },
+        {
+          "seconds": 900,
+          "runs": 32,
+          "firstRun": 27.6,
+          "actions": 752,
+          "reason": "none",
+          "equipment": 41,
+          "pets": 11,
+          "hp": 235
+        },
+        {
+          "seconds": 900,
+          "runs": 32,
+          "firstRun": 28.1,
+          "actions": 742,
+          "reason": "none",
+          "equipment": 37,
+          "pets": 6,
+          "hp": 235
+        },
+        {
+          "seconds": 900,
+          "runs": 32,
+          "firstRun": 28.1,
+          "actions": 749,
+          "reason": "none",
+          "equipment": 29,
+          "pets": 8,
+          "hp": 235
+        }
+      ]
+    },
+    {
+      "profile": "late",
+      "stage": "verdant-10",
+      "challenge": false,
+      "n": 30,
+      "capacityFailures": 0,
+      "deaths": 0,
+      "firstRunSeconds": {
+        "p05": 28.1,
+        "p50": 29.1,
+        "p95": 30.1
+      },
+      "meanEquipment": 37,
+      "meanPets": 10.366666666666667,
+      "rows": [
+        {
+          "seconds": 900,
+          "runs": 30,
+          "firstRun": 29.6,
+          "actions": 807,
+          "reason": "none",
+          "equipment": 36,
+          "pets": 14,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 30,
+          "firstRun": 30.1,
+          "actions": 806,
+          "reason": "none",
+          "equipment": 38,
+          "pets": 13,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 30,
+          "firstRun": 28.1,
+          "actions": 804,
+          "reason": "none",
+          "equipment": 39,
+          "pets": 16,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 30,
+          "firstRun": 29.1,
+          "actions": 802,
+          "reason": "none",
+          "equipment": 34,
+          "pets": 15,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 31,
+          "firstRun": 28.650000000000002,
+          "actions": 799,
+          "reason": "none",
+          "equipment": 43,
+          "pets": 8,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 30,
+          "firstRun": 29.6,
+          "actions": 809,
+          "reason": "none",
+          "equipment": 44,
+          "pets": 17,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 30,
+          "firstRun": 29.650000000000002,
+          "actions": 806,
+          "reason": "none",
+          "equipment": 43,
+          "pets": 7,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 30,
+          "firstRun": 29.6,
+          "actions": 806,
+          "reason": "none",
+          "equipment": 41,
+          "pets": 11,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 30,
+          "firstRun": 29.1,
+          "actions": 806,
+          "reason": "none",
+          "equipment": 38,
+          "pets": 7,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 30,
+          "firstRun": 28.650000000000002,
+          "actions": 803,
+          "reason": "none",
+          "equipment": 34,
+          "pets": 10,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 30,
+          "firstRun": 29.1,
+          "actions": 803,
+          "reason": "none",
+          "equipment": 43,
+          "pets": 8,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 30,
+          "firstRun": 30.1,
+          "actions": 805,
+          "reason": "none",
+          "equipment": 42,
+          "pets": 11,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 30,
+          "firstRun": 29.6,
+          "actions": 806,
+          "reason": "none",
+          "equipment": 34,
+          "pets": 14,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 30,
+          "firstRun": 28.1,
+          "actions": 803,
+          "reason": "none",
+          "equipment": 37,
+          "pets": 8,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 30,
+          "firstRun": 30.1,
+          "actions": 807,
+          "reason": "none",
+          "equipment": 32,
+          "pets": 8,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 30,
+          "firstRun": 30.1,
+          "actions": 806,
+          "reason": "none",
+          "equipment": 39,
+          "pets": 8,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 30,
+          "firstRun": 29.1,
+          "actions": 803,
+          "reason": "none",
+          "equipment": 36,
+          "pets": 7,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 30,
+          "firstRun": 30.6,
+          "actions": 806,
+          "reason": "none",
+          "equipment": 34,
+          "pets": 7,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 30,
+          "firstRun": 28.6,
+          "actions": 803,
+          "reason": "none",
+          "equipment": 37,
+          "pets": 7,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 30,
+          "firstRun": 29.1,
+          "actions": 807,
+          "reason": "none",
+          "equipment": 29,
+          "pets": 8,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 30,
+          "firstRun": 29.1,
+          "actions": 806,
+          "reason": "none",
+          "equipment": 37,
+          "pets": 7,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 30,
+          "firstRun": 29.6,
+          "actions": 809,
+          "reason": "none",
+          "equipment": 39,
+          "pets": 15,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 30,
+          "firstRun": 29.1,
+          "actions": 806,
+          "reason": "none",
+          "equipment": 36,
+          "pets": 10,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 30,
+          "firstRun": 30.1,
+          "actions": 807,
+          "reason": "none",
+          "equipment": 39,
+          "pets": 9,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 30,
+          "firstRun": 28.6,
+          "actions": 806,
+          "reason": "none",
+          "equipment": 32,
+          "pets": 13,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 30,
+          "firstRun": 28.6,
+          "actions": 803,
+          "reason": "none",
+          "equipment": 38,
+          "pets": 8,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 30,
+          "firstRun": 28.6,
+          "actions": 809,
+          "reason": "none",
+          "equipment": 42,
+          "pets": 10,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 30,
+          "firstRun": 29.1,
+          "actions": 807,
+          "reason": "none",
+          "equipment": 30,
+          "pets": 13,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 30,
+          "firstRun": 29.6,
+          "actions": 806,
+          "reason": "none",
+          "equipment": 31,
+          "pets": 9,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 30,
+          "firstRun": 28.6,
+          "actions": 807,
+          "reason": "none",
+          "equipment": 33,
+          "pets": 13,
+          "hp": 388
+        }
+      ]
+    },
+    {
+      "profile": "late",
+      "stage": "verdant-10",
+      "challenge": true,
+      "n": 30,
+      "capacityFailures": 0,
+      "deaths": 0,
+      "firstRunSeconds": {
+        "p05": 33.2,
+        "p50": 37.65,
+        "p95": 39.7
+      },
+      "meanEquipment": 30.5,
+      "meanPets": 7.766666666666667,
+      "rows": [
+        {
+          "seconds": 900,
+          "runs": 24,
+          "firstRun": 37.65,
+          "actions": 1011,
+          "reason": "none",
+          "equipment": 28,
+          "pets": 8,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 24,
+          "firstRun": 35.2,
+          "actions": 1002,
+          "reason": "none",
+          "equipment": 32,
+          "pets": 13,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 24,
+          "firstRun": 37.65,
+          "actions": 1003,
+          "reason": "none",
+          "equipment": 30,
+          "pets": 8,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 24,
+          "firstRun": 35.2,
+          "actions": 1009,
+          "reason": "none",
+          "equipment": 33,
+          "pets": 6,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 24,
+          "firstRun": 38.7,
+          "actions": 998,
+          "reason": "none",
+          "equipment": 36,
+          "pets": 5,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 23,
+          "firstRun": 39.7,
+          "actions": 1026,
+          "reason": "none",
+          "equipment": 31,
+          "pets": 3,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 24,
+          "firstRun": 38.15,
+          "actions": 1003,
+          "reason": "none",
+          "equipment": 26,
+          "pets": 3,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 24,
+          "firstRun": 37.15,
+          "actions": 996,
+          "reason": "none",
+          "equipment": 31,
+          "pets": 6,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 24,
+          "firstRun": 36.65,
+          "actions": 1009,
+          "reason": "none",
+          "equipment": 35,
+          "pets": 11,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 23,
+          "firstRun": 38.2,
+          "actions": 1026,
+          "reason": "none",
+          "equipment": 27,
+          "pets": 5,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 24,
+          "firstRun": 36.15,
+          "actions": 1010,
+          "reason": "none",
+          "equipment": 29,
+          "pets": 12,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 24,
+          "firstRun": 39.2,
+          "actions": 1012,
+          "reason": "none",
+          "equipment": 26,
+          "pets": 9,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 24,
+          "firstRun": 37.15,
+          "actions": 1009,
+          "reason": "none",
+          "equipment": 26,
+          "pets": 12,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 24,
+          "firstRun": 37.75,
+          "actions": 1008,
+          "reason": "none",
+          "equipment": 37,
+          "pets": 11,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 24,
+          "firstRun": 38.650000000000006,
+          "actions": 1011,
+          "reason": "none",
+          "equipment": 30,
+          "pets": 5,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 24,
+          "firstRun": 38.650000000000006,
+          "actions": 1021,
+          "reason": "none",
+          "equipment": 27,
+          "pets": 7,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 24,
+          "firstRun": 37.65,
+          "actions": 1015,
+          "reason": "none",
+          "equipment": 41,
+          "pets": 5,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 24,
+          "firstRun": 39.25,
+          "actions": 1015,
+          "reason": "none",
+          "equipment": 30,
+          "pets": 10,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 24,
+          "firstRun": 37.65,
+          "actions": 1004,
+          "reason": "none",
+          "equipment": 36,
+          "pets": 4,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 24,
+          "firstRun": 37.15,
+          "actions": 997,
+          "reason": "none",
+          "equipment": 30,
+          "pets": 6,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 24,
+          "firstRun": 39.7,
+          "actions": 995,
+          "reason": "none",
+          "equipment": 31,
+          "pets": 12,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 24,
+          "firstRun": 36.65,
+          "actions": 1014,
+          "reason": "none",
+          "equipment": 32,
+          "pets": 7,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 24,
+          "firstRun": 33.2,
+          "actions": 1014,
+          "reason": "none",
+          "equipment": 30,
+          "pets": 6,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 24,
+          "firstRun": 33.65,
+          "actions": 1007,
+          "reason": "none",
+          "equipment": 31,
+          "pets": 15,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 24,
+          "firstRun": 35.65,
+          "actions": 1000,
+          "reason": "none",
+          "equipment": 29,
+          "pets": 8,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 24,
+          "firstRun": 32.15,
+          "actions": 1003,
+          "reason": "none",
+          "equipment": 23,
+          "pets": 7,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 24,
+          "firstRun": 36.2,
+          "actions": 997,
+          "reason": "none",
+          "equipment": 25,
+          "pets": 12,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 24,
+          "firstRun": 38.15,
+          "actions": 1005,
+          "reason": "none",
+          "equipment": 33,
+          "pets": 9,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 24,
+          "firstRun": 34.15,
+          "actions": 994,
+          "reason": "none",
+          "equipment": 31,
+          "pets": 3,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 24,
+          "firstRun": 35.15,
+          "actions": 1009,
+          "reason": "none",
+          "equipment": 29,
+          "pets": 5,
+          "hp": 388
+        }
+      ]
+    },
+    {
+      "profile": "late-gem",
+      "stage": "verdant-10",
+      "challenge": false,
+      "n": 30,
+      "capacityFailures": 1,
+      "deaths": 0,
+      "firstRunSeconds": {
+        "p05": 23.6,
+        "p50": 25.650000000000002,
+        "p95": 26.6
+      },
+      "meanEquipment": 42.5,
+      "meanPets": 10.9,
+      "rows": [
+        {
+          "seconds": 900,
+          "runs": 35,
+          "firstRun": 26.1,
+          "actions": 650,
+          "reason": "none",
+          "equipment": 42,
+          "pets": 10,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 35,
+          "firstRun": 25.6,
+          "actions": 647,
+          "reason": "none",
+          "equipment": 47,
+          "pets": 9,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 35,
+          "firstRun": 25.650000000000002,
+          "actions": 644,
+          "reason": "none",
+          "equipment": 40,
+          "pets": 13,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 35,
+          "firstRun": 23.6,
+          "actions": 640,
+          "reason": "none",
+          "equipment": 41,
+          "pets": 9,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 35,
+          "firstRun": 26.150000000000002,
+          "actions": 648,
+          "reason": "none",
+          "equipment": 40,
+          "pets": 13,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 35,
+          "firstRun": 23.6,
+          "actions": 643,
+          "reason": "none",
+          "equipment": 43,
+          "pets": 9,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 35,
+          "firstRun": 25.6,
+          "actions": 654,
+          "reason": "none",
+          "equipment": 40,
+          "pets": 10,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 35,
+          "firstRun": 26.1,
+          "actions": 644,
+          "reason": "none",
+          "equipment": 44,
+          "pets": 11,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 35,
+          "firstRun": 26.6,
+          "actions": 652,
+          "reason": "none",
+          "equipment": 37,
+          "pets": 2,
+          "hp": 388
+        },
+        {
+          "seconds": 760.7,
+          "runs": 30,
+          "firstRun": 23.650000000000002,
+          "actions": 541,
+          "reason": "capacity",
+          "equipment": 50,
+          "pets": 8,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 35,
+          "firstRun": 24.200000000000003,
+          "actions": 647,
+          "reason": "none",
+          "equipment": 47,
+          "pets": 10,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 35,
+          "firstRun": 25.6,
+          "actions": 650,
+          "reason": "none",
+          "equipment": 37,
+          "pets": 16,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 36,
+          "firstRun": 26.6,
+          "actions": 634,
+          "reason": "none",
+          "equipment": 44,
+          "pets": 12,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 35,
+          "firstRun": 23.6,
+          "actions": 641,
+          "reason": "none",
+          "equipment": 39,
+          "pets": 7,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 35,
+          "firstRun": 26.1,
+          "actions": 641,
+          "reason": "none",
+          "equipment": 47,
+          "pets": 9,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 35,
+          "firstRun": 26.1,
+          "actions": 641,
+          "reason": "none",
+          "equipment": 45,
+          "pets": 15,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 35,
+          "firstRun": 26.1,
+          "actions": 647,
+          "reason": "none",
+          "equipment": 47,
+          "pets": 17,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 35,
+          "firstRun": 23.6,
+          "actions": 640,
+          "reason": "none",
+          "equipment": 41,
+          "pets": 11,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 35,
+          "firstRun": 25.6,
+          "actions": 645,
+          "reason": "none",
+          "equipment": 43,
+          "pets": 7,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 35,
+          "firstRun": 26.6,
+          "actions": 645,
+          "reason": "none",
+          "equipment": 33,
+          "pets": 12,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 35,
+          "firstRun": 26.1,
+          "actions": 655,
+          "reason": "none",
+          "equipment": 42,
+          "pets": 13,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 35,
+          "firstRun": 26.6,
+          "actions": 644,
+          "reason": "none",
+          "equipment": 46,
+          "pets": 14,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 35,
+          "firstRun": 26.1,
+          "actions": 645,
+          "reason": "none",
+          "equipment": 41,
+          "pets": 11,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 35,
+          "firstRun": 26.6,
+          "actions": 663,
+          "reason": "none",
+          "equipment": 37,
+          "pets": 14,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 35,
+          "firstRun": 24.1,
+          "actions": 645,
+          "reason": "none",
+          "equipment": 42,
+          "pets": 7,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 35,
+          "firstRun": 26.150000000000002,
+          "actions": 659,
+          "reason": "none",
+          "equipment": 43,
+          "pets": 11,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 35,
+          "firstRun": 25.6,
+          "actions": 657,
+          "reason": "none",
+          "equipment": 49,
+          "pets": 10,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 36,
+          "firstRun": 25.6,
+          "actions": 633,
+          "reason": "none",
+          "equipment": 45,
+          "pets": 12,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 35,
+          "firstRun": 24.1,
+          "actions": 644,
+          "reason": "none",
+          "equipment": 40,
+          "pets": 14,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 35,
+          "firstRun": 24.6,
+          "actions": 644,
+          "reason": "none",
+          "equipment": 43,
+          "pets": 11,
+          "hp": 388
+        }
+      ]
+    },
+    {
+      "profile": "late-gem",
+      "stage": "verdant-10",
+      "challenge": true,
+      "n": 30,
+      "capacityFailures": 0,
+      "deaths": 0,
+      "firstRunSeconds": {
+        "p05": 27.650000000000002,
+        "p50": 30.150000000000002,
+        "p95": 31.200000000000003
+      },
+      "meanEquipment": 38.9,
+      "meanPets": 8.8,
+      "rows": [
+        {
+          "seconds": 900,
+          "runs": 30,
+          "firstRun": 31.200000000000003,
+          "actions": 819,
+          "reason": "none",
+          "equipment": 39,
+          "pets": 6,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 30,
+          "firstRun": 30.650000000000002,
+          "actions": 820,
+          "reason": "none",
+          "equipment": 42,
+          "pets": 12,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 30,
+          "firstRun": 29.650000000000002,
+          "actions": 809,
+          "reason": "none",
+          "equipment": 39,
+          "pets": 7,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 30,
+          "firstRun": 30.200000000000003,
+          "actions": 818,
+          "reason": "none",
+          "equipment": 38,
+          "pets": 9,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 29,
+          "firstRun": 31.700000000000003,
+          "actions": 831,
+          "reason": "none",
+          "equipment": 41,
+          "pets": 7,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 29,
+          "firstRun": 30.650000000000002,
+          "actions": 832,
+          "reason": "none",
+          "equipment": 39,
+          "pets": 11,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 30,
+          "firstRun": 30.650000000000002,
+          "actions": 809,
+          "reason": "none",
+          "equipment": 38,
+          "pets": 10,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 30,
+          "firstRun": 28.650000000000002,
+          "actions": 804,
+          "reason": "none",
+          "equipment": 39,
+          "pets": 3,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 30,
+          "firstRun": 28.650000000000002,
+          "actions": 820,
+          "reason": "none",
+          "equipment": 34,
+          "pets": 15,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 30,
+          "firstRun": 27.650000000000002,
+          "actions": 814,
+          "reason": "none",
+          "equipment": 42,
+          "pets": 9,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 30,
+          "firstRun": 28.150000000000002,
+          "actions": 817,
+          "reason": "none",
+          "equipment": 35,
+          "pets": 9,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 30,
+          "firstRun": 29.700000000000003,
+          "actions": 799,
+          "reason": "none",
+          "equipment": 42,
+          "pets": 10,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 30,
+          "firstRun": 31.150000000000002,
+          "actions": 824,
+          "reason": "none",
+          "equipment": 35,
+          "pets": 10,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 30,
+          "firstRun": 30.25,
+          "actions": 815,
+          "reason": "none",
+          "equipment": 36,
+          "pets": 12,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 30,
+          "firstRun": 30.150000000000002,
+          "actions": 822,
+          "reason": "none",
+          "equipment": 38,
+          "pets": 5,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 30,
+          "firstRun": 30.650000000000002,
+          "actions": 815,
+          "reason": "none",
+          "equipment": 38,
+          "pets": 12,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 30,
+          "firstRun": 29.150000000000002,
+          "actions": 815,
+          "reason": "none",
+          "equipment": 40,
+          "pets": 7,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 30,
+          "firstRun": 29.200000000000003,
+          "actions": 822,
+          "reason": "none",
+          "equipment": 39,
+          "pets": 9,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 30,
+          "firstRun": 27.150000000000002,
+          "actions": 821,
+          "reason": "none",
+          "equipment": 45,
+          "pets": 8,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 30,
+          "firstRun": 29.650000000000002,
+          "actions": 815,
+          "reason": "none",
+          "equipment": 30,
+          "pets": 10,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 30,
+          "firstRun": 30.200000000000003,
+          "actions": 813,
+          "reason": "none",
+          "equipment": 39,
+          "pets": 9,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 30,
+          "firstRun": 30.150000000000002,
+          "actions": 821,
+          "reason": "none",
+          "equipment": 34,
+          "pets": 11,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 30,
+          "firstRun": 29.700000000000003,
+          "actions": 816,
+          "reason": "none",
+          "equipment": 38,
+          "pets": 10,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 30,
+          "firstRun": 31.150000000000002,
+          "actions": 809,
+          "reason": "none",
+          "equipment": 38,
+          "pets": 11,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 30,
+          "firstRun": 30.150000000000002,
+          "actions": 817,
+          "reason": "none",
+          "equipment": 40,
+          "pets": 13,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 30,
+          "firstRun": 29.650000000000002,
+          "actions": 809,
+          "reason": "none",
+          "equipment": 41,
+          "pets": 4,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 30,
+          "firstRun": 28.150000000000002,
+          "actions": 809,
+          "reason": "none",
+          "equipment": 50,
+          "pets": 10,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 30,
+          "firstRun": 28.650000000000002,
+          "actions": 812,
+          "reason": "none",
+          "equipment": 38,
+          "pets": 4,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 29,
+          "firstRun": 29.150000000000002,
+          "actions": 832,
+          "reason": "none",
+          "equipment": 42,
+          "pets": 4,
+          "hp": 388
+        },
+        {
+          "seconds": 900,
+          "runs": 30,
+          "firstRun": 30.150000000000002,
+          "actions": 821,
+          "reason": "none",
+          "equipment": 38,
+          "pets": 7,
+          "hp": 388
+        }
+      ]
+    },
+    {
+      "profile": "return",
+      "stage": "verdant-01",
+      "challenge": false,
+      "n": 30,
+      "capacityFailures": 0,
+      "deaths": 0,
+      "firstRunSeconds": {
+        "p05": 21.1,
+        "p50": 21.150000000000002,
+        "p95": 21.200000000000003
+      },
+      "meanEquipment": 33.4,
+      "meanPets": 3.7666666666666666,
+      "rows": [
+        {
+          "seconds": 900,
+          "runs": 42,
+          "firstRun": 21.150000000000002,
+          "actions": 426,
+          "reason": "none",
+          "equipment": 31,
+          "pets": 5,
+          "hp": 100
+        },
+        {
+          "seconds": 900,
+          "runs": 42,
+          "firstRun": 21.1,
+          "actions": 425,
+          "reason": "none",
+          "equipment": 30,
+          "pets": 4,
+          "hp": 100
+        },
+        {
+          "seconds": 900,
+          "runs": 42,
+          "firstRun": 21.200000000000003,
+          "actions": 425,
+          "reason": "none",
+          "equipment": 36,
+          "pets": 6,
+          "hp": 100
+        },
+        {
+          "seconds": 900,
+          "runs": 42,
+          "firstRun": 21.25,
+          "actions": 425,
+          "reason": "none",
+          "equipment": 38,
+          "pets": 3,
+          "hp": 100
+        },
+        {
+          "seconds": 900,
+          "runs": 42,
+          "firstRun": 21.1,
+          "actions": 425,
+          "reason": "none",
+          "equipment": 32,
+          "pets": 6,
+          "hp": 100
+        },
+        {
+          "seconds": 900,
+          "runs": 42,
+          "firstRun": 21.150000000000002,
+          "actions": 425,
+          "reason": "none",
+          "equipment": 38,
+          "pets": 2,
+          "hp": 100
+        },
+        {
+          "seconds": 900,
+          "runs": 42,
+          "firstRun": 21.150000000000002,
+          "actions": 425,
+          "reason": "none",
+          "equipment": 32,
+          "pets": 3,
+          "hp": 100
+        },
+        {
+          "seconds": 900,
+          "runs": 42,
+          "firstRun": 21.150000000000002,
+          "actions": 425,
+          "reason": "none",
+          "equipment": 30,
+          "pets": 4,
+          "hp": 100
+        },
+        {
+          "seconds": 900,
+          "runs": 42,
+          "firstRun": 21.150000000000002,
+          "actions": 425,
+          "reason": "none",
+          "equipment": 27,
+          "pets": 4,
+          "hp": 100
+        },
+        {
+          "seconds": 900,
+          "runs": 42,
+          "firstRun": 21.200000000000003,
+          "actions": 426,
+          "reason": "none",
+          "equipment": 31,
+          "pets": 1,
+          "hp": 100
+        },
+        {
+          "seconds": 900,
+          "runs": 42,
+          "firstRun": 21.150000000000002,
+          "actions": 425,
+          "reason": "none",
+          "equipment": 31,
+          "pets": 4,
+          "hp": 100
+        },
+        {
+          "seconds": 900,
+          "runs": 42,
+          "firstRun": 21.150000000000002,
+          "actions": 425,
+          "reason": "none",
+          "equipment": 38,
+          "pets": 3,
+          "hp": 100
+        },
+        {
+          "seconds": 900,
+          "runs": 42,
+          "firstRun": 21.1,
+          "actions": 425,
+          "reason": "none",
+          "equipment": 33,
+          "pets": 5,
+          "hp": 100
+        },
+        {
+          "seconds": 900,
+          "runs": 42,
+          "firstRun": 21.150000000000002,
+          "actions": 425,
+          "reason": "none",
+          "equipment": 31,
+          "pets": 6,
+          "hp": 100
+        },
+        {
+          "seconds": 900,
+          "runs": 42,
+          "firstRun": 21.1,
+          "actions": 425,
+          "reason": "none",
+          "equipment": 33,
+          "pets": 2,
+          "hp": 100
+        },
+        {
+          "seconds": 900,
+          "runs": 42,
+          "firstRun": 21.1,
+          "actions": 425,
+          "reason": "none",
+          "equipment": 33,
+          "pets": 6,
+          "hp": 100
+        },
+        {
+          "seconds": 900,
+          "runs": 42,
+          "firstRun": 21.150000000000002,
+          "actions": 425,
+          "reason": "none",
+          "equipment": 34,
+          "pets": 2,
+          "hp": 100
+        },
+        {
+          "seconds": 900,
+          "runs": 42,
+          "firstRun": 21.150000000000002,
+          "actions": 425,
+          "reason": "none",
+          "equipment": 33,
+          "pets": 2,
+          "hp": 100
+        },
+        {
+          "seconds": 900,
+          "runs": 42,
+          "firstRun": 21.150000000000002,
+          "actions": 425,
+          "reason": "none",
+          "equipment": 40,
+          "pets": 3,
+          "hp": 100
+        },
+        {
+          "seconds": 900,
+          "runs": 42,
+          "firstRun": 21.1,
+          "actions": 426,
+          "reason": "none",
+          "equipment": 31,
+          "pets": 2,
+          "hp": 100
+        },
+        {
+          "seconds": 900,
+          "runs": 42,
+          "firstRun": 21.200000000000003,
+          "actions": 425,
+          "reason": "none",
+          "equipment": 34,
+          "pets": 5,
+          "hp": 100
+        },
+        {
+          "seconds": 900,
+          "runs": 42,
+          "firstRun": 21.150000000000002,
+          "actions": 425,
+          "reason": "none",
+          "equipment": 34,
+          "pets": 4,
+          "hp": 100
+        },
+        {
+          "seconds": 900,
+          "runs": 42,
+          "firstRun": 21.150000000000002,
+          "actions": 425,
+          "reason": "none",
+          "equipment": 32,
+          "pets": 6,
+          "hp": 100
+        },
+        {
+          "seconds": 900,
+          "runs": 42,
+          "firstRun": 21.150000000000002,
+          "actions": 425,
+          "reason": "none",
+          "equipment": 40,
+          "pets": 6,
+          "hp": 100
+        },
+        {
+          "seconds": 900,
+          "runs": 42,
+          "firstRun": 21.150000000000002,
+          "actions": 425,
+          "reason": "none",
+          "equipment": 33,
+          "pets": 5,
+          "hp": 100
+        },
+        {
+          "seconds": 900,
+          "runs": 42,
+          "firstRun": 21.150000000000002,
+          "actions": 426,
+          "reason": "none",
+          "equipment": 27,
+          "pets": 1,
+          "hp": 100
+        },
+        {
+          "seconds": 900,
+          "runs": 42,
+          "firstRun": 21.150000000000002,
+          "actions": 425,
+          "reason": "none",
+          "equipment": 31,
+          "pets": 3,
+          "hp": 100
+        },
+        {
+          "seconds": 900,
+          "runs": 42,
+          "firstRun": 21.150000000000002,
+          "actions": 425,
+          "reason": "none",
+          "equipment": 40,
+          "pets": 4,
+          "hp": 100
+        },
+        {
+          "seconds": 900,
+          "runs": 42,
+          "firstRun": 21.200000000000003,
+          "actions": 425,
+          "reason": "none",
+          "equipment": 32,
+          "pets": 3,
+          "hp": 100
+        },
+        {
+          "seconds": 900,
+          "runs": 42,
+          "firstRun": 21.150000000000002,
+          "actions": 425,
+          "reason": "none",
+          "equipment": 37,
+          "pets": 3,
+          "hp": 100
+        }
+      ]
+    },
+    {
+      "profile": "return",
+      "stage": "verdant-01",
+      "challenge": true,
+      "n": 30,
+      "capacityFailures": 0,
+      "deaths": 0,
+      "firstRunSeconds": {
+        "p05": 21.150000000000002,
+        "p50": 21.200000000000003,
+        "p95": 21.25
+      },
+      "meanEquipment": 37.8,
+      "meanPets": 3.2666666666666666,
+      "rows": [
+        {
+          "seconds": 900,
+          "runs": 42,
+          "firstRun": 21.200000000000003,
+          "actions": 424,
+          "reason": "none",
+          "equipment": 39,
+          "pets": 4,
+          "hp": 100
+        },
+        {
+          "seconds": 900,
+          "runs": 42,
+          "firstRun": 21.150000000000002,
+          "actions": 424,
+          "reason": "none",
+          "equipment": 38,
+          "pets": 4,
+          "hp": 100
+        },
+        {
+          "seconds": 900,
+          "runs": 42,
+          "firstRun": 21.25,
+          "actions": 424,
+          "reason": "none",
+          "equipment": 39,
+          "pets": 7,
+          "hp": 100
+        },
+        {
+          "seconds": 900,
+          "runs": 42,
+          "firstRun": 21.3,
+          "actions": 424,
+          "reason": "none",
+          "equipment": 37,
+          "pets": 4,
+          "hp": 100
+        },
+        {
+          "seconds": 900,
+          "runs": 42,
+          "firstRun": 21.150000000000002,
+          "actions": 424,
+          "reason": "none",
+          "equipment": 34,
+          "pets": 2,
+          "hp": 100
+        },
+        {
+          "seconds": 900,
+          "runs": 42,
+          "firstRun": 21.25,
+          "actions": 424,
+          "reason": "none",
+          "equipment": 41,
+          "pets": 3,
+          "hp": 100
+        },
+        {
+          "seconds": 900,
+          "runs": 42,
+          "firstRun": 21.200000000000003,
+          "actions": 424,
+          "reason": "none",
+          "equipment": 42,
+          "pets": 2,
+          "hp": 100
+        },
+        {
+          "seconds": 900,
+          "runs": 42,
+          "firstRun": 21.200000000000003,
+          "actions": 424,
+          "reason": "none",
+          "equipment": 38,
+          "pets": 4,
+          "hp": 100
+        },
+        {
+          "seconds": 900,
+          "runs": 42,
+          "firstRun": 21.200000000000003,
+          "actions": 424,
+          "reason": "none",
+          "equipment": 41,
+          "pets": 3,
+          "hp": 100
+        },
+        {
+          "seconds": 900,
+          "runs": 42,
+          "firstRun": 21.25,
+          "actions": 424,
+          "reason": "none",
+          "equipment": 39,
+          "pets": 3,
+          "hp": 100
+        },
+        {
+          "seconds": 900,
+          "runs": 42,
+          "firstRun": 21.200000000000003,
+          "actions": 424,
+          "reason": "none",
+          "equipment": 39,
+          "pets": 3,
+          "hp": 100
+        },
+        {
+          "seconds": 900,
+          "runs": 42,
+          "firstRun": 21.200000000000003,
+          "actions": 424,
+          "reason": "none",
+          "equipment": 36,
+          "pets": 3,
+          "hp": 100
+        },
+        {
+          "seconds": 900,
+          "runs": 42,
+          "firstRun": 21.150000000000002,
+          "actions": 424,
+          "reason": "none",
+          "equipment": 29,
+          "pets": 2,
+          "hp": 100
+        },
+        {
+          "seconds": 900,
+          "runs": 42,
+          "firstRun": 21.200000000000003,
+          "actions": 424,
+          "reason": "none",
+          "equipment": 39,
+          "pets": 6,
+          "hp": 100
+        },
+        {
+          "seconds": 900,
+          "runs": 42,
+          "firstRun": 21.25,
+          "actions": 424,
+          "reason": "none",
+          "equipment": 32,
+          "pets": 4,
+          "hp": 100
+        },
+        {
+          "seconds": 900,
+          "runs": 42,
+          "firstRun": 21.150000000000002,
+          "actions": 424,
+          "reason": "none",
+          "equipment": 46,
+          "pets": 5,
+          "hp": 100
+        },
+        {
+          "seconds": 900,
+          "runs": 42,
+          "firstRun": 21.200000000000003,
+          "actions": 424,
+          "reason": "none",
+          "equipment": 34,
+          "pets": 1,
+          "hp": 100
+        },
+        {
+          "seconds": 900,
+          "runs": 42,
+          "firstRun": 21.200000000000003,
+          "actions": 424,
+          "reason": "none",
+          "equipment": 36,
+          "pets": 2,
+          "hp": 100
+        },
+        {
+          "seconds": 900,
+          "runs": 42,
+          "firstRun": 21.200000000000003,
+          "actions": 424,
+          "reason": "none",
+          "equipment": 44,
+          "pets": 2,
+          "hp": 100
+        },
+        {
+          "seconds": 900,
+          "runs": 42,
+          "firstRun": 21.200000000000003,
+          "actions": 424,
+          "reason": "none",
+          "equipment": 37,
+          "pets": 1,
+          "hp": 100
+        },
+        {
+          "seconds": 900,
+          "runs": 42,
+          "firstRun": 21.25,
+          "actions": 424,
+          "reason": "none",
+          "equipment": 30,
+          "pets": 5,
+          "hp": 100
+        },
+        {
+          "seconds": 900,
+          "runs": 42,
+          "firstRun": 21.200000000000003,
+          "actions": 424,
+          "reason": "none",
+          "equipment": 35,
+          "pets": 4,
+          "hp": 100
+        },
+        {
+          "seconds": 900,
+          "runs": 42,
+          "firstRun": 21.200000000000003,
+          "actions": 424,
+          "reason": "none",
+          "equipment": 32,
+          "pets": 4,
+          "hp": 100
+        },
+        {
+          "seconds": 900,
+          "runs": 42,
+          "firstRun": 21.200000000000003,
+          "actions": 424,
+          "reason": "none",
+          "equipment": 42,
+          "pets": 4,
+          "hp": 100
+        },
+        {
+          "seconds": 900,
+          "runs": 42,
+          "firstRun": 21.200000000000003,
+          "actions": 424,
+          "reason": "none",
+          "equipment": 35,
+          "pets": 2,
+          "hp": 100
+        },
+        {
+          "seconds": 900,
+          "runs": 42,
+          "firstRun": 21.200000000000003,
+          "actions": 424,
+          "reason": "none",
+          "equipment": 36,
+          "pets": 1,
+          "hp": 100
+        },
+        {
+          "seconds": 900,
+          "runs": 42,
+          "firstRun": 21.200000000000003,
+          "actions": 424,
+          "reason": "none",
+          "equipment": 42,
+          "pets": 2,
+          "hp": 100
+        },
+        {
+          "seconds": 900,
+          "runs": 42,
+          "firstRun": 21.200000000000003,
+          "actions": 424,
+          "reason": "none",
+          "equipment": 42,
+          "pets": 3,
+          "hp": 100
+        },
+        {
+          "seconds": 900,
+          "runs": 42,
+          "firstRun": 21.25,
+          "actions": 424,
+          "reason": "none",
+          "equipment": 42,
+          "pets": 4,
+          "hp": 100
+        },
+        {
+          "seconds": 900,
+          "runs": 42,
+          "firstRun": 21.200000000000003,
+          "actions": 424,
+          "reason": "none",
+          "equipment": 38,
+          "pets": 4,
+          "hp": 100
+        }
+      ]
+    },
+    {
+      "profile": "wolf",
+      "stage": "verdant-10",
+      "challenge": false,
+      "n": 30,
+      "capacityFailures": 0,
+      "deaths": 0,
+      "firstRunSeconds": {
+        "p05": 31.200000000000003,
+        "p50": 32.7,
+        "p95": 35.1
+      },
+      "meanEquipment": 32.06666666666667,
+      "meanPets": 9.4,
+      "rows": [
+        {
+          "seconds": 900,
+          "runs": 27,
+          "firstRun": 32.15,
+          "actions": 919,
+          "reason": "none",
+          "equipment": 35,
+          "pets": 7,
+          "hp": 618.6
+        },
+        {
+          "seconds": 900,
+          "runs": 27,
+          "firstRun": 32.2,
+          "actions": 917,
+          "reason": "none",
+          "equipment": 30,
+          "pets": 9,
+          "hp": 618.6
+        },
+        {
+          "seconds": 900,
+          "runs": 27,
+          "firstRun": 31.650000000000002,
+          "actions": 905,
+          "reason": "none",
+          "equipment": 32,
+          "pets": 13,
+          "hp": 618.6
+        },
+        {
+          "seconds": 900,
+          "runs": 27,
+          "firstRun": 34.1,
+          "actions": 926,
+          "reason": "none",
+          "equipment": 29,
+          "pets": 12,
+          "hp": 618.6
+        },
+        {
+          "seconds": 900,
+          "runs": 27,
+          "firstRun": 33.1,
+          "actions": 909,
+          "reason": "none",
+          "equipment": 25,
+          "pets": 17,
+          "hp": 618.6
+        },
+        {
+          "seconds": 900,
+          "runs": 27,
+          "firstRun": 31.200000000000003,
+          "actions": 926,
+          "reason": "none",
+          "equipment": 32,
+          "pets": 14,
+          "hp": 618.6
+        },
+        {
+          "seconds": 900,
+          "runs": 27,
+          "firstRun": 32.1,
+          "actions": 911,
+          "reason": "none",
+          "equipment": 29,
+          "pets": 7,
+          "hp": 618.6
+        },
+        {
+          "seconds": 900,
+          "runs": 27,
+          "firstRun": 34.1,
+          "actions": 918,
+          "reason": "none",
+          "equipment": 38,
+          "pets": 6,
+          "hp": 618.6
+        },
+        {
+          "seconds": 900,
+          "runs": 27,
+          "firstRun": 35.1,
+          "actions": 917,
+          "reason": "none",
+          "equipment": 28,
+          "pets": 16,
+          "hp": 618.6
+        },
+        {
+          "seconds": 900,
+          "runs": 27,
+          "firstRun": 30.700000000000003,
+          "actions": 912,
+          "reason": "none",
+          "equipment": 27,
+          "pets": 10,
+          "hp": 618.6
+        },
+        {
+          "seconds": 900,
+          "runs": 27,
+          "firstRun": 32.25,
+          "actions": 911,
+          "reason": "none",
+          "equipment": 36,
+          "pets": 3,
+          "hp": 618.6
+        },
+        {
+          "seconds": 900,
+          "runs": 27,
+          "firstRun": 35.6,
+          "actions": 924,
+          "reason": "none",
+          "equipment": 33,
+          "pets": 11,
+          "hp": 618.6
+        },
+        {
+          "seconds": 900,
+          "runs": 27,
+          "firstRun": 32.2,
+          "actions": 918,
+          "reason": "none",
+          "equipment": 37,
+          "pets": 7,
+          "hp": 618.6
+        },
+        {
+          "seconds": 900,
+          "runs": 27,
+          "firstRun": 32.7,
+          "actions": 914,
+          "reason": "none",
+          "equipment": 34,
+          "pets": 7,
+          "hp": 618.6
+        },
+        {
+          "seconds": 900,
+          "runs": 27,
+          "firstRun": 34.6,
+          "actions": 921,
+          "reason": "none",
+          "equipment": 26,
+          "pets": 7,
+          "hp": 618.6
+        },
+        {
+          "seconds": 900,
+          "runs": 27,
+          "firstRun": 32.65,
+          "actions": 915,
+          "reason": "none",
+          "equipment": 30,
+          "pets": 8,
+          "hp": 618.6
+        },
+        {
+          "seconds": 900,
+          "runs": 27,
+          "firstRun": 32.2,
+          "actions": 912,
+          "reason": "none",
+          "equipment": 35,
+          "pets": 10,
+          "hp": 618.6
+        },
+        {
+          "seconds": 900,
+          "runs": 27,
+          "firstRun": 32.7,
+          "actions": 922,
+          "reason": "none",
+          "equipment": 32,
+          "pets": 16,
+          "hp": 618.6
+        },
+        {
+          "seconds": 900,
+          "runs": 27,
+          "firstRun": 32.2,
+          "actions": 908,
+          "reason": "none",
+          "equipment": 28,
+          "pets": 6,
+          "hp": 618.6
+        },
+        {
+          "seconds": 900,
+          "runs": 27,
+          "firstRun": 33.2,
+          "actions": 916,
+          "reason": "none",
+          "equipment": 30,
+          "pets": 7,
+          "hp": 618.6
+        },
+        {
+          "seconds": 900,
+          "runs": 27,
+          "firstRun": 34.1,
+          "actions": 909,
+          "reason": "none",
+          "equipment": 30,
+          "pets": 9,
+          "hp": 618.6
+        },
+        {
+          "seconds": 900,
+          "runs": 27,
+          "firstRun": 32.2,
+          "actions": 909,
+          "reason": "none",
+          "equipment": 37,
+          "pets": 12,
+          "hp": 618.6
+        },
+        {
+          "seconds": 900,
+          "runs": 27,
+          "firstRun": 32.6,
+          "actions": 908,
+          "reason": "none",
+          "equipment": 28,
+          "pets": 12,
+          "hp": 618.6
+        },
+        {
+          "seconds": 900,
+          "runs": 27,
+          "firstRun": 32.7,
+          "actions": 912,
+          "reason": "none",
+          "equipment": 32,
+          "pets": 9,
+          "hp": 618.6
+        },
+        {
+          "seconds": 900,
+          "runs": 27,
+          "firstRun": 32.2,
+          "actions": 923,
+          "reason": "none",
+          "equipment": 31,
+          "pets": 9,
+          "hp": 618.6
+        },
+        {
+          "seconds": 900,
+          "runs": 27,
+          "firstRun": 33.6,
+          "actions": 915,
+          "reason": "none",
+          "equipment": 29,
+          "pets": 8,
+          "hp": 618.6
+        },
+        {
+          "seconds": 900,
+          "runs": 27,
+          "firstRun": 33.6,
+          "actions": 918,
+          "reason": "none",
+          "equipment": 40,
+          "pets": 6,
+          "hp": 618.6
+        },
+        {
+          "seconds": 900,
+          "runs": 27,
+          "firstRun": 32.2,
+          "actions": 922,
+          "reason": "none",
+          "equipment": 39,
+          "pets": 9,
+          "hp": 618.6
+        },
+        {
+          "seconds": 900,
+          "runs": 26,
+          "firstRun": 34.1,
+          "actions": 933,
+          "reason": "none",
+          "equipment": 34,
+          "pets": 7,
+          "hp": 618.6
+        },
+        {
+          "seconds": 900,
+          "runs": 27,
+          "firstRun": 33.1,
+          "actions": 918,
+          "reason": "none",
+          "equipment": 36,
+          "pets": 8,
+          "hp": 618.6
+        }
+      ]
+    },
+    {
+      "profile": "wolf",
+      "stage": "verdant-10",
+      "challenge": true,
+      "n": 30,
+      "capacityFailures": 0,
+      "deaths": 0,
+      "firstRunSeconds": {
+        "p05": 34.75,
+        "p50": 37.15,
+        "p95": 40.2
+      },
+      "meanEquipment": 32.166666666666664,
+      "meanPets": 7.133333333333334,
+      "rows": [
+        {
+          "seconds": 900,
+          "runs": 24,
+          "firstRun": 37.65,
+          "actions": 995,
+          "reason": "none",
+          "equipment": 32,
+          "pets": 8,
+          "hp": 618.6
+        },
+        {
+          "seconds": 900,
+          "runs": 24,
+          "firstRun": 37.300000000000004,
+          "actions": 998,
+          "reason": "none",
+          "equipment": 30,
+          "pets": 9,
+          "hp": 618.6
+        },
+        {
+          "seconds": 900,
+          "runs": 25,
+          "firstRun": 35.7,
+          "actions": 986,
+          "reason": "none",
+          "equipment": 29,
+          "pets": 5,
+          "hp": 618.6
+        },
+        {
+          "seconds": 900,
+          "runs": 24,
+          "firstRun": 35.75,
+          "actions": 998,
+          "reason": "none",
+          "equipment": 31,
+          "pets": 6,
+          "hp": 618.6
+        },
+        {
+          "seconds": 900,
+          "runs": 24,
+          "firstRun": 40.2,
+          "actions": 995,
+          "reason": "none",
+          "equipment": 27,
+          "pets": 8,
+          "hp": 618.6
+        },
+        {
+          "seconds": 900,
+          "runs": 24,
+          "firstRun": 37.15,
+          "actions": 991,
+          "reason": "none",
+          "equipment": 32,
+          "pets": 9,
+          "hp": 618.6
+        },
+        {
+          "seconds": 900,
+          "runs": 24,
+          "firstRun": 39.150000000000006,
+          "actions": 998,
+          "reason": "none",
+          "equipment": 29,
+          "pets": 3,
+          "hp": 618.6
+        },
+        {
+          "seconds": 900,
+          "runs": 24,
+          "firstRun": 34.75,
+          "actions": 998,
+          "reason": "none",
+          "equipment": 29,
+          "pets": 9,
+          "hp": 618.6
+        },
+        {
+          "seconds": 900,
+          "runs": 24,
+          "firstRun": 38.15,
+          "actions": 1002,
+          "reason": "none",
+          "equipment": 37,
+          "pets": 7,
+          "hp": 618.6
+        },
+        {
+          "seconds": 900,
+          "runs": 25,
+          "firstRun": 35.7,
+          "actions": 988,
+          "reason": "none",
+          "equipment": 36,
+          "pets": 10,
+          "hp": 618.6
+        },
+        {
+          "seconds": 900,
+          "runs": 24,
+          "firstRun": 37.65,
+          "actions": 992,
+          "reason": "none",
+          "equipment": 33,
+          "pets": 9,
+          "hp": 618.6
+        },
+        {
+          "seconds": 900,
+          "runs": 24,
+          "firstRun": 37.7,
+          "actions": 996,
+          "reason": "none",
+          "equipment": 34,
+          "pets": 7,
+          "hp": 618.6
+        },
+        {
+          "seconds": 900,
+          "runs": 24,
+          "firstRun": 35.25,
+          "actions": 997,
+          "reason": "none",
+          "equipment": 35,
+          "pets": 6,
+          "hp": 618.6
+        },
+        {
+          "seconds": 900,
+          "runs": 24,
+          "firstRun": 35.300000000000004,
+          "actions": 990,
+          "reason": "none",
+          "equipment": 34,
+          "pets": 3,
+          "hp": 618.6
+        },
+        {
+          "seconds": 900,
+          "runs": 24,
+          "firstRun": 38.650000000000006,
+          "actions": 998,
+          "reason": "none",
+          "equipment": 30,
+          "pets": 5,
+          "hp": 618.6
+        },
+        {
+          "seconds": 900,
+          "runs": 24,
+          "firstRun": 40.150000000000006,
+          "actions": 995,
+          "reason": "none",
+          "equipment": 28,
+          "pets": 5,
+          "hp": 618.6
+        },
+        {
+          "seconds": 900,
+          "runs": 24,
+          "firstRun": 35.2,
+          "actions": 996,
+          "reason": "none",
+          "equipment": 32,
+          "pets": 6,
+          "hp": 618.6
+        },
+        {
+          "seconds": 900,
+          "runs": 24,
+          "firstRun": 39.7,
+          "actions": 1000,
+          "reason": "none",
+          "equipment": 29,
+          "pets": 5,
+          "hp": 618.6
+        },
+        {
+          "seconds": 900,
+          "runs": 24,
+          "firstRun": 36.15,
+          "actions": 1004,
+          "reason": "none",
+          "equipment": 39,
+          "pets": 7,
+          "hp": 618.6
+        },
+        {
+          "seconds": 900,
+          "runs": 24,
+          "firstRun": 39.2,
+          "actions": 998,
+          "reason": "none",
+          "equipment": 21,
+          "pets": 5,
+          "hp": 618.6
+        },
+        {
+          "seconds": 900,
+          "runs": 24,
+          "firstRun": 36.2,
+          "actions": 996,
+          "reason": "none",
+          "equipment": 36,
+          "pets": 6,
+          "hp": 618.6
+        },
+        {
+          "seconds": 900,
+          "runs": 24,
+          "firstRun": 36.2,
+          "actions": 991,
+          "reason": "none",
+          "equipment": 38,
+          "pets": 6,
+          "hp": 618.6
+        },
+        {
+          "seconds": 900,
+          "runs": 24,
+          "firstRun": 37.15,
+          "actions": 992,
+          "reason": "none",
+          "equipment": 34,
+          "pets": 10,
+          "hp": 618.6
+        },
+        {
+          "seconds": 900,
+          "runs": 24,
+          "firstRun": 40.2,
+          "actions": 1009,
+          "reason": "none",
+          "equipment": 45,
+          "pets": 11,
+          "hp": 618.6
+        },
+        {
+          "seconds": 900,
+          "runs": 24,
+          "firstRun": 34.2,
+          "actions": 1001,
+          "reason": "none",
+          "equipment": 38,
+          "pets": 8,
+          "hp": 618.6
+        },
+        {
+          "seconds": 900,
+          "runs": 24,
+          "firstRun": 36.15,
+          "actions": 995,
+          "reason": "none",
+          "equipment": 28,
+          "pets": 10,
+          "hp": 618.6
+        },
+        {
+          "seconds": 900,
+          "runs": 24,
+          "firstRun": 35.15,
+          "actions": 1000,
+          "reason": "none",
+          "equipment": 33,
+          "pets": 7,
+          "hp": 618.6
+        },
+        {
+          "seconds": 900,
+          "runs": 24,
+          "firstRun": 35.65,
+          "actions": 1001,
+          "reason": "none",
+          "equipment": 26,
+          "pets": 6,
+          "hp": 618.6
+        },
+        {
+          "seconds": 900,
+          "runs": 24,
+          "firstRun": 37.7,
+          "actions": 1014,
+          "reason": "none",
+          "equipment": 28,
+          "pets": 8,
+          "hp": 618.6
+        },
+        {
+          "seconds": 900,
+          "runs": 24,
+          "firstRun": 40.150000000000006,
+          "actions": 1004,
+          "reason": "none",
+          "equipment": 32,
+          "pets": 10,
+          "hp": 618.6
+        }
+      ]
+    },
+    {
+      "profile": "ward",
+      "stage": "verdant-10",
+      "challenge": false,
+      "n": 30,
+      "capacityFailures": 0,
+      "deaths": 0,
+      "firstRunSeconds": {
+        "p05": 42.6,
+        "p50": 48.6,
+        "p95": 49.1
+      },
+      "meanEquipment": 21.333333333333332,
+      "meanPets": 5.466666666666667,
+      "rows": [
+        {
+          "seconds": 900,
+          "runs": 18,
+          "firstRun": 48.6,
+          "actions": 1196,
+          "reason": "none",
+          "equipment": 16,
+          "pets": 7,
+          "hp": 643.6
+        },
+        {
+          "seconds": 900,
+          "runs": 18,
+          "firstRun": 48.6,
+          "actions": 1193,
+          "reason": "none",
+          "equipment": 24,
+          "pets": 5,
+          "hp": 643.6
+        },
+        {
+          "seconds": 900,
+          "runs": 19,
+          "firstRun": 42.6,
+          "actions": 1178,
+          "reason": "none",
+          "equipment": 26,
+          "pets": 9,
+          "hp": 643.6
+        },
+        {
+          "seconds": 900,
+          "runs": 18,
+          "firstRun": 48.6,
+          "actions": 1196,
+          "reason": "none",
+          "equipment": 23,
+          "pets": 8,
+          "hp": 643.6
+        },
+        {
+          "seconds": 900,
+          "runs": 19,
+          "firstRun": 48.650000000000006,
+          "actions": 1172,
+          "reason": "none",
+          "equipment": 20,
+          "pets": 5,
+          "hp": 643.6
+        },
+        {
+          "seconds": 900,
+          "runs": 18,
+          "firstRun": 48.6,
+          "actions": 1190,
+          "reason": "none",
+          "equipment": 23,
+          "pets": 3,
+          "hp": 643.6
+        },
+        {
+          "seconds": 900,
+          "runs": 18,
+          "firstRun": 41.6,
+          "actions": 1190,
+          "reason": "none",
+          "equipment": 18,
+          "pets": 1,
+          "hp": 643.6
+        },
+        {
+          "seconds": 900,
+          "runs": 18,
+          "firstRun": 49.1,
+          "actions": 1191,
+          "reason": "none",
+          "equipment": 22,
+          "pets": 4,
+          "hp": 643.6
+        },
+        {
+          "seconds": 900,
+          "runs": 18,
+          "firstRun": 48.6,
+          "actions": 1193,
+          "reason": "none",
+          "equipment": 21,
+          "pets": 6,
+          "hp": 643.6
+        },
+        {
+          "seconds": 900,
+          "runs": 18,
+          "firstRun": 44.650000000000006,
+          "actions": 1191,
+          "reason": "none",
+          "equipment": 23,
+          "pets": 3,
+          "hp": 643.6
+        },
+        {
+          "seconds": 900,
+          "runs": 18,
+          "firstRun": 48.6,
+          "actions": 1190,
+          "reason": "none",
+          "equipment": 25,
+          "pets": 4,
+          "hp": 643.6
+        },
+        {
+          "seconds": 900,
+          "runs": 18,
+          "firstRun": 48.6,
+          "actions": 1190,
+          "reason": "none",
+          "equipment": 21,
+          "pets": 5,
+          "hp": 643.6
+        },
+        {
+          "seconds": 900,
+          "runs": 18,
+          "firstRun": 48.6,
+          "actions": 1190,
+          "reason": "none",
+          "equipment": 19,
+          "pets": 8,
+          "hp": 643.6
+        },
+        {
+          "seconds": 900,
+          "runs": 18,
+          "firstRun": 47.6,
+          "actions": 1192,
+          "reason": "none",
+          "equipment": 23,
+          "pets": 3,
+          "hp": 643.6
+        },
+        {
+          "seconds": 900,
+          "runs": 18,
+          "firstRun": 48.6,
+          "actions": 1190,
+          "reason": "none",
+          "equipment": 18,
+          "pets": 5,
+          "hp": 643.6
+        },
+        {
+          "seconds": 900,
+          "runs": 18,
+          "firstRun": 48.6,
+          "actions": 1196,
+          "reason": "none",
+          "equipment": 22,
+          "pets": 5,
+          "hp": 643.6
+        },
+        {
+          "seconds": 900,
+          "runs": 18,
+          "firstRun": 48.6,
+          "actions": 1196,
+          "reason": "none",
+          "equipment": 18,
+          "pets": 7,
+          "hp": 643.6
+        },
+        {
+          "seconds": 900,
+          "runs": 18,
+          "firstRun": 47.6,
+          "actions": 1190,
+          "reason": "none",
+          "equipment": 18,
+          "pets": 8,
+          "hp": 643.6
+        },
+        {
+          "seconds": 900,
+          "runs": 19,
+          "firstRun": 42.6,
+          "actions": 1185,
+          "reason": "none",
+          "equipment": 17,
+          "pets": 7,
+          "hp": 643.6
+        },
+        {
+          "seconds": 900,
+          "runs": 19,
+          "firstRun": 49.1,
+          "actions": 1185,
+          "reason": "none",
+          "equipment": 16,
+          "pets": 6,
+          "hp": 643.6
+        },
+        {
+          "seconds": 900,
+          "runs": 18,
+          "firstRun": 48.6,
+          "actions": 1193,
+          "reason": "none",
+          "equipment": 24,
+          "pets": 5,
+          "hp": 643.6
+        },
+        {
+          "seconds": 900,
+          "runs": 18,
+          "firstRun": 48.6,
+          "actions": 1190,
+          "reason": "none",
+          "equipment": 23,
+          "pets": 7,
+          "hp": 643.6
+        },
+        {
+          "seconds": 900,
+          "runs": 18,
+          "firstRun": 43.6,
+          "actions": 1190,
+          "reason": "none",
+          "equipment": 21,
+          "pets": 4,
+          "hp": 643.6
+        },
+        {
+          "seconds": 900,
+          "runs": 18,
+          "firstRun": 45.6,
+          "actions": 1190,
+          "reason": "none",
+          "equipment": 26,
+          "pets": 6,
+          "hp": 643.6
+        },
+        {
+          "seconds": 900,
+          "runs": 18,
+          "firstRun": 48.6,
+          "actions": 1190,
+          "reason": "none",
+          "equipment": 19,
+          "pets": 7,
+          "hp": 643.6
+        },
+        {
+          "seconds": 900,
+          "runs": 18,
+          "firstRun": 48.6,
+          "actions": 1196,
+          "reason": "none",
+          "equipment": 18,
+          "pets": 8,
+          "hp": 643.6
+        },
+        {
+          "seconds": 900,
+          "runs": 18,
+          "firstRun": 47.6,
+          "actions": 1190,
+          "reason": "none",
+          "equipment": 23,
+          "pets": 5,
+          "hp": 643.6
+        },
+        {
+          "seconds": 900,
+          "runs": 18,
+          "firstRun": 48.6,
+          "actions": 1193,
+          "reason": "none",
+          "equipment": 22,
+          "pets": 3,
+          "hp": 643.6
+        },
+        {
+          "seconds": 900,
+          "runs": 18,
+          "firstRun": 46.6,
+          "actions": 1192,
+          "reason": "none",
+          "equipment": 25,
+          "pets": 4,
+          "hp": 643.6
+        },
+        {
+          "seconds": 900,
+          "runs": 18,
+          "firstRun": 48.6,
+          "actions": 1195,
+          "reason": "none",
+          "equipment": 26,
+          "pets": 6,
+          "hp": 643.6
+        }
+      ]
+    },
+    {
+      "profile": "ward",
+      "stage": "verdant-10",
+      "challenge": true,
+      "n": 30,
+      "capacityFailures": 0,
+      "deaths": 0,
+      "firstRunSeconds": {
+        "p05": 49.650000000000006,
+        "p50": 52.150000000000006,
+        "p95": 52.2
+      },
+      "meanEquipment": 23.966666666666665,
+      "meanPets": 5.7,
+      "rows": [
+        {
+          "seconds": 900,
+          "runs": 17,
+          "firstRun": 51.7,
+          "actions": 1233,
+          "reason": "none",
+          "equipment": 20,
+          "pets": 5,
+          "hp": 643.6
+        },
+        {
+          "seconds": 900,
+          "runs": 17,
+          "firstRun": 52.2,
+          "actions": 1232,
+          "reason": "none",
+          "equipment": 26,
+          "pets": 7,
+          "hp": 643.6
+        },
+        {
+          "seconds": 900,
+          "runs": 17,
+          "firstRun": 49.7,
+          "actions": 1226,
+          "reason": "none",
+          "equipment": 23,
+          "pets": 7,
+          "hp": 643.6
+        },
+        {
+          "seconds": 900,
+          "runs": 17,
+          "firstRun": 52.2,
+          "actions": 1229,
+          "reason": "none",
+          "equipment": 27,
+          "pets": 5,
+          "hp": 643.6
+        },
+        {
+          "seconds": 900,
+          "runs": 17,
+          "firstRun": 52.2,
+          "actions": 1231,
+          "reason": "none",
+          "equipment": 25,
+          "pets": 8,
+          "hp": 643.6
+        },
+        {
+          "seconds": 900,
+          "runs": 17,
+          "firstRun": 51.7,
+          "actions": 1232,
+          "reason": "none",
+          "equipment": 19,
+          "pets": 5,
+          "hp": 643.6
+        },
+        {
+          "seconds": 900,
+          "runs": 17,
+          "firstRun": 49.650000000000006,
+          "actions": 1222,
+          "reason": "none",
+          "equipment": 19,
+          "pets": 1,
+          "hp": 643.6
+        },
+        {
+          "seconds": 900,
+          "runs": 17,
+          "firstRun": 51.650000000000006,
+          "actions": 1229,
+          "reason": "none",
+          "equipment": 27,
+          "pets": 2,
+          "hp": 643.6
+        },
+        {
+          "seconds": 900,
+          "runs": 17,
+          "firstRun": 51.650000000000006,
+          "actions": 1229,
+          "reason": "none",
+          "equipment": 24,
+          "pets": 5,
+          "hp": 643.6
+        },
+        {
+          "seconds": 900,
+          "runs": 17,
+          "firstRun": 52.2,
+          "actions": 1231,
+          "reason": "none",
+          "equipment": 19,
+          "pets": 5,
+          "hp": 643.6
+        },
+        {
+          "seconds": 900,
+          "runs": 17,
+          "firstRun": 51.650000000000006,
+          "actions": 1229,
+          "reason": "none",
+          "equipment": 28,
+          "pets": 6,
+          "hp": 643.6
+        },
+        {
+          "seconds": 900,
+          "runs": 17,
+          "firstRun": 52.2,
+          "actions": 1226,
+          "reason": "none",
+          "equipment": 25,
+          "pets": 5,
+          "hp": 643.6
+        },
+        {
+          "seconds": 900,
+          "runs": 17,
+          "firstRun": 52.150000000000006,
+          "actions": 1234,
+          "reason": "none",
+          "equipment": 23,
+          "pets": 6,
+          "hp": 643.6
+        },
+        {
+          "seconds": 900,
+          "runs": 17,
+          "firstRun": 51.650000000000006,
+          "actions": 1223,
+          "reason": "none",
+          "equipment": 25,
+          "pets": 7,
+          "hp": 643.6
+        },
+        {
+          "seconds": 900,
+          "runs": 17,
+          "firstRun": 49.650000000000006,
+          "actions": 1228,
+          "reason": "none",
+          "equipment": 23,
+          "pets": 5,
+          "hp": 643.6
+        },
+        {
+          "seconds": 900,
+          "runs": 17,
+          "firstRun": 51.650000000000006,
+          "actions": 1231,
+          "reason": "none",
+          "equipment": 23,
+          "pets": 7,
+          "hp": 643.6
+        },
+        {
+          "seconds": 900,
+          "runs": 17,
+          "firstRun": 52.150000000000006,
+          "actions": 1228,
+          "reason": "none",
+          "equipment": 36,
+          "pets": 8,
+          "hp": 643.6
+        },
+        {
+          "seconds": 900,
+          "runs": 17,
+          "firstRun": 52.2,
+          "actions": 1232,
+          "reason": "none",
+          "equipment": 18,
+          "pets": 4,
+          "hp": 643.6
+        },
+        {
+          "seconds": 900,
+          "runs": 17,
+          "firstRun": 52.150000000000006,
+          "actions": 1232,
+          "reason": "none",
+          "equipment": 28,
+          "pets": 4,
+          "hp": 643.6
+        },
+        {
+          "seconds": 900,
+          "runs": 17,
+          "firstRun": 52.150000000000006,
+          "actions": 1222,
+          "reason": "none",
+          "equipment": 21,
+          "pets": 2,
+          "hp": 643.6
+        },
+        {
+          "seconds": 900,
+          "runs": 17,
+          "firstRun": 52.2,
+          "actions": 1229,
+          "reason": "none",
+          "equipment": 26,
+          "pets": 3,
+          "hp": 643.6
+        },
+        {
+          "seconds": 900,
+          "runs": 17,
+          "firstRun": 52.150000000000006,
+          "actions": 1220,
+          "reason": "none",
+          "equipment": 22,
+          "pets": 12,
+          "hp": 643.6
+        },
+        {
+          "seconds": 900,
+          "runs": 17,
+          "firstRun": 47.7,
+          "actions": 1232,
+          "reason": "none",
+          "equipment": 23,
+          "pets": 8,
+          "hp": 643.6
+        },
+        {
+          "seconds": 900,
+          "runs": 17,
+          "firstRun": 50.2,
+          "actions": 1225,
+          "reason": "none",
+          "equipment": 25,
+          "pets": 11,
+          "hp": 643.6
+        },
+        {
+          "seconds": 900,
+          "runs": 17,
+          "firstRun": 52.150000000000006,
+          "actions": 1226,
+          "reason": "none",
+          "equipment": 21,
+          "pets": 9,
+          "hp": 643.6
+        },
+        {
+          "seconds": 900,
+          "runs": 17,
+          "firstRun": 52.150000000000006,
+          "actions": 1220,
+          "reason": "none",
+          "equipment": 21,
+          "pets": 3,
+          "hp": 643.6
+        },
+        {
+          "seconds": 900,
+          "runs": 17,
+          "firstRun": 51.7,
+          "actions": 1232,
+          "reason": "none",
+          "equipment": 24,
+          "pets": 5,
+          "hp": 643.6
+        },
+        {
+          "seconds": 900,
+          "runs": 17,
+          "firstRun": 51.650000000000006,
+          "actions": 1229,
+          "reason": "none",
+          "equipment": 25,
+          "pets": 6,
+          "hp": 643.6
+        },
+        {
+          "seconds": 900,
+          "runs": 17,
+          "firstRun": 52.150000000000006,
+          "actions": 1232,
+          "reason": "none",
+          "equipment": 28,
+          "pets": 2,
+          "hp": 643.6
+        },
+        {
+          "seconds": 900,
+          "runs": 17,
+          "firstRun": 52.150000000000006,
+          "actions": 1227,
+          "reason": "none",
+          "equipment": 25,
+          "pets": 8,
+          "hp": 643.6
+        }
+      ]
+    },
+    {
+      "profile": "charge",
+      "stage": "verdant-10",
+      "challenge": false,
+      "n": 30,
+      "capacityFailures": 0,
+      "deaths": 0,
+      "firstRunSeconds": {
+        "p05": 26.650000000000002,
+        "p50": 27.700000000000003,
+        "p95": 28.6
+      },
+      "meanEquipment": 38.5,
+      "meanPets": 10.566666666666666,
+      "rows": [
+        {
+          "seconds": 900,
+          "runs": 32,
+          "firstRun": 28.6,
+          "actions": 755,
+          "reason": "none",
+          "equipment": 43,
+          "pets": 11,
+          "hp": 627
+        },
+        {
+          "seconds": 900,
+          "runs": 32,
+          "firstRun": 28.1,
+          "actions": 751,
+          "reason": "none",
+          "equipment": 37,
+          "pets": 15,
+          "hp": 627
+        },
+        {
+          "seconds": 900,
+          "runs": 32,
+          "firstRun": 27.700000000000003,
+          "actions": 748,
+          "reason": "none",
+          "equipment": 36,
+          "pets": 15,
+          "hp": 627
+        },
+        {
+          "seconds": 900,
+          "runs": 32,
+          "firstRun": 27.1,
+          "actions": 754,
+          "reason": "none",
+          "equipment": 41,
+          "pets": 19,
+          "hp": 627
+        },
+        {
+          "seconds": 900,
+          "runs": 32,
+          "firstRun": 27.700000000000003,
+          "actions": 744,
+          "reason": "none",
+          "equipment": 31,
+          "pets": 14,
+          "hp": 627
+        },
+        {
+          "seconds": 900,
+          "runs": 32,
+          "firstRun": 28.1,
+          "actions": 754,
+          "reason": "none",
+          "equipment": 40,
+          "pets": 6,
+          "hp": 627
+        },
+        {
+          "seconds": 900,
+          "runs": 32,
+          "firstRun": 28.200000000000003,
+          "actions": 745,
+          "reason": "none",
+          "equipment": 36,
+          "pets": 5,
+          "hp": 627
+        },
+        {
+          "seconds": 900,
+          "runs": 32,
+          "firstRun": 28.1,
+          "actions": 752,
+          "reason": "none",
+          "equipment": 41,
+          "pets": 7,
+          "hp": 627
+        },
+        {
+          "seconds": 900,
+          "runs": 32,
+          "firstRun": 28.6,
+          "actions": 752,
+          "reason": "none",
+          "equipment": 37,
+          "pets": 9,
+          "hp": 627
+        },
+        {
+          "seconds": 900,
+          "runs": 32,
+          "firstRun": 28.650000000000002,
+          "actions": 749,
+          "reason": "none",
+          "equipment": 40,
+          "pets": 8,
+          "hp": 627
+        },
+        {
+          "seconds": 900,
+          "runs": 32,
+          "firstRun": 27.1,
+          "actions": 745,
+          "reason": "none",
+          "equipment": 40,
+          "pets": 17,
+          "hp": 627
+        },
+        {
+          "seconds": 900,
+          "runs": 32,
+          "firstRun": 27.1,
+          "actions": 742,
+          "reason": "none",
+          "equipment": 36,
+          "pets": 9,
+          "hp": 627
+        },
+        {
+          "seconds": 900,
+          "runs": 32,
+          "firstRun": 28.6,
+          "actions": 753,
+          "reason": "none",
+          "equipment": 42,
+          "pets": 14,
+          "hp": 627
+        },
+        {
+          "seconds": 900,
+          "runs": 32,
+          "firstRun": 27.700000000000003,
+          "actions": 748,
+          "reason": "none",
+          "equipment": 34,
+          "pets": 9,
+          "hp": 627
+        },
+        {
+          "seconds": 900,
+          "runs": 32,
+          "firstRun": 27.1,
+          "actions": 758,
+          "reason": "none",
+          "equipment": 32,
+          "pets": 8,
+          "hp": 627
+        },
+        {
+          "seconds": 900,
+          "runs": 32,
+          "firstRun": 27.75,
+          "actions": 749,
+          "reason": "none",
+          "equipment": 35,
+          "pets": 13,
+          "hp": 627
+        },
+        {
+          "seconds": 900,
+          "runs": 32,
+          "firstRun": 26.650000000000002,
+          "actions": 753,
+          "reason": "none",
+          "equipment": 47,
+          "pets": 9,
+          "hp": 627
+        },
+        {
+          "seconds": 900,
+          "runs": 32,
+          "firstRun": 28.6,
+          "actions": 748,
+          "reason": "none",
+          "equipment": 36,
+          "pets": 12,
+          "hp": 627
+        },
+        {
+          "seconds": 900,
+          "runs": 32,
+          "firstRun": 26.75,
+          "actions": 752,
+          "reason": "none",
+          "equipment": 39,
+          "pets": 4,
+          "hp": 627
+        },
+        {
+          "seconds": 900,
+          "runs": 32,
+          "firstRun": 27.75,
+          "actions": 751,
+          "reason": "none",
+          "equipment": 32,
+          "pets": 9,
+          "hp": 627
+        },
+        {
+          "seconds": 900,
+          "runs": 32,
+          "firstRun": 27.200000000000003,
+          "actions": 744,
+          "reason": "none",
+          "equipment": 45,
+          "pets": 9,
+          "hp": 627
+        },
+        {
+          "seconds": 900,
+          "runs": 32,
+          "firstRun": 27.6,
+          "actions": 747,
+          "reason": "none",
+          "equipment": 43,
+          "pets": 9,
+          "hp": 627
+        },
+        {
+          "seconds": 900,
+          "runs": 32,
+          "firstRun": 26.700000000000003,
+          "actions": 750,
+          "reason": "none",
+          "equipment": 49,
+          "pets": 8,
+          "hp": 627
+        },
+        {
+          "seconds": 900,
+          "runs": 32,
+          "firstRun": 27.700000000000003,
+          "actions": 751,
+          "reason": "none",
+          "equipment": 34,
+          "pets": 10,
+          "hp": 627
+        },
+        {
+          "seconds": 900,
+          "runs": 32,
+          "firstRun": 27.6,
+          "actions": 746,
+          "reason": "none",
+          "equipment": 37,
+          "pets": 15,
+          "hp": 627
+        },
+        {
+          "seconds": 900,
+          "runs": 32,
+          "firstRun": 27.75,
+          "actions": 743,
+          "reason": "none",
+          "equipment": 37,
+          "pets": 9,
+          "hp": 627
+        },
+        {
+          "seconds": 900,
+          "runs": 32,
+          "firstRun": 26.200000000000003,
+          "actions": 748,
+          "reason": "none",
+          "equipment": 39,
+          "pets": 18,
+          "hp": 627
+        },
+        {
+          "seconds": 900,
+          "runs": 32,
+          "firstRun": 27.1,
+          "actions": 751,
+          "reason": "none",
+          "equipment": 44,
+          "pets": 8,
+          "hp": 627
+        },
+        {
+          "seconds": 900,
+          "runs": 32,
+          "firstRun": 27.700000000000003,
+          "actions": 749,
+          "reason": "none",
+          "equipment": 35,
+          "pets": 5,
+          "hp": 627
+        },
+        {
+          "seconds": 900,
+          "runs": 32,
+          "firstRun": 28.1,
+          "actions": 745,
+          "reason": "none",
+          "equipment": 37,
+          "pets": 13,
+          "hp": 627
+        }
+      ]
+    },
+    {
+      "profile": "charge",
+      "stage": "verdant-10",
+      "challenge": true,
+      "n": 30,
+      "capacityFailures": 1,
+      "deaths": 0,
+      "firstRunSeconds": {
+        "p05": 28.150000000000002,
+        "p50": 28.650000000000002,
+        "p95": 28.8
+      },
+      "meanEquipment": 40.06666666666667,
+      "meanPets": 9.5,
+      "rows": [
+        {
+          "seconds": 900,
+          "runs": 31,
+          "firstRun": 28.650000000000002,
+          "actions": 771,
+          "reason": "none",
+          "equipment": 41,
+          "pets": 6,
+          "hp": 624
+        },
+        {
+          "seconds": 900,
+          "runs": 31,
+          "firstRun": 28.75,
+          "actions": 772,
+          "reason": "none",
+          "equipment": 44,
+          "pets": 13,
+          "hp": 624
+        },
+        {
+          "seconds": 900,
+          "runs": 31,
+          "firstRun": 28.200000000000003,
+          "actions": 769,
+          "reason": "none",
+          "equipment": 40,
+          "pets": 9,
+          "hp": 623
+        },
+        {
+          "seconds": 893.85,
+          "runs": 31,
+          "firstRun": 28.200000000000003,
+          "actions": 764,
+          "reason": "capacity",
+          "equipment": 50,
+          "pets": 7,
+          "hp": 624
+        },
+        {
+          "seconds": 900,
+          "runs": 31,
+          "firstRun": 28.25,
+          "actions": 768,
+          "reason": "none",
+          "equipment": 33,
+          "pets": 9,
+          "hp": 620
+        },
+        {
+          "seconds": 900,
+          "runs": 31,
+          "firstRun": 28.8,
+          "actions": 773,
+          "reason": "none",
+          "equipment": 42,
+          "pets": 11,
+          "hp": 624
+        },
+        {
+          "seconds": 900,
+          "runs": 31,
+          "firstRun": 28.75,
+          "actions": 769,
+          "reason": "none",
+          "equipment": 29,
+          "pets": 9,
+          "hp": 623
+        },
+        {
+          "seconds": 900,
+          "runs": 31,
+          "firstRun": 28.75,
+          "actions": 771,
+          "reason": "none",
+          "equipment": 39,
+          "pets": 13,
+          "hp": 622
+        },
+        {
+          "seconds": 900,
+          "runs": 31,
+          "firstRun": 28.650000000000002,
+          "actions": 770,
+          "reason": "none",
+          "equipment": 48,
+          "pets": 7,
+          "hp": 623
+        },
+        {
+          "seconds": 900,
+          "runs": 31,
+          "firstRun": 28.150000000000002,
+          "actions": 770,
+          "reason": "none",
+          "equipment": 46,
+          "pets": 9,
+          "hp": 622
+        },
+        {
+          "seconds": 900,
+          "runs": 31,
+          "firstRun": 28.150000000000002,
+          "actions": 771,
+          "reason": "none",
+          "equipment": 38,
+          "pets": 8,
+          "hp": 624
+        },
+        {
+          "seconds": 900,
+          "runs": 31,
+          "firstRun": 28.8,
+          "actions": 771,
+          "reason": "none",
+          "equipment": 43,
+          "pets": 7,
+          "hp": 624
+        },
+        {
+          "seconds": 900,
+          "runs": 31,
+          "firstRun": 28.150000000000002,
+          "actions": 767,
+          "reason": "none",
+          "equipment": 37,
+          "pets": 12,
+          "hp": 621
+        },
+        {
+          "seconds": 900,
+          "runs": 31,
+          "firstRun": 28.150000000000002,
+          "actions": 770,
+          "reason": "none",
+          "equipment": 40,
+          "pets": 7,
+          "hp": 622
+        },
+        {
+          "seconds": 900,
+          "runs": 31,
+          "firstRun": 28.150000000000002,
+          "actions": 769,
+          "reason": "none",
+          "equipment": 44,
+          "pets": 7,
+          "hp": 622
+        },
+        {
+          "seconds": 900,
+          "runs": 31,
+          "firstRun": 28.650000000000002,
+          "actions": 769,
+          "reason": "none",
+          "equipment": 41,
+          "pets": 8,
+          "hp": 627
+        },
+        {
+          "seconds": 900,
+          "runs": 31,
+          "firstRun": 28.650000000000002,
+          "actions": 774,
+          "reason": "none",
+          "equipment": 39,
+          "pets": 12,
+          "hp": 624
+        },
+        {
+          "seconds": 900,
+          "runs": 31,
+          "firstRun": 28.3,
+          "actions": 771,
+          "reason": "none",
+          "equipment": 24,
+          "pets": 15,
+          "hp": 624
+        },
+        {
+          "seconds": 900,
+          "runs": 31,
+          "firstRun": 28.75,
+          "actions": 772,
+          "reason": "none",
+          "equipment": 37,
+          "pets": 7,
+          "hp": 624
+        },
+        {
+          "seconds": 900,
+          "runs": 31,
+          "firstRun": 28.25,
+          "actions": 767,
+          "reason": "none",
+          "equipment": 33,
+          "pets": 6,
+          "hp": 620
+        },
+        {
+          "seconds": 900,
+          "runs": 31,
+          "firstRun": 28.75,
+          "actions": 770,
+          "reason": "none",
+          "equipment": 40,
+          "pets": 9,
+          "hp": 622
+        },
+        {
+          "seconds": 900,
+          "runs": 31,
+          "firstRun": 28.85,
+          "actions": 770,
+          "reason": "none",
+          "equipment": 43,
+          "pets": 11,
+          "hp": 622
+        },
+        {
+          "seconds": 900,
+          "runs": 31,
+          "firstRun": 28.25,
+          "actions": 771,
+          "reason": "none",
+          "equipment": 41,
+          "pets": 9,
+          "hp": 623
+        },
+        {
+          "seconds": 900,
+          "runs": 31,
+          "firstRun": 28.200000000000003,
+          "actions": 768,
+          "reason": "none",
+          "equipment": 33,
+          "pets": 12,
+          "hp": 621
+        },
+        {
+          "seconds": 900,
+          "runs": 31,
+          "firstRun": 28.3,
+          "actions": 769,
+          "reason": "none",
+          "equipment": 42,
+          "pets": 7,
+          "hp": 622
+        },
+        {
+          "seconds": 900,
+          "runs": 31,
+          "firstRun": 28.200000000000003,
+          "actions": 770,
+          "reason": "none",
+          "equipment": 46,
+          "pets": 13,
+          "hp": 622
+        },
+        {
+          "seconds": 900,
+          "runs": 31,
+          "firstRun": 28.75,
+          "actions": 770,
+          "reason": "none",
+          "equipment": 47,
+          "pets": 11,
+          "hp": 623
+        },
+        {
+          "seconds": 900,
+          "runs": 31,
+          "firstRun": 28.650000000000002,
+          "actions": 770,
+          "reason": "none",
+          "equipment": 39,
+          "pets": 12,
+          "hp": 622
+        },
+        {
+          "seconds": 900,
+          "runs": 31,
+          "firstRun": 28.150000000000002,
+          "actions": 771,
+          "reason": "none",
+          "equipment": 40,
+          "pets": 10,
+          "hp": 622
+        },
+        {
+          "seconds": 900,
+          "runs": 31,
+          "firstRun": 28.650000000000002,
+          "actions": 770,
+          "reason": "none",
+          "equipment": 43,
+          "pets": 9,
+          "hp": 623
+        }
+      ]
+    }
+  ]
+}

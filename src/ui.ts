@@ -10,8 +10,9 @@ const qualityBadge = (quality: number, corner = false) => `<span class="quality-
 const asset = (name: string) => `${import.meta.env.BASE_URL}assets/${name}.png`;
 const itemArt = (kind: Item['kind']) => asset(`icon-${kind === 'charm' ? 'amulet' : kind}`);
 
-export function mountUI(engine: GameEngine, callbacks: Callbacks, options: { hasSave: boolean }) {
+export function mountUI(engine: GameEngine, callbacks: Callbacks, options: { hasSave: boolean; isReadOnly?: () => boolean }) {
   const app = document.querySelector<HTMLDivElement>('#app')!;
+  const readOnly = () => options.isReadOnly?.() === true;
   let tab: Tab = 'bag';
   let onTitle = true;
   let transitioning = false;
@@ -114,7 +115,7 @@ export function mountUI(engine: GameEngine, callbacks: Callbacks, options: { has
   }
 
   function startJourney() {
-    if (!ready || transitioning) return;
+    if (!ready || transitioning || readOnly()) return;
     onTitle = false;
     hasSave = true;
     $('title-screen').hidden = true;
@@ -292,8 +293,8 @@ export function mountUI(engine: GameEngine, callbacks: Callbacks, options: { has
   function render() {
     const { state, stats } = engine;
     const capacity = state.pauses.includes('capacity');
-    $('start-button').textContent = ready ? hasSave ? '繼續旅程' : '開始旅程' : '準備中…';
-    $<HTMLButtonElement>('start-button').disabled = !ready || transitioning;
+    $('start-button').textContent = readOnly() ? '存檔需要恢復' : ready ? hasSave ? '繼續旅程' : '開始旅程' : '準備中…';
+    $<HTMLButtonElement>('start-button').disabled = !ready || transitioning || readOnly();
     $('floor-number').textContent = `第 ${state.floor} 層`;
     $('floor-name').textContent = floorNames[state.floor - 1];
     $('wave-number').textContent = `${state.wave} / 5 波`;
@@ -368,6 +369,7 @@ export function mountUI(engine: GameEngine, callbacks: Callbacks, options: { has
     if (suppressPointerClick && event.detail > 0) { suppressPointerClick = false; return; }
     const target = (event.target as HTMLElement).closest<HTMLElement>('button');
     if (!target || target.hasAttribute('disabled')) return;
+    if (readOnly()) { notify('存檔受到保護，請先恢復有效備份。'); return; }
     const focused = document.activeElement;
     if (focused instanceof HTMLInputElement && focused.type === 'range') focused.blur();
     if (target.dataset.open) { openSheet(target.dataset.open as Tab); return; }
@@ -447,11 +449,13 @@ export function mountUI(engine: GameEngine, callbacks: Callbacks, options: { has
   }
 
   app.addEventListener('change', event => {
+    if (readOnly()) { render(); return; }
     const target = event.target as HTMLInputElement | HTMLSelectElement;
     if (target.id === 'floor-select') { changed(engine.changeFloor(Number(target.value))); return; }
     if (target.dataset.setting) updateSetting(target);
   });
   app.addEventListener('input', event => {
+    if (readOnly()) { render(); return; }
     const target = event.target as HTMLInputElement;
     if (target.type === 'range') updateSetting(target);
   });
@@ -461,6 +465,7 @@ export function mountUI(engine: GameEngine, callbacks: Callbacks, options: { has
   });
 
   app.addEventListener('pointerdown', event => {
+    if (readOnly()) return;
     suppressPointerClick = false;
     const target = event.target as HTMLElement;
     if (target instanceof HTMLInputElement && target.type === 'range') { rangeActive = true; return; }
@@ -519,6 +524,7 @@ export function mountUI(engine: GameEngine, callbacks: Callbacks, options: { has
   }
 
   function endPointer(cancel: boolean) {
+    cancel = cancel || readOnly();
     if (rangeActive) { rangeActive = false; render(); }
     if (!drag) return;
     const previous = drag;

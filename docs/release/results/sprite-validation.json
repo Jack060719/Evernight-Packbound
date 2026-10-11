@@ -1,0 +1,884 @@
+[
+  {
+    "region": "verdant",
+    "rank": "N",
+    "size": [
+      256,
+      256
+    ],
+    "source_bbox": [
+      39,
+      104,
+      450,
+      427
+    ],
+    "output_bbox": [
+      20,
+      66,
+      236,
+      236
+    ],
+    "edge_contact": false
+  },
+  {
+    "region": "verdant",
+    "rank": "S",
+    "size": [
+      256,
+      256
+    ],
+    "source_bbox": [
+      628,
+      103,
+      935,
+      445
+    ],
+    "output_bbox": [
+      31,
+      20,
+      225,
+      236
+    ],
+    "edge_contact": false
+  },
+  {
+    "region": "verdant",
+    "rank": "G",
+    "size": [
+      256,
+      256
+    ],
+    "source_bbox": [
+      1115,
+      30,
+      1467,
+      475
+    ],
+    "output_bbox": [
+      42,
+      20,
+      213,
+      236
+    ],
+    "edge_contact": false
+  },
+  {
+    "region": "verdant",
+    "rank": "H",
+    "size": [
+      256,
+      256
+    ],
+    "source_bbox": [
+      65,
+      539,
+      414,
+      973
+    ],
+    "output_bbox": [
+      41,
+      20,
+      215,
+      236
+    ],
+    "edge_contact": false
+  },
+  {
+    "region": "verdant",
+    "rank": "E",
+    "size": [
+      256,
+      256
+    ],
+    "source_bbox": [
+      569,
+      504,
+      929,
+      995
+    ],
+    "output_bbox": [
+      49,
+      20,
+      207,
+      236
+    ],
+    "edge_contact": false
+  },
+  {
+    "region": "verdant",
+    "rank": "B",
+    "size": [
+      256,
+      256
+    ],
+    "source_bbox": [
+      1006,
+      528,
+      1500,
+      989
+    ],
+    "output_bbox": [
+      20,
+      34,
+      236,
+      236
+    ],
+    "edge_contact": false
+  },
+  {
+    "region": "ember",
+    "rank": "N",
+    "size": [
+      256,
+      256
+    ],
+    "source_bbox": [
+      47,
+      98,
+      471,
+      467
+    ],
+    "output_bbox": [
+      20,
+      48,
+      236,
+      236
+    ],
+    "edge_contact": false
+  },
+  {
+    "region": "ember",
+    "rank": "S",
+    "size": [
+      256,
+      256
+    ],
+    "source_bbox": [
+      585,
+      60,
+      928,
+      463
+    ],
+    "output_bbox": [
+      36,
+      20,
+      220,
+      236
+    ],
+    "edge_contact": false
+  },
+  {
+    "region": "ember",
+    "rank": "G",
+    "size": [
+      256,
+      256
+    ],
+    "source_bbox": [
+      1068,
+      39,
+      1476,
+      477
+    ],
+    "output_bbox": [
+      27,
+      20,
+      228,
+      236
+    ],
+    "edge_contact": false
+  },
+  {
+    "region": "ember",
+    "rank": "H",
+    "size": [
+      256,
+      256
+    ],
+    "source_bbox": [
+      59,
+      522,
+      433,
+      982
+    ],
+    "output_bbox": [
+      40,
+      20,
+      216,
+      236
+    ],
+    "edge_contact": false
+  },
+  {
+    "region": "ember",
+    "rank": "E",
+    "size": [
+      256,
+      256
+    ],
+    "source_bbox": [
+      484,
+      522,
+      970,
+      979
+    ],
+    "output_bbox": [
+      20,
+      33,
+      236,
+      236
+    ],
+    "edge_contact": false
+  },
+  {
+    "region": "ember",
+    "rank": "B",
+    "size": [
+      256,
+      256
+    ],
+    "source_bbox": [
+      1000,
+      522,
+      1504,
+      975
+    ],
+    "output_bbox": [
+      20,
+      42,
+      236,
+      236
+    ],
+    "edge_contact": false
+  },
+  {
+    "region": "moonwell",
+    "rank": "N",
+    "size": [
+      256,
+      256
+    ],
+    "source_bbox": [
+      48,
+      29,
+      467,
+      459
+    ],
+    "output_bbox": [
+      23,
+      20,
+      233,
+      236
+    ],
+    "edge_contact": false
+  },
+  {
+    "region": "moonwell",
+    "rank": "S",
+    "size": [
+      256,
+      256
+    ],
+    "source_bbox": [
+      583,
+      75,
+      962,
+      455
+    ],
+    "output_bbox": [
+      20,
+      20,
+      235,
+      236
+    ],
+    "edge_contact": false
+  },
+  {
+    "region": "moonwell",
+    "rank": "G",
+    "size": [
+      256,
+      256
+    ],
+    "source_bbox": [
+      1081,
+      41,
+      1481,
+      476
+    ],
+    "output_bbox": [
+      28,
+      20,
+      227,
+      236
+    ],
+    "edge_contact": false
+  },
+  {
+    "region": "moonwell",
+    "rank": "H",
+    "size": [
+      256,
+      256
+    ],
+    "source_bbox": [
+      47,
+      519,
+      471,
+      982
+    ],
+    "output_bbox": [
+      29,
+      20,
+      227,
+      236
+    ],
+    "edge_contact": false
+  },
+  {
+    "region": "moonwell",
+    "rank": "E",
+    "size": [
+      256,
+      256
+    ],
+    "source_bbox": [
+      555,
+      564,
+      967,
+      961
+    ],
+    "output_bbox": [
+      20,
+      28,
+      236,
+      236
+    ],
+    "edge_contact": false
+  },
+  {
+    "region": "moonwell",
+    "rank": "B",
+    "size": [
+      256,
+      256
+    ],
+    "source_bbox": [
+      1004,
+      519,
+      1517,
+      995
+    ],
+    "output_bbox": [
+      20,
+      36,
+      236,
+      236
+    ],
+    "edge_contact": false
+  },
+  {
+    "region": "mire",
+    "rank": "N",
+    "size": [
+      256,
+      256
+    ],
+    "source_bbox": [
+      23,
+      64,
+      476,
+      453
+    ],
+    "output_bbox": [
+      20,
+      51,
+      236,
+      236
+    ],
+    "edge_contact": false
+  },
+  {
+    "region": "mire",
+    "rank": "S",
+    "size": [
+      256,
+      256
+    ],
+    "source_bbox": [
+      580,
+      98,
+      944,
+      454
+    ],
+    "output_bbox": [
+      20,
+      25,
+      236,
+      236
+    ],
+    "edge_contact": false
+  },
+  {
+    "region": "mire",
+    "rank": "G",
+    "size": [
+      256,
+      256
+    ],
+    "source_bbox": [
+      1052,
+      43,
+      1494,
+      469
+    ],
+    "output_bbox": [
+      20,
+      28,
+      236,
+      236
+    ],
+    "edge_contact": false
+  },
+  {
+    "region": "mire",
+    "rank": "H",
+    "size": [
+      256,
+      256
+    ],
+    "source_bbox": [
+      50,
+      528,
+      448,
+      983
+    ],
+    "output_bbox": [
+      33,
+      20,
+      222,
+      236
+    ],
+    "edge_contact": false
+  },
+  {
+    "region": "mire",
+    "rank": "E",
+    "size": [
+      256,
+      256
+    ],
+    "source_bbox": [
+      502,
+      531,
+      984,
+      962
+    ],
+    "output_bbox": [
+      20,
+      43,
+      236,
+      236
+    ],
+    "edge_contact": false
+  },
+  {
+    "region": "mire",
+    "rank": "B",
+    "size": [
+      256,
+      256
+    ],
+    "source_bbox": [
+      1018,
+      521,
+      1502,
+      982
+    ],
+    "output_bbox": [
+      20,
+      30,
+      236,
+      236
+    ],
+    "edge_contact": false
+  },
+  {
+    "region": "gale",
+    "rank": "N",
+    "size": [
+      256,
+      256
+    ],
+    "source_bbox": [
+      64,
+      38,
+      483,
+      473
+    ],
+    "output_bbox": [
+      24,
+      20,
+      232,
+      236
+    ],
+    "edge_contact": false
+  },
+  {
+    "region": "gale",
+    "rank": "S",
+    "size": [
+      256,
+      256
+    ],
+    "source_bbox": [
+      600,
+      63,
+      950,
+      468
+    ],
+    "output_bbox": [
+      34,
+      20,
+      221,
+      236
+    ],
+    "edge_contact": false
+  },
+  {
+    "region": "gale",
+    "rank": "G",
+    "size": [
+      256,
+      256
+    ],
+    "source_bbox": [
+      1061,
+      30,
+      1486,
+      479
+    ],
+    "output_bbox": [
+      26,
+      20,
+      230,
+      236
+    ],
+    "edge_contact": false
+  },
+  {
+    "region": "gale",
+    "rank": "H",
+    "size": [
+      256,
+      256
+    ],
+    "source_bbox": [
+      54,
+      519,
+      469,
+      979
+    ],
+    "output_bbox": [
+      30,
+      20,
+      225,
+      236
+    ],
+    "edge_contact": false
+  },
+  {
+    "region": "gale",
+    "rank": "E",
+    "size": [
+      256,
+      256
+    ],
+    "source_bbox": [
+      560,
+      521,
+      976,
+      968
+    ],
+    "output_bbox": [
+      27,
+      20,
+      228,
+      236
+    ],
+    "edge_contact": false
+  },
+  {
+    "region": "gale",
+    "rank": "B",
+    "size": [
+      256,
+      256
+    ],
+    "source_bbox": [
+      1051,
+      519,
+      1502,
+      984
+    ],
+    "output_bbox": [
+      23,
+      20,
+      232,
+      236
+    ],
+    "edge_contact": false
+  },
+  {
+    "region": "frost",
+    "rank": "N",
+    "size": [
+      256,
+      256
+    ],
+    "source_bbox": [
+      41,
+      103,
+      482,
+      439
+    ],
+    "output_bbox": [
+      20,
+      71,
+      236,
+      236
+    ],
+    "edge_contact": false
+  },
+  {
+    "region": "frost",
+    "rank": "S",
+    "size": [
+      256,
+      256
+    ],
+    "source_bbox": [
+      600,
+      83,
+      918,
+      430
+    ],
+    "output_bbox": [
+      29,
+      20,
+      227,
+      236
+    ],
+    "edge_contact": false
+  },
+  {
+    "region": "frost",
+    "rank": "G",
+    "size": [
+      256,
+      256
+    ],
+    "source_bbox": [
+      1036,
+      22,
+      1479,
+      456
+    ],
+    "output_bbox": [
+      20,
+      24,
+      236,
+      236
+    ],
+    "edge_contact": false
+  },
+  {
+    "region": "frost",
+    "rank": "H",
+    "size": [
+      256,
+      256
+    ],
+    "source_bbox": [
+      32,
+      515,
+      446,
+      961
+    ],
+    "output_bbox": [
+      27,
+      20,
+      228,
+      236
+    ],
+    "edge_contact": false
+  },
+  {
+    "region": "frost",
+    "rank": "E",
+    "size": [
+      256,
+      256
+    ],
+    "source_bbox": [
+      555,
+      481,
+      908,
+      989
+    ],
+    "output_bbox": [
+      53,
+      20,
+      203,
+      236
+    ],
+    "edge_contact": false
+  },
+  {
+    "region": "frost",
+    "rank": "B",
+    "size": [
+      256,
+      256
+    ],
+    "source_bbox": [
+      1000,
+      499,
+      1508,
+      992
+    ],
+    "output_bbox": [
+      20,
+      26,
+      236,
+      236
+    ],
+    "edge_contact": false
+  },
+  {
+    "region": "astral",
+    "rank": "N",
+    "size": [
+      256,
+      256
+    ],
+    "source_bbox": [
+      53,
+      78,
+      448,
+      442
+    ],
+    "output_bbox": [
+      20,
+      37,
+      236,
+      236
+    ],
+    "edge_contact": false
+  },
+  {
+    "region": "astral",
+    "rank": "S",
+    "size": [
+      256,
+      256
+    ],
+    "source_bbox": [
+      560,
+      123,
+      968,
+      404
+    ],
+    "output_bbox": [
+      20,
+      87,
+      236,
+      236
+    ],
+    "edge_contact": false
+  },
+  {
+    "region": "astral",
+    "rank": "G",
+    "size": [
+      256,
+      256
+    ],
+    "source_bbox": [
+      1059,
+      42,
+      1510,
+      451
+    ],
+    "output_bbox": [
+      20,
+      40,
+      236,
+      236
+    ],
+    "edge_contact": false
+  },
+  {
+    "region": "astral",
+    "rank": "H",
+    "size": [
+      256,
+      256
+    ],
+    "source_bbox": [
+      61,
+      518,
+      399,
+      958
+    ],
+    "output_bbox": [
+      45,
+      20,
+      211,
+      236
+    ],
+    "edge_contact": false
+  },
+  {
+    "region": "astral",
+    "rank": "E",
+    "size": [
+      256,
+      256
+    ],
+    "source_bbox": [
+      536,
+      506,
+      979,
+      967
+    ],
+    "output_bbox": [
+      24,
+      20,
+      232,
+      236
+    ],
+    "edge_contact": false
+  },
+  {
+    "region": "astral",
+    "rank": "B",
+    "size": [
+      256,
+      256
+    ],
+    "source_bbox": [
+      1038,
+      467,
+      1497,
+      967
+    ],
+    "output_bbox": [
+      29,
+      20,
+      227,
+      236
+    ],
+    "edge_contact": false
+  }
+]
